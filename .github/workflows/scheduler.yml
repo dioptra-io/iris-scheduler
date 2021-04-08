@@ -24,3 +24,5 @@ jobs:
           IRIS_USERNAME: ${{ secrets.IRIS_USERNAME }}
           IRIS_PASSWORD: ${{ secrets.IRIS_PASSWORD }}
       - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: MEASUREMENTS.md
