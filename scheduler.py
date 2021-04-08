@@ -19,6 +19,22 @@ def start_time(measurement):
     return datetime.fromisoformat(measurement["start_time"])
 
 
+def should_schedule(freq, last_measurement):
+    if not last_measurement:
+        return True
+    diff = datetime.now() - start_time(last_measurement)
+    if freq == "hourly":
+        if diff >= timedelta(hours=1):
+            return True
+    if freq == "daily":
+        if diff >= timedelta(days=1):
+            return True
+    if freq == "weekly":
+        if diff >= timedelta(weeks=1):
+            return True
+    return False
+
+
 def main():
     logging.basicConfig(level=logging.INFO)
 
@@ -30,32 +46,31 @@ def main():
     res = request("POST", "/profile/token", data=data)
     headers = {"Authorization": f"Bearer {res['access_token']}"}
 
-    logging.info("Uploading targets lists...")
+    logging.info("Uploading target lists...")
     for file in Path("targets").glob("*.txt"):
         logging.info(f"Processing {file}...")
         with file.open("rb") as f:
             request("POST", "/targets/", files={"targets_file": f}, headers=headers)
 
-    for file in Path("daily").glob("*.json"):
-        logging.info(f"Processing {file}...")
-        measurement = json.loads(file.read_text())
-        measurement.setdefault("tags", [])
-        measurement["tags"].append(file.name)
+    for freq in ("oneshot", "hourly", "daily", "weekly"):
+        for file in Path(freq).glob("*.json"):
+            logging.info(f"Processing {file}...")
+            measurement = json.loads(file.read_text())
+            measurement.setdefault("tags", [])
+            measurement["tags"].append(file.name)
 
-        res = request(
-            "GET",
-            "/measurements/",
-            params={"limit": 200, "tag": file.name},
-            headers=headers,
-        )
+            res = request(
+                "GET",
+                "/measurements/",
+                params={"limit": 200, "tag": file.name},
+                headers=headers,
+            )
 
-        if res["count"] == 0:
-            logging.info("Measurement not found, scheduling...")
-            request("POST", "/measurements/", json=measurement, headers=headers)
-        else:
-            last = sorted(res["results"], key=start_time)[-1]
-            if datetime.now() - start_time(last) > timedelta(days=1):
-                logging.info("Measurement too old, scheduling...")
+            last = None
+            if res["count"] > 0:
+                last = sorted(res["results"], key=start_time)[-1]
+            if should_schedule("daily", last):
+                logging.info("Scheduling measurement...")
                 request("POST", "/measurements/", json=measurement, headers=headers)
             else:
                 logging.info("Measurement already scheduled")
