@@ -1,0 +1,25 @@
+name: Scheduler
+
+on:
+  push:
+  schedule:
+    - cron:  '0 * * * *'
+
+jobs:
+  main:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install poetry
+          poetry install
+      - name: Run scheduler
+        run: poetry run python scheduler.py
+        env:
+          IRIS_USERNAME: ${{ secrets.IRIS_USERNAME }}
+          IRIS_PASSWORD: ${{ secrets.IRIS_PASSWORD }}
