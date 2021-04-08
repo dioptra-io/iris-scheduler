@@ -94,7 +94,7 @@ def main():
     for file, uuids in index.items():
         for uuid in uuids:
             md += f"\n[{file}]({file}) | [{uuid}]({IRIS_URL}/measurements/{uuid})"
-        md += "\n"
+    md += "\n"
     Path("MEASUREMENTS.md").write_text(md)
 
 
