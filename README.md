@@ -2,6 +2,8 @@
 
 [![Scheduler](https://github.com/dioptra-io/iris-scheduled/actions/workflows/scheduler.yml/badge.svg)](https://github.com/dioptra-io/iris-scheduled/actions/workflows/scheduler.yml)
 
+[MEASUREMENTS.md](MEASUREMENTS.md)
+
 - The scheduler is run every hour (:00) and on new commits.
 - Target lists in `targets/` are automatically uploaded.
 - Measurements are tagged with their filename.
