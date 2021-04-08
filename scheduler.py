@@ -69,7 +69,7 @@ def main():
             last = None
             if res["count"] > 0:
                 last = sorted(res["results"], key=start_time)[-1]
-            if should_schedule("daily", last):
+            if should_schedule(freq, last):
                 logging.info("Scheduling measurement...")
                 request("POST", "/measurements/", json=measurement, headers=headers)
             else:
