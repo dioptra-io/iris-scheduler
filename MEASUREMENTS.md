@@ -7,3 +7,4 @@ File | UUID
 [daily/1slash16.json](daily/1slash16.json) | [d7c6b963-e777-4dbb-8951-b574aded559b](https://iris.dioptra.io/api/measurements/d7c6b963-e777-4dbb-8951-b574aded559b)
 [daily/1slash16.json](daily/1slash16.json) | [55599e9a-51a7-45f0-9e3d-5b585d5366e9](https://iris.dioptra.io/api/measurements/55599e9a-51a7-45f0-9e3d-5b585d5366e9)
 [daily/1slash16.json](daily/1slash16.json) | [a899cc54-b274-4cc8-9491-f6ab58f14deb](https://iris.dioptra.io/api/measurements/a899cc54-b274-4cc8-9491-f6ab58f14deb)
+[daily/1slash16.json](daily/1slash16.json) | [d0a6a298-31c2-4f33-904a-697bdc194086](https://iris.dioptra.io/api/measurements/d0a6a298-31c2-4f33-904a-697bdc194086)
