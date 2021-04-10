@@ -46,7 +46,7 @@ def generate_md(index):
         for file, measurements in index[freq].items():
             measurements.sort(key=lambda x: x.get("start_time", "0"), reverse=True)
             for measurement in measurements:
-                uuid = {measurement["uuid"]}
+                uuid = measurement["uuid"]
                 md += f"\n[{file.name}]({file})"
                 md += f"| [{uuid}]({IRIS_URL}/measurements/{uuid})"
                 md += f"| {measurement.get('tool')}"
