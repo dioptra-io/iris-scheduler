@@ -44,7 +44,7 @@ def generate_md(index):
         md += "\nFile | UUID | Tool | Start | End"
         md += "\n-----|------|------|-------|----"
         for file, measurements in index[freq].items():
-            measurements.sort(key=lambda x: x.get("start_time", "0"), reverse=True)
+            measurements.sort(key=start_time, reverse=True)
             for measurement in measurements:
                 uuid = measurement["uuid"]
                 md += f"\n[{file.name}]({file})"
@@ -102,7 +102,9 @@ def main():
                 res = request(
                     "POST", "/measurements/", json=measurement, headers=headers
                 )
-                index[freq][file].append(res)
+                index[freq][file].append(
+                    {"start_time": datetime.now().isoformat(), **res}
+                )
             else:
                 logging.info("Measurement already scheduled")
 
