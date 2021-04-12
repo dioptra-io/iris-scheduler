@@ -1,6 +1,6 @@
 {
   "agents": [{"uuid": "ddd8541d-b4f5-42ce-b163-e3e9bfcd0a47"}],
-  "targets_file": "full.txt",
+  "targets_file": "mindef.txt",
   "tool": "diamond-miner",
   "tool_parameters": {
     "protocol": "icmp",

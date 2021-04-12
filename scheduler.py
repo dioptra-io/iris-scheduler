@@ -20,19 +20,20 @@ def start_time(measurement):
 
 
 def should_schedule(freq, last_measurement):
-    if not last_measurement:
-        return True
-    diff = datetime.now() - start_time(last_measurement)
+    diff = None
+    if last_measurement:
+        diff = datetime.now() - start_time(last_measurement)
     if freq == "hourly":
-        if diff >= timedelta(hours=1):
+        if not last_measurement or diff >= timedelta(hours=1):
             return True
     if freq == "daily":
-        if diff >= timedelta(days=1):
+        if not last_measurement or diff >= timedelta(days=1):
             return True
     if freq == "weekly":
         # Schedule weekly measurements on friday.
-        if datetime.now().isoweekday() == 5 and diff >= timedelta(weeks=1):
-            return True
+        if datetime.now().isoweekday() == 5:
+            if not last_measurement or diff >= timedelta(weeks=1):
+                return True
     return False
 
 
@@ -103,6 +104,7 @@ def main():
                 res = request(
                     "POST", "/measurements/", json=measurement, headers=headers
                 )
+                res = {"uuid": "test"}
                 index[freq][file].append(
                     {"start_time": datetime.now().isoformat(), **res}
                 )
