@@ -10,4 +10,4 @@
 - Measurements in `oneshot/` are created only once.
 - Measurements in `hourly/` are created every hour.
 - Measurements in `daily/` are created once a day.
-- Measurements in `weekly/` are created once a week.
+- Measurements in `weekly/` are created once a week, on Friday.
