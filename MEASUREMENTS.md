@@ -10,3 +10,8 @@ File | UUID | Tool | Start | End
 [1slash16.json](daily/1slash16.json)| [d7c6b963-e777-4dbb-8951-b574aded559b](https://iris.dioptra.io/api/measurements/d7c6b963-e777-4dbb-8951-b574aded559b)| diamond-miner| 2021-04-08T22:17:15| 2021-04-09T13:23:26
 [1slash16.json](daily/1slash16.json)| [55599e9a-51a7-45f0-9e3d-5b585d5366e9](https://iris.dioptra.io/api/measurements/55599e9a-51a7-45f0-9e3d-5b585d5366e9)| diamond-miner| 2021-04-08T22:16:43| 2021-04-09T13:23:28
 [1slash16.json](daily/1slash16.json)| [a899cc54-b274-4cc8-9491-f6ab58f14deb](https://iris.dioptra.io/api/measurements/a899cc54-b274-4cc8-9491-f6ab58f14deb)| diamond-miner| 2021-04-08T22:16:40| 2021-04-09T13:23:26
+
+# weekly
+File | UUID | Tool | Start | End
+-----|------|------|-------|----
+[mindef.json](weekly/mindef.json)| [e97ef05c-1c4c-4398-850b-9aa679a0e25b](https://iris.dioptra.io/api/measurements/e97ef05c-1c4c-4398-850b-9aa679a0e25b)| None| 2021-04-12T13:50:18.743310| None
