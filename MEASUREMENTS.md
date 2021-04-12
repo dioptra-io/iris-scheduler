@@ -14,4 +14,3 @@ File | UUID | Tool | Start | End
 # weekly
 File | UUID | Tool | Start | End
 -----|------|------|-------|----
-[mindef.json](weekly/mindef.json)| [e97ef05c-1c4c-4398-850b-9aa679a0e25b](https://iris.dioptra.io/api/measurements/e97ef05c-1c4c-4398-850b-9aa679a0e25b)| None| 2021-04-12T13:50:18.743310| None
