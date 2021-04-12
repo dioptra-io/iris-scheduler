@@ -104,7 +104,6 @@ def main():
                 res = request(
                     "POST", "/measurements/", json=measurement, headers=headers
                 )
-                res = {"uuid": "test"}
                 index[freq][file].append(
                     {"start_time": datetime.now().isoformat(), **res}
                 )
