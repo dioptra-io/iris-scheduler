@@ -17,4 +17,4 @@ File | UUID | Tool | Start | End
 # weekly
 File | UUID | Tool | Start | End
 -----|------|------|-------|----
-[mindef.json](weekly/mindef.json)| [ab46d0ad-8d50-464f-b619-669d2387b6a9](https://iris.dioptra.io/api/measurements/ab46d0ad-8d50-464f-b619-669d2387b6a9)| None| 2021-04-16T01:05:59.568634| None
+[mindef.json](weekly/mindef.json)| [ab46d0ad-8d50-464f-b619-669d2387b6a9](https://iris.dioptra.io/api/measurements/ab46d0ad-8d50-464f-b619-669d2387b6a9)| diamond-miner| 2021-04-16T03:05:59| None
