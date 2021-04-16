@@ -13,13 +13,18 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: '3.9'
+      - name: Cache
+        uses: actions/cache@v2.1.5
+        with:
+          path: .venv/
+          key: venv-${{ runner.os }}-${{ hashFiles('pyproject.toml') }}
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
           pip install poetry
+          poetry config virtualenvs.in-project true
           poetry install
       - name: Run scheduler
-        run: poetry run python scheduler.py
+        run: .venv/bin/python3 scheduler.py
         env:
           IRIS_USERNAME: ${{ secrets.IRIS_USERNAME }}
           IRIS_PASSWORD: ${{ secrets.IRIS_PASSWORD }}
