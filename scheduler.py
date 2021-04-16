@@ -31,7 +31,7 @@ def should_schedule(freq, last_measurement):
             return True
     if freq == "weekly":
         # Schedule weekly measurements on friday.
-        if datetime.now().isoweekday() == 5:
+        if datetime.now().isoweekday() == 6:
             if not last_measurement or diff >= timedelta(weeks=1):
                 return True
     return False
