@@ -86,7 +86,7 @@ def main():
     # Index used to generate the MEASUREMENTS.md file.
     index = {}
 
-    for freq in ("oneshot", "hourly", "daily", "weekly"):
+    for freq in ("oneshot", "hourly", "daily", "weekly")[::-1]:
         for file in Path(freq).glob("*.json"):
             logging.info(f"Processing {file}...")
             measurement = json.loads(file.read_text())
