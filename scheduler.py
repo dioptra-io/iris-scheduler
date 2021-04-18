@@ -10,7 +10,7 @@ IRIS_URL = "https://iris.dioptra.io/api"
 
 
 def request(method, path, **kwargs):
-    req = requests.request(method, IRIS_URL + path, **kwargs)
+    req = requests.request(method, IRIS_URL + path, timeout=5, **kwargs)
     req.raise_for_status()
     return req.json()
 
