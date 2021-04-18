@@ -19,6 +19,10 @@ def start_time(measurement):
     return datetime.fromisoformat(measurement["start_time"])
 
 
+def end_time(measurement):
+    return datetime.fromisoformat(measurement["end_time"])
+
+
 def should_schedule(freq, last_measurement):
     diff = None
     if last_measurement:
@@ -43,17 +47,21 @@ def generate_md(index):
 
     for freq in index:
         md += f"\n\n# {freq}"
-        md += "\nFile | UUID | Tool | Start | End"
-        md += "\n-----|------|------|-------|----"
+        md += "\nFile | UUID | Tool | Start | End | Duration"
+        md += "\n-----|------|------|-------|-----|---------"
         for file, measurements in index[freq].items():
             measurements.sort(key=start_time, reverse=True)
             for measurement in measurements:
                 uuid = measurement["uuid"]
                 md += f"\n[{file.name}]({file})"
-                md += f"| [{uuid}]({IRIS_URL}/measurements/{uuid})"
+                md += f"| [{uuid[:8]}]({IRIS_URL}/measurements/{uuid})"
                 md += f"| {measurement.get('tool')}"
                 md += f"| {measurement.get('start_time')}"
                 md += f"| {measurement.get('end_time')}"
+                duration = None
+                if measurement.get("start_time") and measurement.get("end_time"):
+                    duration = end_time(measurement) - start_time(measurement)
+                md += f"| {duration}"
     md += "\n"
     return md
 
@@ -84,6 +92,7 @@ def main():
             measurement = json.loads(file.read_text())
             measurement.setdefault("tags", [])
             measurement["tags"].append(file.name)
+            measurement["tags"].append("scheduled")
 
             res = request(
                 "GET",
