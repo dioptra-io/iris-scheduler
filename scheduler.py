@@ -8,6 +8,16 @@ import requests
 
 IRIS_URL = "https://iris.dioptra.io/api"
 
+ISOWEEKDAYS = {
+    "monday": 1,
+    "tuesday": 2,
+    "wednesday": 3,
+    "thursday": 4,
+    "friday": 5,
+    "saturday": 6,
+    "sunday": 7,
+}
+
 
 def request(method, path, **kwargs):
     req = requests.request(method, IRIS_URL + path, timeout=5, **kwargs)
@@ -23,7 +33,7 @@ def end_time(measurement):
     return datetime.fromisoformat(measurement["end_time"])
 
 
-def should_schedule(freq, last_measurement):
+def should_schedule(freq, last_measurement, meta):
     diff = None
     if last_measurement:
         diff = datetime.now() - start_time(last_measurement)
@@ -34,8 +44,9 @@ def should_schedule(freq, last_measurement):
         if not last_measurement or diff >= timedelta(days=1):
             return True
     if freq == "weekly":
-        # Schedule weekly measurements on friday.
-        if datetime.now().isoweekday() == 6:
+        # Schedule on saturday by default.
+        day = ISOWEEKDAYS.get(meta, 6)
+        if datetime.now().isoweekday() == day:
             if not last_measurement or diff >= timedelta(weeks=1):
                 return True
     return False
@@ -89,6 +100,13 @@ def main():
     for freq in ("oneshot", "hourly", "daily", "weekly")[::-1]:
         for file in Path(freq).glob("*.json"):
             logging.info(f"Processing {file}...")
+
+            # Extract the optional meta component:
+            # measurement.saturday.json => saturday
+            meta = ""
+            if len(str(file).split(".")) == 3:
+                meta = str(file).split(".")[1].lower().strip()
+
             measurement = json.loads(file.read_text())
             measurement.setdefault("tags", [])
             measurement["tags"].append(file.name)
@@ -108,7 +126,7 @@ def main():
             if res["count"] > 0:
                 last = sorted(res["results"], key=start_time)[-1]
                 index[freq][file].extend(res["results"])
-            if should_schedule(freq, last):
+            if should_schedule(freq, last, meta):
                 logging.info("Scheduling measurement...")
                 res = request(
                     "POST", "/measurements/", json=measurement, headers=headers
