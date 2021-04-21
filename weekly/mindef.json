@@ -1,13 +1,19 @@
 {
-  "agents": [{"uuid": "ddd8541d-b4f5-42ce-b163-e3e9bfcd0a47"}],
-  "targets_file": "mindef.txt",
-  "tool": "diamond-miner",
-  "tool_parameters": {
-    "protocol": "icmp",
-    "min_ttl": 2,
-    "max_ttl": 32,
-    "max_round": 4,
-    "flow_mapper": "RandomFlowMapper",
-    "flow_mapper_kwargs": {"seed": 2021}
-  }
+  "agents": [
+    {
+      "uuid": "ddd8541d-b4f5-42ce-b163-e3e9bfcd0a47",
+      "targets_file": "mindef.txt",
+      "tool_parameters": {
+        "protocol": "icmp",
+        "min_ttl": 2,
+        "max_ttl": 32,
+        "max_round": 4,
+        "flow_mapper": "RandomFlowMapper",
+        "flow_mapper_kwargs": {
+          "seed": 2021
+        }
+      }
+    }
+  ],
+  "tool": "diamond-miner"
 }
