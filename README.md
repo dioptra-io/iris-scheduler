@@ -1,6 +1,6 @@
-# iris-scheduled
+# iris-scheduler
 
-[![Scheduler](https://github.com/dioptra-io/iris-scheduled/actions/workflows/scheduler.yml/badge.svg)](https://github.com/dioptra-io/iris-scheduled/actions/workflows/scheduler.yml)
+[![Scheduler](https://github.com/dioptra-io/iris-scheduler/actions/workflows/scheduler.yml/badge.svg)](https://github.com/dioptra-io/iris-scheduler/actions/workflows/scheduler.yml)
 
 [`MEASUREMENTS.md`](MEASUREMENTS.md)
 
