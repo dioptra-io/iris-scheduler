@@ -2,11 +2,8 @@
   "agents": [
     {
       "uuid": "ddd8541d-b4f5-42ce-b163-e3e9bfcd0a47",
-      "targets_file": "mindef.txt",
+      "target_file": "mindef.csv",
       "tool_parameters": {
-        "protocol": "icmp",
-        "min_ttl": 2,
-        "max_ttl": 32,
         "max_round": 4,
         "flow_mapper": "RandomFlowMapper",
         "flow_mapper_kwargs": {

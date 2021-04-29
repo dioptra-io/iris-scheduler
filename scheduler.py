@@ -21,7 +21,11 @@ ISOWEEKDAYS = {
 
 def request(method, path, **kwargs):
     req = requests.request(method, IRIS_URL + path, timeout=5, **kwargs)
-    req.raise_for_status()
+    try:
+        req.raise_for_status()
+    except requests.HTTPError as e:
+        logging.error(req.text)
+        raise e
     return req.json()
 
 
@@ -89,10 +93,10 @@ def main():
     headers = {"Authorization": f"Bearer {res['access_token']}"}
 
     logging.info("Uploading target lists...")
-    for file in Path("targets").glob("*.txt"):
+    for file in Path("targets").glob("*.csv"):
         logging.info(f"Processing {file}...")
         with file.open("rb") as f:
-            request("POST", "/targets/", files={"targets_file": f}, headers=headers)
+            request("POST", "/targets/", files={"target_file": f}, headers=headers)
 
     # Index used to generate the MEASUREMENTS.md file.
     index = {}
