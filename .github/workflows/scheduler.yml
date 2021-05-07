@@ -14,12 +14,12 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: '3.9'
-      #- name: Cache
-      #  id: cache
-      #  uses: actions/cache@v2.1.5
-      #  with:
-      #    path: .venv/
-      #    key: venv-${{ runner.os }}-${{ hashFiles('pyproject.toml') }}
+      - name: Cache
+        id: cache
+        uses: actions/cache@v2.1.5
+        with:
+          path: .venv/
+          key: venv-202105-${{ runner.os }}-${{ hashFiles('pyproject.toml') }}
       - name: Install dependencies
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
