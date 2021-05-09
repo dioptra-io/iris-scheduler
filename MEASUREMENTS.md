@@ -7,6 +7,7 @@ File | UUID | Tool | Start | End | Duration
 [mindef.saturday.json](weekly/mindef.saturday.json)| [80a6b031](https://iris.dioptra.io/api/measurements/80a6b031-aa32-4a28-b88d-4436b215c1b4)| diamond-miner| 2021-05-08T02:59:32| None| None
 [mindef.saturday.json](weekly/mindef.saturday.json)| [d87cc627](https://iris.dioptra.io/api/measurements/d87cc627-d358-4674-a146-73d96f9d9d27)| diamond-miner| 2021-04-25T09:46:46| 2021-04-26T18:14:46| 1 day, 8:28:00
 [mindef.saturday.json](weekly/mindef.saturday.json)| [e85dcc3f](https://iris.dioptra.io/api/measurements/e85dcc3f-7895-40f9-b00f-3dc9f09c72d5)| diamond-miner| 2021-04-24T02:23:57| 2021-04-25T09:42:32| 1 day, 7:18:35
+[mindef.sunday.json](weekly/mindef.sunday.json)| [c0010760](https://iris.dioptra.io/api/measurements/c0010760-3fc8-4f69-8020-d9366dd4a382)| None| 2021-05-09T01:03:35.531974| None| None
 
 # daily
 File | UUID | Tool | Start | End | Duration
