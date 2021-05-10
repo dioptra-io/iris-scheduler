@@ -2,6 +2,7 @@ name: Scheduler
 
 on:
   push:
+    paths-ignore: ['**.md']
   schedule:
     - cron:  '0 */4 * * *'
 
