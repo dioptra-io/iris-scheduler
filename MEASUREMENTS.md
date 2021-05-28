@@ -16,7 +16,7 @@ File | UUID | Tool | Start | End | Duration
 # daily
 File | UUID | Tool | Start | End | Duration
 -----|------|------|-------|-----|---------
-[1slash16.json](daily/1slash16.json)| [a7244ace](https://iris.dioptra.io/api/measurements/a7244ace-b415-421a-8f73-05286e15ecc8)| None| 2021-05-28T17:10:13.400689| None| None
+[1slash16.json](daily/1slash16.json)| [a7244ace](https://iris.dioptra.io/api/measurements/a7244ace-b415-421a-8f73-05286e15ecc8)| diamond-miner| 2021-05-28T19:10:13| 2021-05-28T19:10:33| 0:00:20
 [1slash16.json](daily/1slash16.json)| [4f1132cb](https://iris.dioptra.io/api/measurements/4f1132cb-89cd-4f6f-9b0c-2133bbc0ac6b)| diamond-miner| 2021-05-27T14:45:13| 2021-05-27T14:45:32| 0:00:19
 [1slash16.json](daily/1slash16.json)| [461208b1](https://iris.dioptra.io/api/measurements/461208b1-ebbc-4513-8f55-ae88aa533eca)| diamond-miner| 2021-05-26T10:36:44| 2021-05-26T10:37:03| 0:00:19
 [1slash16.json](daily/1slash16.json)| [8d39bf66](https://iris.dioptra.io/api/measurements/8d39bf66-e37b-4217-a4bf-e2beaaab3ce8)| diamond-miner| 2021-05-25T06:44:15| 2021-05-25T06:44:35| 0:00:20
@@ -55,7 +55,7 @@ File | UUID | Tool | Start | End | Duration
 [1slash16.json](daily/1slash16.json)| [d7c6b963](https://iris.dioptra.io/api/measurements/d7c6b963-e777-4dbb-8951-b574aded559b)| diamond-miner| 2021-04-08T22:17:15| 2021-04-09T13:23:26| 15:06:11
 [1slash16.json](daily/1slash16.json)| [55599e9a](https://iris.dioptra.io/api/measurements/55599e9a-51a7-45f0-9e3d-5b585d5366e9)| diamond-miner| 2021-04-08T22:16:43| 2021-04-09T13:23:28| 15:06:45
 [1slash16.json](daily/1slash16.json)| [a899cc54](https://iris.dioptra.io/api/measurements/a899cc54-b274-4cc8-9491-f6ab58f14deb)| diamond-miner| 2021-04-08T22:16:40| 2021-04-09T13:23:26| 15:06:46
-[google-dns-ping.json](daily/google-dns-ping.json)| [0f93ddc6](https://iris.dioptra.io/api/measurements/0f93ddc6-0316-47d0-9839-a642a3dc4f01)| None| 2021-05-28T17:10:14.128991| None| None
+[google-dns-ping.json](daily/google-dns-ping.json)| [0f93ddc6](https://iris.dioptra.io/api/measurements/0f93ddc6-0316-47d0-9839-a642a3dc4f01)| ping| 2021-05-28T19:10:14| 2021-05-28T19:10:30| 0:00:16
 [google-dns-ping.json](daily/google-dns-ping.json)| [3a55026a](https://iris.dioptra.io/api/measurements/3a55026a-63b4-4115-b55b-4cdac6fef558)| ping| 2021-05-27T14:45:13| 2021-05-27T14:45:29| 0:00:16
 [google-dns-ping.json](daily/google-dns-ping.json)| [4fc40a04](https://iris.dioptra.io/api/measurements/4fc40a04-8964-4e85-811e-c9cd533ecdda)| ping| 2021-05-26T10:36:44| 2021-05-26T10:37:00| 0:00:16
 [google-dns-ping.json](daily/google-dns-ping.json)| [fa4cab08](https://iris.dioptra.io/api/measurements/fa4cab08-1925-448c-a9b1-81d8ad591367)| ping| 2021-05-25T06:44:16| 2021-05-25T06:44:32| 0:00:16
