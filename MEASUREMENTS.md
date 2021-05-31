@@ -8,7 +8,7 @@ File | UUID | Tool | Start | End | Duration
 [mindef.sunday.json](weekly/mindef.sunday.json)| [cea58ee9](https://iris.dioptra.io/api/measurements/cea58ee9-3b1b-452b-8492-76a5ed73021f)| diamond-miner| 2021-05-23T09:08:06| 2021-05-24T10:49:25| 1 day, 1:41:19
 [mindef.sunday.json](weekly/mindef.sunday.json)| [6ddd626c](https://iris.dioptra.io/api/measurements/6ddd626c-86b6-42b8-ac0a-a524107b7dc6)| diamond-miner| 2021-05-16T06:33:23| 2021-05-19T10:54:17| 3 days, 4:20:54
 [mindef.sunday.json](weekly/mindef.sunday.json)| [c0010760](https://iris.dioptra.io/api/measurements/c0010760-3fc8-4f69-8020-d9366dd4a382)| diamond-miner| 2021-05-09T03:03:35| 2021-05-10T12:08:59| 1 day, 9:05:24
-[mindef.saturday.json](weekly/mindef.saturday.json)| [fc012511](https://iris.dioptra.io/api/measurements/fc012511-98f5-4db2-85d3-cc9ec9b76eaa)| diamond-miner| 2021-05-29T10:34:08| None| None
+[mindef.saturday.json](weekly/mindef.saturday.json)| [fc012511](https://iris.dioptra.io/api/measurements/fc012511-98f5-4db2-85d3-cc9ec9b76eaa)| diamond-miner| 2021-05-29T10:34:08| 2021-05-30T23:35:26| 1 day, 13:01:18
 [mindef.saturday.json](weekly/mindef.saturday.json)| [e3761f17](https://iris.dioptra.io/api/measurements/e3761f17-2934-4d75-9abc-ae8d1e1a8d63)| diamond-miner| 2021-05-22T08:34:47| 2021-05-23T09:08:54| 1 day, 0:34:07
 [mindef.saturday.json](weekly/mindef.saturday.json)| [2950267d](https://iris.dioptra.io/api/measurements/2950267d-8f86-4368-a85d-15d615fb97dc)| diamond-miner| 2021-05-15T06:29:12| 2021-05-17T16:17:39| 2 days, 9:48:27
 [mindef.saturday.json](weekly/mindef.saturday.json)| [80a6b031](https://iris.dioptra.io/api/measurements/80a6b031-aa32-4a28-b88d-4436b215c1b4)| diamond-miner| 2021-05-08T02:59:32| 2021-05-09T13:14:27| 1 day, 10:14:55
@@ -18,6 +18,7 @@ File | UUID | Tool | Start | End | Duration
 # daily
 File | UUID | Tool | Start | End | Duration
 -----|------|------|-------|-----|---------
+[1slash16.json](daily/1slash16.json)| [e01df031](https://iris.dioptra.io/api/measurements/e01df031-b377-4d4c-a572-99afcd70f878)| None| 2021-05-31T02:24:21.587234| None| None
 [1slash16.json](daily/1slash16.json)| [e358899f](https://iris.dioptra.io/api/measurements/e358899f-9470-4085-8bc9-e8c6bcab961e)| diamond-miner| 2021-05-29T22:45:07| 2021-05-30T02:51:56| 4:06:49
 [1slash16.json](daily/1slash16.json)| [a7244ace](https://iris.dioptra.io/api/measurements/a7244ace-b415-421a-8f73-05286e15ecc8)| diamond-miner| 2021-05-28T19:10:13| 2021-05-28T19:10:33| 0:00:20
 [1slash16.json](daily/1slash16.json)| [4f1132cb](https://iris.dioptra.io/api/measurements/4f1132cb-89cd-4f6f-9b0c-2133bbc0ac6b)| diamond-miner| 2021-05-27T14:45:13| 2021-05-27T14:45:32| 0:00:19
@@ -58,6 +59,7 @@ File | UUID | Tool | Start | End | Duration
 [1slash16.json](daily/1slash16.json)| [d7c6b963](https://iris.dioptra.io/api/measurements/d7c6b963-e777-4dbb-8951-b574aded559b)| diamond-miner| 2021-04-08T22:17:15| 2021-04-09T13:23:26| 15:06:11
 [1slash16.json](daily/1slash16.json)| [55599e9a](https://iris.dioptra.io/api/measurements/55599e9a-51a7-45f0-9e3d-5b585d5366e9)| diamond-miner| 2021-04-08T22:16:43| 2021-04-09T13:23:28| 15:06:45
 [1slash16.json](daily/1slash16.json)| [a899cc54](https://iris.dioptra.io/api/measurements/a899cc54-b274-4cc8-9491-f6ab58f14deb)| diamond-miner| 2021-04-08T22:16:40| 2021-04-09T13:23:26| 15:06:46
+[google-dns-ping.json](daily/google-dns-ping.json)| [8656f132](https://iris.dioptra.io/api/measurements/8656f132-dc7a-412b-930e-f2bbf1d0011a)| None| 2021-05-31T02:24:22.523602| None| None
 [google-dns-ping.json](daily/google-dns-ping.json)| [80ea43e5](https://iris.dioptra.io/api/measurements/80ea43e5-6fac-48ca-af65-12ed1044546f)| ping| 2021-05-29T22:45:08| 2021-05-30T02:51:48| 4:06:40
 [google-dns-ping.json](daily/google-dns-ping.json)| [0f93ddc6](https://iris.dioptra.io/api/measurements/0f93ddc6-0316-47d0-9839-a642a3dc4f01)| ping| 2021-05-28T19:10:14| 2021-05-28T19:10:30| 0:00:16
 [google-dns-ping.json](daily/google-dns-ping.json)| [3a55026a](https://iris.dioptra.io/api/measurements/3a55026a-63b4-4115-b55b-4cdac6fef558)| ping| 2021-05-27T14:45:13| 2021-05-27T14:45:29| 0:00:16
