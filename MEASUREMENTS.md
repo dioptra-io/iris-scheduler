@@ -10,5 +10,7 @@ File | UUID | Tool | Start | End | Duration
 # daily
 File | UUID | Tool | Start | End | Duration
 -----|------|------|-------|-----|---------
+[1slash16.json](daily/1slash16.json)| [6e681755](https://iris.dioptra.io/api/measurements/6e681755-dd11-4b0d-ae3d-0e942d7d1505)| None| 2021-06-05T20:32:05.255833| None| None
 [1slash16.json](daily/1slash16.json)| [051a3f06](https://iris.dioptra.io/api/measurements/051a3f06-4658-4635-98b8-0deae147e66b)| diamond-miner| 2021-06-04T17:43:07| 2021-06-04T17:43:15| 0:00:08
+[google-dns-ping.json](daily/google-dns-ping.json)| [392f064a](https://iris.dioptra.io/api/measurements/392f064a-a88e-42c6-9401-0f0e87023619)| None| 2021-06-05T20:32:05.990241| None| None
 [google-dns-ping.json](daily/google-dns-ping.json)| [e5b07bb1](https://iris.dioptra.io/api/measurements/e5b07bb1-2394-41af-b1f8-13ed01ec0e28)| ping| 2021-06-04T17:43:08| 2021-06-04T17:43:24| 0:00:16
