@@ -11,11 +11,13 @@ File | UUID | Tool | Start | End | Duration
 # daily
 File | UUID | Tool | Start | End | Duration
 -----|------|------|-------|-----|---------
+[1slash16.json](daily/1slash16.json)| [b7eaba5b](https://iris.dioptra.io/api/measurements/b7eaba5b-5886-440c-8965-c3f6e83abe43)| None| 2021-06-10T04:37:25.203173| None| None
 [1slash16.json](daily/1slash16.json)| [f4d27169](https://iris.dioptra.io/api/measurements/f4d27169-e5d5-419e-8544-1be1bcb4e099)| diamond-miner| 2021-06-09T01:03:41| 2021-06-09T01:03:49| 0:00:08
 [1slash16.json](daily/1slash16.json)| [49f59a30](https://iris.dioptra.io/api/measurements/49f59a30-db39-438c-b87f-eca3699b680d)| diamond-miner| 2021-06-07T21:17:52| 2021-06-07T21:18:00| 0:00:08
 [1slash16.json](daily/1slash16.json)| [37f23e07](https://iris.dioptra.io/api/measurements/37f23e07-62e3-4c49-a2ea-a9a3b50cafc6)| diamond-miner| 2021-06-06T20:32:49| 2021-06-06T20:40:41| 0:07:52
 [1slash16.json](daily/1slash16.json)| [6e681755](https://iris.dioptra.io/api/measurements/6e681755-dd11-4b0d-ae3d-0e942d7d1505)| diamond-miner| 2021-06-05T20:32:05| 2021-06-05T20:32:12| 0:00:07
 [1slash16.json](daily/1slash16.json)| [051a3f06](https://iris.dioptra.io/api/measurements/051a3f06-4658-4635-98b8-0deae147e66b)| diamond-miner| 2021-06-04T17:43:07| 2021-06-04T17:43:15| 0:00:08
+[google-dns-ping.json](daily/google-dns-ping.json)| [6f7e53d1](https://iris.dioptra.io/api/measurements/6f7e53d1-28b0-4113-94f2-d5b6c4d2dc33)| None| 2021-06-10T04:37:26.081921| None| None
 [google-dns-ping.json](daily/google-dns-ping.json)| [5f424b8c](https://iris.dioptra.io/api/measurements/5f424b8c-3933-4b56-aa4b-f7c222a9a9a2)| ping| 2021-06-09T01:03:42| 2021-06-09T01:03:58| 0:00:16
 [google-dns-ping.json](daily/google-dns-ping.json)| [79ace9fa](https://iris.dioptra.io/api/measurements/79ace9fa-52ba-4309-aba6-45ac6a664125)| ping| 2021-06-07T21:17:53| 2021-06-07T21:18:09| 0:00:16
 [google-dns-ping.json](daily/google-dns-ping.json)| [c9623272](https://iris.dioptra.io/api/measurements/c9623272-685a-4f80-8dd2-6162225287bb)| ping| 2021-06-06T20:32:50| 2021-06-06T20:40:46| 0:07:56
