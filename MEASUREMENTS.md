@@ -16,6 +16,7 @@ File | UUID | Tool | Start | End | Duration
 # daily
 File | UUID | Tool | Start | End | Duration
 -----|------|------|-------|-----|---------
+[google-dns-ping.json](daily/google-dns-ping.json)| [13487379](https://iris.dioptra.io/api/measurements/13487379-31a6-4f63-b5d1-f22d42c905bd)| None| 2021-06-19T04:23:00.234011| None| None
 [google-dns-ping.json](daily/google-dns-ping.json)| [032c8789](https://iris.dioptra.io/api/measurements/032c8789-3f78-4d6a-9059-2febdfbb0762)| ping| 2021-06-18T02:57:35| 2021-06-18T02:57:43| 0:00:08
 [google-dns-ping.json](daily/google-dns-ping.json)| [800266b8](https://iris.dioptra.io/api/measurements/800266b8-46a8-4176-a291-442f9fa12958)| ping| 2021-06-16T22:18:02| 2021-06-16T22:18:19| 0:00:17
 [google-dns-ping.json](daily/google-dns-ping.json)| [4ec81241](https://iris.dioptra.io/api/measurements/4ec81241-0e06-4ffb-a57a-f4655c5f5c44)| ping| 2021-06-15T18:32:30| 2021-06-15T18:32:47| 0:00:17
@@ -29,6 +30,7 @@ File | UUID | Tool | Start | End | Duration
 [google-dns-ping.json](daily/google-dns-ping.json)| [c9623272](https://iris.dioptra.io/api/measurements/c9623272-685a-4f80-8dd2-6162225287bb)| ping| 2021-06-06T20:32:50| 2021-06-06T20:40:46| 0:07:56
 [google-dns-ping.json](daily/google-dns-ping.json)| [392f064a](https://iris.dioptra.io/api/measurements/392f064a-a88e-42c6-9401-0f0e87023619)| ping| 2021-06-05T20:32:05| 2021-06-05T20:32:21| 0:00:16
 [google-dns-ping.json](daily/google-dns-ping.json)| [e5b07bb1](https://iris.dioptra.io/api/measurements/e5b07bb1-2394-41af-b1f8-13ed01ec0e28)| ping| 2021-06-04T17:43:08| 2021-06-04T17:43:24| 0:00:16
+[1slash16.json](daily/1slash16.json)| [68f8da94](https://iris.dioptra.io/api/measurements/68f8da94-8c2d-4857-9174-a78c1fbbb204)| None| 2021-06-19T04:23:01.200989| None| None
 [1slash16.json](daily/1slash16.json)| [d515562d](https://iris.dioptra.io/api/measurements/d515562d-9304-459d-b366-60c83a0c19bd)| diamond-miner| 2021-06-18T02:57:36| 2021-06-18T02:59:28| 0:01:52
 [1slash16.json](daily/1slash16.json)| [fe83c45b](https://iris.dioptra.io/api/measurements/fe83c45b-f19d-4ea3-b98f-7b5427bb9c19)| diamond-miner| 2021-06-16T22:18:01| 2021-06-16T22:19:50| 0:01:49
 [1slash16.json](daily/1slash16.json)| [fabf40ac](https://iris.dioptra.io/api/measurements/fabf40ac-dc56-4390-90cf-ea3a1e683cd7)| diamond-miner| 2021-06-15T18:32:30| 2021-06-15T18:34:16| 0:01:46
