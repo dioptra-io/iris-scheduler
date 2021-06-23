@@ -51,7 +51,7 @@ def should_schedule(freq, last_measurement, meta):
         # Schedule on saturday by default.
         day = ISOWEEKDAYS.get(meta, 6)
         if datetime.now().isoweekday() == day:
-            if not last_measurement or diff >= timedelta(weeks=1):
+            if not last_measurement or diff > timedelta(days=1):
                 return True
     return False
 
