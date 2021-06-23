@@ -4,7 +4,7 @@
       "uuid": "ddd8541d-b4f5-42ce-b163-e3e9bfcd0a47",
       "target_file": "mindef.csv",
       "tool_parameters": {
-        "max_round": 4,
+        "max_round": 10,
         "flow_mapper": "RandomFlowMapper",
         "flow_mapper_kwargs": {
           "seed": 2021
