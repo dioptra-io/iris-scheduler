@@ -100,7 +100,7 @@ def authenticate(username: str, password: str) -> dict:
 
 def schedule_measurements(headers: dict) -> None:
     for freq in ("oneshot", "hourly", "daily", "weekly"):
-        for file in Path(freq).glob("*.json"):
+        for file in Path(f"_{freq}").glob("*.json"):
             logging.info(f"Processing {file}...")
 
             # Extract the optional meta component:
