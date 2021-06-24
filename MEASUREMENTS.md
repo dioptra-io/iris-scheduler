@@ -19,24 +19,6 @@ File | UUID | Tool | Start | End | Duration
 # daily
 File | UUID | Tool | Start | End | Duration
 -----|------|------|-------|-----|---------
-[1slash16.json](daily/1slash16.json)| [9fd880fc](https://iris.dioptra.io/api/measurements/9fd880fc-1913-45f9-9355-1863d9b13d11)| diamond-miner| 2021-06-23T22:16:17| 2021-06-23T22:18:09| 0:01:52
-[1slash16.json](daily/1slash16.json)| [540604c6](https://iris.dioptra.io/api/measurements/540604c6-1497-4a15-9bae-88dca7961180)| diamond-miner| 2021-06-22T18:29:31| 2021-06-22T18:31:33| 0:02:02
-[1slash16.json](daily/1slash16.json)| [4acfa7d5](https://iris.dioptra.io/api/measurements/4acfa7d5-50e3-480f-abe0-f0d81917c955)| diamond-miner| 2021-06-21T14:27:53| 2021-06-21T14:29:45| 0:01:52
-[1slash16.json](daily/1slash16.json)| [f9454e55](https://iris.dioptra.io/api/measurements/f9454e55-5b0c-4049-a665-d18d51b39f60)| diamond-miner| 2021-06-20T10:18:52| 2021-06-20T12:05:01| 1:46:09
-[1slash16.json](daily/1slash16.json)| [68f8da94](https://iris.dioptra.io/api/measurements/68f8da94-8c2d-4857-9174-a78c1fbbb204)| diamond-miner| 2021-06-19T06:23:01| 2021-06-19T06:24:52| 0:01:51
-[1slash16.json](daily/1slash16.json)| [d515562d](https://iris.dioptra.io/api/measurements/d515562d-9304-459d-b366-60c83a0c19bd)| diamond-miner| 2021-06-18T02:57:36| 2021-06-18T02:59:28| 0:01:52
-[1slash16.json](daily/1slash16.json)| [fe83c45b](https://iris.dioptra.io/api/measurements/fe83c45b-f19d-4ea3-b98f-7b5427bb9c19)| diamond-miner| 2021-06-16T22:18:01| 2021-06-16T22:19:50| 0:01:49
-[1slash16.json](daily/1slash16.json)| [fabf40ac](https://iris.dioptra.io/api/measurements/fabf40ac-dc56-4390-90cf-ea3a1e683cd7)| diamond-miner| 2021-06-15T18:32:30| 2021-06-15T18:34:16| 0:01:46
-[1slash16.json](daily/1slash16.json)| [11ae5184](https://iris.dioptra.io/api/measurements/11ae5184-ae6b-4847-a516-0ab54dd557ed)| diamond-miner| 2021-06-14T12:27:40| 2021-06-14T12:29:28| 0:01:48
-[1slash16.json](daily/1slash16.json)| [10c283d3](https://iris.dioptra.io/api/measurements/10c283d3-bf82-4cfc-b666-1faedc355172)| diamond-miner| 2021-06-13T12:27:10| 2021-06-13T14:27:54| 2:00:44
-[1slash16.json](daily/1slash16.json)| [2cf21a79](https://iris.dioptra.io/api/measurements/2cf21a79-51f1-4ada-a43b-e96588ee3dd9)| diamond-miner| 2021-06-12T12:26:28| 2021-06-12T12:28:17| 0:01:49
-[1slash16.json](daily/1slash16.json)| [ab088878](https://iris.dioptra.io/api/measurements/ab088878-6777-400f-912a-785c624557de)| diamond-miner| 2021-06-11T08:19:57| 2021-06-11T08:20:05| 0:00:08
-[1slash16.json](daily/1slash16.json)| [b7eaba5b](https://iris.dioptra.io/api/measurements/b7eaba5b-5886-440c-8965-c3f6e83abe43)| diamond-miner| 2021-06-10T04:37:25| 2021-06-10T04:37:33| 0:00:08
-[1slash16.json](daily/1slash16.json)| [f4d27169](https://iris.dioptra.io/api/measurements/f4d27169-e5d5-419e-8544-1be1bcb4e099)| diamond-miner| 2021-06-09T01:03:41| 2021-06-09T01:03:49| 0:00:08
-[1slash16.json](daily/1slash16.json)| [49f59a30](https://iris.dioptra.io/api/measurements/49f59a30-db39-438c-b87f-eca3699b680d)| diamond-miner| 2021-06-07T21:17:52| 2021-06-07T21:18:00| 0:00:08
-[1slash16.json](daily/1slash16.json)| [37f23e07](https://iris.dioptra.io/api/measurements/37f23e07-62e3-4c49-a2ea-a9a3b50cafc6)| diamond-miner| 2021-06-06T20:32:49| 2021-06-06T20:40:41| 0:07:52
-[1slash16.json](daily/1slash16.json)| [6e681755](https://iris.dioptra.io/api/measurements/6e681755-dd11-4b0d-ae3d-0e942d7d1505)| diamond-miner| 2021-06-05T20:32:05| 2021-06-05T20:32:12| 0:00:07
-[1slash16.json](daily/1slash16.json)| [051a3f06](https://iris.dioptra.io/api/measurements/051a3f06-4658-4635-98b8-0deae147e66b)| diamond-miner| 2021-06-04T17:43:07| 2021-06-04T17:43:15| 0:00:08
 [google-dns-ping.json](daily/google-dns-ping.json)| [40efd87f](https://iris.dioptra.io/api/measurements/40efd87f-985d-4326-9547-cf6244f4d697)| ping| 2021-06-23T22:16:16| 2021-06-23T22:16:25| 0:00:09
 [google-dns-ping.json](daily/google-dns-ping.json)| [d4eaf9a9](https://iris.dioptra.io/api/measurements/d4eaf9a9-58a1-4e92-9363-5dbcc78bacf1)| ping| 2021-06-22T18:29:30| 2021-06-22T18:29:38| 0:00:08
 [google-dns-ping.json](daily/google-dns-ping.json)| [0515eeec](https://iris.dioptra.io/api/measurements/0515eeec-0f94-42ca-a61a-3ba70d1428a3)| ping| 2021-06-21T14:27:53| 2021-06-21T14:28:01| 0:00:08
@@ -55,3 +37,21 @@ File | UUID | Tool | Start | End | Duration
 [google-dns-ping.json](daily/google-dns-ping.json)| [c9623272](https://iris.dioptra.io/api/measurements/c9623272-685a-4f80-8dd2-6162225287bb)| ping| 2021-06-06T20:32:50| 2021-06-06T20:40:46| 0:07:56
 [google-dns-ping.json](daily/google-dns-ping.json)| [392f064a](https://iris.dioptra.io/api/measurements/392f064a-a88e-42c6-9401-0f0e87023619)| ping| 2021-06-05T20:32:05| 2021-06-05T20:32:21| 0:00:16
 [google-dns-ping.json](daily/google-dns-ping.json)| [e5b07bb1](https://iris.dioptra.io/api/measurements/e5b07bb1-2394-41af-b1f8-13ed01ec0e28)| ping| 2021-06-04T17:43:08| 2021-06-04T17:43:24| 0:00:16
+[1slash16.json](daily/1slash16.json)| [9fd880fc](https://iris.dioptra.io/api/measurements/9fd880fc-1913-45f9-9355-1863d9b13d11)| diamond-miner| 2021-06-23T22:16:17| 2021-06-23T22:18:09| 0:01:52
+[1slash16.json](daily/1slash16.json)| [540604c6](https://iris.dioptra.io/api/measurements/540604c6-1497-4a15-9bae-88dca7961180)| diamond-miner| 2021-06-22T18:29:31| 2021-06-22T18:31:33| 0:02:02
+[1slash16.json](daily/1slash16.json)| [4acfa7d5](https://iris.dioptra.io/api/measurements/4acfa7d5-50e3-480f-abe0-f0d81917c955)| diamond-miner| 2021-06-21T14:27:53| 2021-06-21T14:29:45| 0:01:52
+[1slash16.json](daily/1slash16.json)| [f9454e55](https://iris.dioptra.io/api/measurements/f9454e55-5b0c-4049-a665-d18d51b39f60)| diamond-miner| 2021-06-20T10:18:52| 2021-06-20T12:05:01| 1:46:09
+[1slash16.json](daily/1slash16.json)| [68f8da94](https://iris.dioptra.io/api/measurements/68f8da94-8c2d-4857-9174-a78c1fbbb204)| diamond-miner| 2021-06-19T06:23:01| 2021-06-19T06:24:52| 0:01:51
+[1slash16.json](daily/1slash16.json)| [d515562d](https://iris.dioptra.io/api/measurements/d515562d-9304-459d-b366-60c83a0c19bd)| diamond-miner| 2021-06-18T02:57:36| 2021-06-18T02:59:28| 0:01:52
+[1slash16.json](daily/1slash16.json)| [fe83c45b](https://iris.dioptra.io/api/measurements/fe83c45b-f19d-4ea3-b98f-7b5427bb9c19)| diamond-miner| 2021-06-16T22:18:01| 2021-06-16T22:19:50| 0:01:49
+[1slash16.json](daily/1slash16.json)| [fabf40ac](https://iris.dioptra.io/api/measurements/fabf40ac-dc56-4390-90cf-ea3a1e683cd7)| diamond-miner| 2021-06-15T18:32:30| 2021-06-15T18:34:16| 0:01:46
+[1slash16.json](daily/1slash16.json)| [11ae5184](https://iris.dioptra.io/api/measurements/11ae5184-ae6b-4847-a516-0ab54dd557ed)| diamond-miner| 2021-06-14T12:27:40| 2021-06-14T12:29:28| 0:01:48
+[1slash16.json](daily/1slash16.json)| [10c283d3](https://iris.dioptra.io/api/measurements/10c283d3-bf82-4cfc-b666-1faedc355172)| diamond-miner| 2021-06-13T12:27:10| 2021-06-13T14:27:54| 2:00:44
+[1slash16.json](daily/1slash16.json)| [2cf21a79](https://iris.dioptra.io/api/measurements/2cf21a79-51f1-4ada-a43b-e96588ee3dd9)| diamond-miner| 2021-06-12T12:26:28| 2021-06-12T12:28:17| 0:01:49
+[1slash16.json](daily/1slash16.json)| [ab088878](https://iris.dioptra.io/api/measurements/ab088878-6777-400f-912a-785c624557de)| diamond-miner| 2021-06-11T08:19:57| 2021-06-11T08:20:05| 0:00:08
+[1slash16.json](daily/1slash16.json)| [b7eaba5b](https://iris.dioptra.io/api/measurements/b7eaba5b-5886-440c-8965-c3f6e83abe43)| diamond-miner| 2021-06-10T04:37:25| 2021-06-10T04:37:33| 0:00:08
+[1slash16.json](daily/1slash16.json)| [f4d27169](https://iris.dioptra.io/api/measurements/f4d27169-e5d5-419e-8544-1be1bcb4e099)| diamond-miner| 2021-06-09T01:03:41| 2021-06-09T01:03:49| 0:00:08
+[1slash16.json](daily/1slash16.json)| [49f59a30](https://iris.dioptra.io/api/measurements/49f59a30-db39-438c-b87f-eca3699b680d)| diamond-miner| 2021-06-07T21:17:52| 2021-06-07T21:18:00| 0:00:08
+[1slash16.json](daily/1slash16.json)| [37f23e07](https://iris.dioptra.io/api/measurements/37f23e07-62e3-4c49-a2ea-a9a3b50cafc6)| diamond-miner| 2021-06-06T20:32:49| 2021-06-06T20:40:41| 0:07:52
+[1slash16.json](daily/1slash16.json)| [6e681755](https://iris.dioptra.io/api/measurements/6e681755-dd11-4b0d-ae3d-0e942d7d1505)| diamond-miner| 2021-06-05T20:32:05| 2021-06-05T20:32:12| 0:00:07
+[1slash16.json](daily/1slash16.json)| [051a3f06](https://iris.dioptra.io/api/measurements/051a3f06-4658-4635-98b8-0deae147e66b)| diamond-miner| 2021-06-04T17:43:07| 2021-06-04T17:43:15| 0:00:08
