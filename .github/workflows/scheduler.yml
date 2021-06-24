@@ -20,7 +20,7 @@ jobs:
         uses: actions/cache@v2.1.5
         with:
           path: .venv/
-          key: venv-202105-${{ runner.os }}-${{ hashFiles('pyproject.toml') }}
+          key: venv-202105-${{ runner.os }}-${{ hashFiles('poetry.lock') }}
       - name: Install dependencies
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
