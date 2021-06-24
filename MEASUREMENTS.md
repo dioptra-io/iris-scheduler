@@ -39,6 +39,7 @@ google-dns-ping.json     | ea39cb01   | ping             | 2021-06-20T10:18:52  
 google-dns-ping.json     | 0515eeec   | ping             | 2021-06-21T14:27:53  | 2021-06-21T14:28:01  | 0:00:08             
 google-dns-ping.json     | d4eaf9a9   | ping             | 2021-06-22T18:29:30  | 2021-06-22T18:29:38  | 0:00:08             
 google-dns-ping.json     | 40efd87f   | ping             | 2021-06-23T22:16:16  | 2021-06-23T22:16:25  | 0:00:09             
-mindef.saturday.json     | cb067b32   | diamond-miner    | 2021-06-05T01:36:42  | 2021-06-05T08:23:46  | 6:47:04             
+mindef.saturday.json     | 59a73eb4   | diamond-miner    | 2021-06-05T11:10:47  | 2021-06-06T22:53:41  | 1 day, 11:42:54     
+mindef.saturday.json     | 8e2c5016   | diamond-miner    | 2021-06-12T21:53:36  | 2021-06-13T17:40:19  | 19:46:43            
 mindef.saturday.json     | 72889f68   | diamond-miner    | 2021-06-19T18:28:18  | 2021-06-20T12:35:47  | 18:07:29            
 mindef.sunday.json       | d6517a2f   | diamond-miner    | 2021-06-06T01:25:29  | 2021-06-07T23:06:43  | 1 day, 21:41:14     
