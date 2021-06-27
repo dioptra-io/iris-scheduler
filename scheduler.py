@@ -66,9 +66,9 @@ def generate_md(measurements):
         md += template.format(
             measurement_name(measurement),
             measurement["uuid"].split("-")[0],
-            measurement.get("tool"),
-            measurement.get("start_time"),
-            measurement.get("end_time"),
+            str(measurement.get("tool")),
+            str(measurement.get("start_time")),
+            str(measurement.get("end_time")),
             str(duration(measurement)),
         )
     return md
