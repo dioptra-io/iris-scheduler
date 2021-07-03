@@ -29,6 +29,7 @@ Name                     | UUID       | Tool             | Start                
 1slash16.json            | 5a30eef6   | diamond-miner    | 2021-06-30T22:17:37  | 2021-06-30T22:19:25  | 0:01:48             
 1slash16.json            | c2f40a44   | diamond-miner    | 2021-07-02T02:55:50  | 2021-07-02T02:57:49  | 0:01:59             
 exhaustive.saturday.json | 69b1d689   | diamond-miner    | 2021-06-26T02:54:25  | 2021-06-26T22:34:08  | 19:39:43            
+exhaustive.saturday.json | 1b90d128   | diamond-miner    | 2021-07-03T02:55:02  | None                 | None                
 exhaustive.sunday.json   | b8311a35   | diamond-miner    | 2021-06-27T03:03:05  | 2021-06-27T22:59:21  | 19:56:16            
 google-dns-ping.json     | e5b07bb1   | ping             | 2021-06-04T17:43:08  | 2021-06-04T17:43:24  | 0:00:16             
 google-dns-ping.json     | 392f064a   | ping             | 2021-06-05T20:32:05  | 2021-06-05T20:32:21  | 0:00:16             
