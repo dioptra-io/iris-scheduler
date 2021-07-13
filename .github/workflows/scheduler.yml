@@ -34,4 +34,7 @@ jobs:
           IRIS_PASSWORD: ${{ secrets.IRIS_PASSWORD }}
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
+          commit_user_name: github-actions[bot]
+          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
+          commit_author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
           file_pattern: MEASUREMENTS.md
