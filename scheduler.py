@@ -5,7 +5,9 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Optional
 
-import requests
+from oauthlib.oauth2 import LegacyApplicationClient
+from requests import HTTPError, Session
+from requests_oauthlib import OAuth2Session
 
 IRIS_URL = "https://iris.dioptra.io/api"
 
@@ -20,11 +22,11 @@ ISOWEEKDAYS = {
 }
 
 
-def request(method, path, **kwargs):
-    req = requests.request(method, IRIS_URL + path, timeout=5, **kwargs)
+def request(session, method, path, **kwargs):
+    req = session.request(method, IRIS_URL + path, timeout=5, **kwargs)
     try:
         req.raise_for_status()
-    except requests.HTTPError as e:
+    except HTTPError as e:
         logging.error(req.text)
         raise e
     return req.json()
@@ -91,14 +93,7 @@ def should_schedule(freq, last_measurement, meta):
     return False
 
 
-def authenticate(username: str, password: str) -> dict:
-    logging.info("Authenticating...")
-    data = {"username": username, "password": password}
-    res = request("POST", "/profile/token", data=data)
-    return {"Authorization": f"Bearer {res['access_token']}"}
-
-
-def schedule_measurements(headers: dict) -> None:
+def schedule_measurements(session: Session) -> None:
     for freq in ("oneshot", "hourly", "daily", "weekly"):
         for file in Path(f"_{freq}").glob("*.json"):
             logging.info(f"Processing {file}...")
@@ -115,10 +110,10 @@ def schedule_measurements(headers: dict) -> None:
             measurement["tags"].append("scheduled")
 
             res = request(
+                session,
                 "GET",
                 "/measurements/",
                 params={"limit": 200, "tag": file.name},
-                headers=headers,
             )
 
             last = None
@@ -126,28 +121,33 @@ def schedule_measurements(headers: dict) -> None:
                 last = sorted(res["results"], key=start_time)[-1]
             if should_schedule(freq, last, meta):
                 logging.info("Scheduling measurement...")
-                request("POST", "/measurements/", json=measurement, headers=headers)
+                request(session, "POST", "/measurements/", json=measurement)
             else:
                 logging.info("Skipping measurement...")
 
 
-def upload_target_lists(headers: dict) -> None:
+def upload_target_lists(session: Session) -> None:
     for file in Path("targets").glob("*.csv"):
         logging.info(f"Uploading {file}...")
         with file.open("rb") as f:
-            request("POST", "/targets/", files={"target_file": f}, headers=headers)
+            request(session, "POST", "/targets/", files={"target_file": f})
 
 
 def main():
     logging.basicConfig(level=logging.INFO)
-    headers = authenticate(os.environ["IRIS_USERNAME"], os.environ["IRIS_PASSWORD"])
-    upload_target_lists(headers)
-    schedule_measurements(headers)
+    session = OAuth2Session(client=LegacyApplicationClient(client_id="iris-scheduler"))
+    session.fetch_token(
+        f"{IRIS_URL}/profile/token",
+        username=os.environ["IRIS_USERNAME"],
+        password=os.environ["IRIS_PASSWORD"],
+    )
+    upload_target_lists(session)
+    schedule_measurements(session)
     res = request(
+        session,
         "GET",
         "/measurements/",
         params={"limit": 200, "tag": "scheduled"},
-        headers=headers,
     )
     Path("MEASUREMENTS.md").write_text(generate_md(res["results"]))
 

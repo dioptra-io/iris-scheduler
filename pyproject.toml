@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "iris-scheduled"
+name = "iris-scheduler"
 version = "0.1.0"
 description = ""
 authors = ["Maxime Mouchet <max@maxmouchet.com>"]
@@ -8,6 +8,7 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.8"
 requests = "^2.25.1"
+requests-oauthlib = "^1.3.0"
 
 [tool.poetry.dev-dependencies]
 
