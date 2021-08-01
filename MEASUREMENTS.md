@@ -58,12 +58,13 @@ exhaustive.saturday.json | 1b90d128   | diamond-miner    | 2021-07-03T02:55:02  
 exhaustive.saturday.json | a7f878a6   | diamond-miner    | 2021-07-10T02:55:53  | 2021-07-10T21:13:22  | 18:17:29            
 exhaustive.saturday.json | de9031d9   | diamond-miner    | 2021-07-17T02:55:57  | 2021-07-18T01:02:07  | 22:06:10            
 exhaustive.saturday.json | 0861c197   | diamond-miner    | 2021-07-24T02:57:46  | 2021-07-24T23:05:00  | 20:07:14            
-exhaustive.saturday.json | 928e53ae   | diamond-miner    | 2021-07-31T02:57:06  | None                 | None                
+exhaustive.saturday.json | 928e53ae   | diamond-miner    | 2021-07-31T02:57:06  | 2021-08-01T01:09:26  | 22:12:20            
 exhaustive.sunday.json   | b8311a35   | diamond-miner    | 2021-06-27T03:03:05  | 2021-06-27T22:59:21  | 19:56:16            
 exhaustive.sunday.json   | 16fe483e   | diamond-miner    | 2021-07-04T02:57:22  | 2021-07-05T10:56:22  | 1 day, 7:59:00      
 exhaustive.sunday.json   | 3aebe914   | diamond-miner    | 2021-07-11T03:01:58  | 2021-07-11T21:32:55  | 18:30:57            
 exhaustive.sunday.json   | d04fee85   | diamond-miner    | 2021-07-18T02:59:10  | 2021-07-19T01:13:50  | 22:14:40            
 exhaustive.sunday.json   | 02306644   | diamond-miner    | 2021-07-25T02:59:24  | 2021-07-25T23:28:23  | 20:28:59            
+exhaustive.sunday.json   | 79ab1a23   | diamond-miner    | 2021-08-01T03:05:13  | None                 | None                
 google-dns-ping.json     | e5b07bb1   | ping             | 2021-06-04T17:43:08  | 2021-06-04T17:43:24  | 0:00:16             
 google-dns-ping.json     | 392f064a   | ping             | 2021-06-05T20:32:05  | 2021-06-05T20:32:21  | 0:00:16             
 google-dns-ping.json     | c9623272   | ping             | 2021-06-06T20:32:50  | 2021-06-06T20:40:46  | 0:07:56             
