@@ -55,7 +55,7 @@ Name                     | UUID       | Tool             | Start                
 1slash16.json            | 781c920c   | diamond-miner    | 2021-07-31T14:28:04  | 2021-07-31T21:08:07  | 6:40:03             
 1slash16.json            | dfec107f   | diamond-miner    | 2021-08-01T18:27:11  | 2021-08-01T21:31:43  | 3:04:32             
 1slash16.json            | 7483fab8   | diamond-miner    | 2021-08-02T22:19:29  | 2021-08-02T22:23:07  | 0:03:38             
-1slash16.json            | afbc73f8   | diamond-miner    | 2021-08-04T02:56:43  | None                 | None                
+1slash16.json            | afbc73f8   | diamond-miner    | 2021-08-04T02:56:43  | 2021-08-04T03:00:24  | 0:03:41             
 exhaustive.saturday.json | 69b1d689   | diamond-miner    | 2021-06-26T02:54:25  | 2021-06-26T22:34:08  | 19:39:43            
 exhaustive.saturday.json | 1b90d128   | diamond-miner    | 2021-07-03T02:55:02  | 2021-07-03T21:50:10  | 18:55:08            
 exhaustive.saturday.json | a7f878a6   | diamond-miner    | 2021-07-10T02:55:53  | 2021-07-10T21:13:22  | 18:17:29            
@@ -120,7 +120,7 @@ google-dns-ping.json     | 234e255a   | ping             | 2021-07-30T10:20:23  
 google-dns-ping.json     | c69cd8b5   | ping             | 2021-07-31T14:28:04  | 2021-07-31T14:28:21  | 0:00:17             
 google-dns-ping.json     | ff268b04   | ping             | 2021-08-01T18:27:11  | 2021-08-01T21:30:19  | 3:03:08             
 google-dns-ping.json     | 92acbcf3   | ping             | 2021-08-02T22:19:29  | 2021-08-02T22:19:44  | 0:00:15             
-google-dns-ping.json     | 0f1ecb48   | ping             | 2021-08-04T02:56:43  | None                 | None                
+google-dns-ping.json     | 0f1ecb48   | ping             | 2021-08-04T02:56:43  | 2021-08-04T02:57:06  | 0:00:23             
 mindef.saturday.json     | 59a73eb4   | diamond-miner    | 2021-06-05T11:10:47  | 2021-06-06T22:53:41  | 1 day, 11:42:54     
 mindef.saturday.json     | 8e2c5016   | diamond-miner    | 2021-06-12T21:53:36  | 2021-06-13T17:40:19  | 19:46:43            
 mindef.saturday.json     | 72889f68   | diamond-miner    | 2021-06-19T18:28:18  | 2021-06-20T12:35:47  | 18:07:29            
