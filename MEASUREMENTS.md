@@ -5,4 +5,4 @@ Name                     | UUID       | Tool             | Start                
 --                       | --         | --               | --                   | --                   | --                  
 1slash16.json            | 49b05ded   | diamond-miner    | 2021-08-08T18:27:12  | None                 | None                
 exhaustive.sunday.json   | 80dffa9b   | diamond-miner    | 2021-08-08T18:27:13  | None                 | None                
-google-dns-ping.json     | 4e6b6b4b   | ping             | 2021-08-08T18:27:13  | None                 | None                
+google-dns-ping.json     | 4e6b6b4b   | ping             | 2021-08-08T18:27:13  | 2021-08-08T18:27:30  | 0:00:17             
