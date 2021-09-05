@@ -35,6 +35,7 @@ exhaustive.sunday.json   | 80dffa9b   | diamond-miner    | 2021-08-08T18:27:13  
 exhaustive.sunday.json   | 8e49304a   | diamond-miner    | 2021-08-15T02:56:44  | 2021-08-16T01:31:01  | 22:34:17            
 exhaustive.sunday.json   | 40faccbd   | diamond-miner    | 2021-08-22T02:55:30  | 2021-08-23T00:30:08  | 21:34:38            
 exhaustive.sunday.json   | 5638ed32   | diamond-miner    | 2021-08-29T02:59:15  | 2021-08-29T23:52:19  | 20:53:04            
+exhaustive.sunday.json   | 9bcd5dd9   | diamond-miner    | 2021-09-05T03:00:12  | None                 | None                
 google-dns-ping.json     | 4e6b6b4b   | ping             | 2021-08-08T18:27:13  | 2021-08-08T18:27:30  | 0:00:17             
 google-dns-ping.json     | 8a2f163a   | ping             | 2021-08-09T22:18:12  | 2021-08-09T22:18:30  | 0:00:18             
 google-dns-ping.json     | 3cabd73a   | ping             | 2021-08-11T00:51:27  | 2021-08-11T00:51:50  | 0:00:23             
