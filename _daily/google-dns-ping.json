@@ -5,7 +5,9 @@
       "target_file": "google-dns-46.csv",
       "tool_parameters": {
         "flow_mapper": "SequentialFlowMapper",
-        "flow_mapper_kwargs": {}
+        "flow_mapper_kwargs": {},
+        "prefix_len_v4": 32,
+        "prefix_len_v6": 128
       }
     }
   ],
