@@ -6,6 +6,7 @@
       "tool_parameters": {
         "flow_mapper": "SequentialFlowMapper",
         "flow_mapper_kwargs": {},
+        "n_flow_ids": 1,
         "prefix_len_v4": 32,
         "prefix_len_v6": 128
       }
