@@ -50,6 +50,7 @@ exhaustive.saturday.json | d5aa064a   | diamond-miner    | 2021-08-28T02:53:20  
 exhaustive.saturday.json | ef3244e4   | diamond-miner    | 2021-09-04T02:57:27  | 2021-09-05T01:12:24  | 22:14:57            
 exhaustive.saturday.json | 4827d4c4   | diamond-miner    | 2021-09-11T00:57:34  | 2021-09-11T22:16:26  | 21:18:52            
 exhaustive.saturday.json | d82c3c84   | diamond-miner    | 2021-09-25T00:58:38  | 2021-09-26T17:39:02  | 1 day, 16:40:24     
+exhaustive.saturday.json | dce1cb36   | diamond-miner    | 2021-10-02T00:59:03  | None                 | None                
 exhaustive.sunday.json   | 80dffa9b   | diamond-miner    | 2021-08-08T18:27:13  | 2021-08-09T00:03:34  | 5:36:21             
 exhaustive.sunday.json   | 8e49304a   | diamond-miner    | 2021-08-15T02:56:44  | 2021-08-16T01:31:01  | 22:34:17            
 exhaustive.sunday.json   | 40faccbd   | diamond-miner    | 2021-08-22T02:55:30  | 2021-08-23T00:30:08  | 21:34:38            
