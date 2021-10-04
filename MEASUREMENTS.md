@@ -103,4 +103,4 @@ google-dns-ping.json     | a1178737   | ping             | 2021-09-30T08:20:49  
 google-dns-ping.json     | 2af7976e   | ping             | 2021-10-01T08:21:05  | 2021-10-01T10:22:21  | 2:01:16             
 google-dns-ping.json     | 49d54eba   | ping             | 2021-10-02T12:26:58  | 2021-10-02T18:31:49  | 6:04:51             
 google-dns-ping.json     | 2bf44f92   | ping             | 2021-10-03T12:27:23  | 2021-10-03T14:28:45  | 2:01:22             
-google-dns-ping.json     | 9afbb96c   | ping             | 2021-10-04T12:28:24  | None                 | None                
+google-dns-ping.json     | 9afbb96c   | ping             | 2021-10-04T12:28:24  | 2021-10-04T14:29:34  | 2:01:10             
