@@ -37,7 +37,11 @@ def start_time(measurement: dict) -> datetime:
 
 
 def end_time(measurement: dict) -> datetime:
-    return datetime.fromisoformat(measurement["end_time"])
+    d = datetime.fromisoformat(measurement["end_time"])
+    # https://github.com/dioptra-io/iris/commit/a60551b6e5405396a935bbf1ff69ac6cf3082da1
+    if d < datetime(2021, 10, 26):
+        d -= timedelta(hours=2)
+    return d
 
 
 def duration(measurement: dict) -> Optional[timedelta]:
