@@ -11,12 +11,12 @@ Name                     | UUID       | Tool             | Start                
 1slash16.json            | 6d74f73c   | diamond-miner    | 2021-10-18T01:04:43  | 2021-10-18T03:08:20  | 0:03:37             
 1slash16.json            | eeb50aa8   | diamond-miner    | 2021-10-19T01:05:03  | 2021-10-19T03:08:35  | 0:03:32             
 1slash16.json            | bfe60c8d   | diamond-miner    | 2021-10-20T04:23:57  | 2021-10-20T06:27:33  | 0:03:36             
-1slash16.json            | 7f568bd5   | diamond-miner    | 2021-10-21T04:24:39  | None                 | None                
+1slash16.json            | 7f568bd5   | diamond-miner    | 2021-10-21T04:24:39  | 2021-10-26T13:14:23  | 5 days, 8:49:44     
 1slash16.json            | 057ac2cc   | diamond-miner    | 2021-10-22T08:21:38  | 2021-10-22T10:25:41  | 0:04:03             
 1slash16.json            | 80c7b2ef   | diamond-miner    | 2021-10-23T12:27:41  | 2021-10-23T18:44:04  | 4:16:23             
 1slash16.json            | 7f8bd4fe   | diamond-miner    | 2021-10-24T12:28:02  | 2021-10-24T14:32:43  | 0:04:41             
 1slash16.json            | e5563865   | diamond-miner    | 2021-10-25T12:29:16  | 2021-10-25T12:33:30  | -1 day, 22:04:14    
-1slash16.json            | 624cc23f   | diamond-miner    | 2021-10-26T12:29:17  | None                 | None                
+1slash16.json            | 624cc23f   | diamond-miner    | 2021-10-26T12:29:17  | 2021-10-26T12:29:37  | 0:00:20             
 exhaustive.saturday.json | c8446e62   | diamond-miner    | 2021-10-16T01:06:36  | 2021-10-16T21:14:18  | 18:07:42            
 exhaustive.saturday.json | 36e85bee   | diamond-miner    | 2021-10-23T01:03:09  | 2021-10-23T21:54:10  | 18:51:01            
 google-dns-ping.json     | 4cb27c47   | ping             | 2021-10-12T12:29:07  | 2021-10-12T14:30:15  | 0:01:08             
@@ -32,4 +32,4 @@ google-dns-ping.json     | 02f02443   | ping             | 2021-10-22T08:21:38  
 google-dns-ping.json     | f5d3395b   | ping             | 2021-10-23T12:27:41  | 2021-10-23T18:41:23  | 4:13:42             
 google-dns-ping.json     | 0a2a9f48   | ping             | 2021-10-24T12:28:02  | None                 | None                
 google-dns-ping.json     | a6c12bb4   | ping             | 2021-10-25T12:29:16  | 2021-10-25T12:30:58  | -1 day, 22:01:42    
-google-dns-ping.json     | 3fdf001c   | ping             | 2021-10-26T12:29:17  | None                 | None                
+google-dns-ping.json     | 3fdf001c   | ping             | 2021-10-26T12:29:17  | 2021-10-26T12:29:38  | 0:00:21             
