@@ -36,4 +36,4 @@ google-dns-ping.json     | 0a2a9f48   | ping             | 2021-10-24T12:28:02  
 google-dns-ping.json     | a6c12bb4   | ping             | 2021-10-25T12:29:16  | 2021-10-25T12:30:58  | -1 day, 22:01:42    
 google-dns-ping.json     | 3fdf001c   | ping             | 2021-10-26T12:29:17  | 2021-10-26T12:29:38  | 0:00:21             
 google-dns-ping.json     | e861245a   | ping             | 2021-10-27T16:28:07  | 2021-10-27T16:28:26  | 0:00:19             
-google-dns-ping.json     | 7fd70f5c   | ping             | 2021-10-28T20:18:58  | None                 | None                
+google-dns-ping.json     | 7fd70f5c   | ping             | 2021-10-28T20:18:58  | 2021-10-28T20:19:13  | 0:00:15             
