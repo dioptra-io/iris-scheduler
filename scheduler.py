@@ -9,7 +9,7 @@ from oauthlib.oauth2 import LegacyApplicationClient
 from requests import HTTPError, Session
 from requests_oauthlib import OAuth2Session
 
-IRIS_URL = "https://iris.dioptra.io/api"
+IRIS_URL = "https://api.iris.dioptra.io"
 
 ISOWEEKDAYS = {
     "monday": 1,
