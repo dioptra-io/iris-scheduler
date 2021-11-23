@@ -83,4 +83,4 @@ google-dns-ping.json     | 2aa5a559   | ping             | 2021-11-19T01:00:36  
 google-dns-ping.json     | 36ebe6f7   | ping             | 2021-11-20T04:24:21  | 2021-11-20T05:44:41  | 1:20:20             
 google-dns-ping.json     | 78d512b4   | ping             | 2021-11-21T04:24:27  | 2021-11-21T05:49:41  | 1:25:14             
 google-dns-ping.json     | 0e6bdefa   | ping             | 2021-11-22T04:24:56  | 2021-11-22T04:26:19  | 0:01:23             
-google-dns-ping.json     | dc7ea6ac   | ping             | 2021-11-23T08:22:23  | None                 | None                
+google-dns-ping.json     | dc7ea6ac   | ping             | 2021-11-23T08:22:23  | 2021-11-23T08:23:34  | 0:01:11             
