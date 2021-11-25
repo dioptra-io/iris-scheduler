@@ -42,6 +42,7 @@ Name                     | UUID       | Tool             | Start                
 1slash16.json            | b528123f   | diamond-miner    | 2021-11-22T01:01:27  | 2021-11-22T01:06:03  | 0:04:36             
 1slash16.json            | e5d08fa2   | diamond-miner    | 2021-11-23T04:24:40  | 2021-11-23T04:29:23  | 0:04:43             
 1slash16.json            | 416aa254   | diamond-miner    | 2021-11-24T04:24:43  | 2021-11-24T04:29:21  | 0:04:38             
+1slash16.json            | 020753f4   | diamond-miner    | 2021-11-25T04:25:04  | None                 | None                
 exhaustive.saturday.json | c8446e62   | diamond-miner    | 2021-10-16T01:06:36  | 2021-10-16T21:14:18  | 18:07:42            
 exhaustive.saturday.json | 36e85bee   | diamond-miner    | 2021-10-23T01:03:09  | 2021-10-23T21:54:10  | 18:51:01            
 exhaustive.saturday.json | b30654da   | diamond-miner    | 2021-10-30T04:23:36  | 2021-10-30T04:23:56  | 0:00:20             
