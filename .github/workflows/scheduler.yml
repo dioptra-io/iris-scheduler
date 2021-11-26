@@ -20,7 +20,7 @@ jobs:
         uses: actions/cache@v2.1.6
         with:
           path: .venv/
-          key: venv-202111-${{ runner.os }}-${{ hashFiles('poetry.lock') }}
+          key: venv-202112-${{ runner.os }}-${{ hashFiles('poetry.lock') }}
       - name: Install dependencies
         if: steps.cache.outputs.cache-hit != 'true'
         run: |
