@@ -100,4 +100,4 @@ google-dns-ping.json     | 9725ad4f   | ping             | 2021-11-27T20:18:35  
 google-dns-ping.json     | a6ecb904   | ping             | 2021-11-28T20:18:41  | 2021-11-28T20:19:52  | 0:01:11             
 google-dns-ping.json     | 88cc9457   | ping             | 2021-11-30T00:11:01  | 2021-11-30T00:12:19  | 0:01:18             
 google-dns-ping.json     | 3a9393e0   | ping             | 2021-12-01T00:12:18  | 2021-12-01T00:13:29  | 0:01:11             
-google-dns-ping.json     | d330faf9   | ping             | 2021-12-02T04:04:57  | None                 | None                
+google-dns-ping.json     | d330faf9   | ping             | 2021-12-02T04:04:57  | 2021-12-02T04:06:07  | 0:01:10             
