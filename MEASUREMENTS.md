@@ -44,11 +44,11 @@ Name                     | UUID       | Tool             | Start                
 1slash16.json            | 416aa254   | diamond-miner    | 2021-11-24T04:24:43  | 2021-11-24T04:29:21  | 0:04:38             
 1slash16.json            | 020753f4   | diamond-miner    | 2021-11-25T04:25:04  | 2021-11-25T04:29:27  | 0:04:23             
 1slash16.json            | f3ddd072   | diamond-miner    | 2021-11-26T19:18:23  | 2021-11-26T19:23:00  | 0:04:37             
-1slash16.json            | 2df870ec   | diamond-miner    | 2021-11-27T20:18:35  | None                 | None                
-1slash16.json            | 4e2b1341   | diamond-miner    | 2021-11-28T20:18:41  | None                 | None                
-1slash16.json            | 09a9cd4c   | diamond-miner    | 2021-11-30T00:11:02  | None                 | None                
+1slash16.json            | 2df870ec   | diamond-miner    | 2021-11-27T20:18:35  | 2021-12-03T15:43:39  | 5 days, 19:25:04    
+1slash16.json            | 4e2b1341   | diamond-miner    | 2021-11-28T20:18:41  | 2021-12-03T15:43:45  | 4 days, 19:25:04    
+1slash16.json            | 09a9cd4c   | diamond-miner    | 2021-11-30T00:11:02  | 2021-12-03T15:44:26  | 3 days, 15:33:24    
 1slash16.json            | 1d429cd3   | diamond-miner    | 2021-12-01T00:12:18  | 2021-12-01T00:16:46  | 0:04:28             
-1slash16.json            | bbe7887c   | diamond-miner    | 2021-12-02T04:04:58  | None                 | None                
+1slash16.json            | bbe7887c   | diamond-miner    | 2021-12-02T04:04:58  | 2021-12-03T15:43:57  | 1 day, 11:38:59     
 1slash16.json            | 4a8d451a   | diamond-miner    | 2021-12-03T04:05:03  | 2021-12-03T04:10:01  | 0:04:58             
 exhaustive.saturday.json | c8446e62   | diamond-miner    | 2021-10-16T01:06:36  | 2021-10-16T21:14:18  | 18:07:42            
 exhaustive.saturday.json | 36e85bee   | diamond-miner    | 2021-10-23T01:03:09  | 2021-10-23T21:54:10  | 18:51:01            
