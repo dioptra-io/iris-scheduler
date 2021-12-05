@@ -61,6 +61,7 @@ exhaustive.saturday.json | 57f2784d   | diamond-miner    | 2021-11-27T00:58:51  
 exhaustive.saturday.json | 204197e7   | diamond-miner    | 2021-12-04T00:11:11  | 2021-12-04T18:09:39  | 17:58:28            
 exhaustive.sunday.json   | 2b427ce7   | diamond-miner    | 2021-11-21T01:02:51  | 2021-11-21T18:14:36  | 17:11:45            
 exhaustive.sunday.json   | 94eb5475   | diamond-miner    | 2021-11-28T01:01:44  | 2021-11-28T19:41:44  | 18:40:00            
+exhaustive.sunday.json   | 4c93ac87   | diamond-miner    | 2021-12-05T00:12:08  | None                 | None                
 google-dns-ping.json     | 4cb27c47   | ping             | 2021-10-12T12:29:07  | 2021-10-12T14:30:15  | 0:01:08             
 google-dns-ping.json     | 4cc2279a   | ping             | 2021-10-13T16:27:46  | 2021-10-13T18:29:35  | 0:01:49             
 google-dns-ping.json     | b100351b   | ping             | 2021-10-14T20:18:36  | 2021-10-14T22:19:47  | 0:01:11             
