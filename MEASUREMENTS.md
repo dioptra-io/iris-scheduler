@@ -70,6 +70,7 @@ exhaustive.saturday.json | 445f4bb5   | diamond-miner    | 2021-12-11T00:10:33  
 exhaustive.sunday.json   | 2b427ce7   | diamond-miner    | 2021-11-21T01:02:51  | 2021-11-21T18:14:36  | 17:11:45            
 exhaustive.sunday.json   | 94eb5475   | diamond-miner    | 2021-11-28T01:01:44  | 2021-11-28T19:41:44  | 18:40:00            
 exhaustive.sunday.json   | 4c93ac87   | diamond-miner    | 2021-12-05T00:12:08  | 2021-12-05T18:13:13  | 18:01:05            
+exhaustive.sunday.json   | 799cc941   | diamond-miner    | 2021-12-12T00:12:02  | None                 | None                
 google-dns-ping.json     | 4cb27c47   | ping             | 2021-10-12T12:29:07  | 2021-10-12T14:30:15  | 0:01:08             
 google-dns-ping.json     | 4cc2279a   | ping             | 2021-10-13T16:27:46  | 2021-10-13T18:29:35  | 0:01:49             
 google-dns-ping.json     | b100351b   | ping             | 2021-10-14T20:18:36  | 2021-10-14T22:19:47  | 0:01:11             
