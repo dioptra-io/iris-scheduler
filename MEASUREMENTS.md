@@ -64,7 +64,7 @@ Name                     | UUID       | Tool             | Start                
 1slash16.json            | ba07eb2c   | diamond-miner    | 2021-12-15T20:05:00  | 2021-12-15T20:09:43  | 0:04:43             
 1slash16.json            | eb17bd57   | diamond-miner    | 2021-12-16T20:05:06  | 2021-12-16T20:09:51  | 0:04:45             
 1slash16.json            | ed7e5112   | diamond-miner    | 2021-12-18T00:11:08  | 2021-12-18T02:45:52  | 2:34:44             
-1slash16.json            | 22ef907d   | diamond-miner    | 2021-12-19T00:12:27  | None                 | None                
+1slash16.json            | 22ef907d   | diamond-miner    | 2021-12-19T00:12:27  | 2021-12-19T02:49:53  | 2:37:26             
 exhaustive.saturday.json | c8446e62   | diamond-miner    | 2021-10-16T01:06:36  | 2021-10-16T21:14:18  | 18:07:42            
 exhaustive.saturday.json | 36e85bee   | diamond-miner    | 2021-10-23T01:03:09  | 2021-10-23T21:54:10  | 18:51:01            
 exhaustive.saturday.json | b30654da   | diamond-miner    | 2021-10-30T04:23:36  | 2021-10-30T04:23:56  | 0:00:20             
@@ -138,4 +138,4 @@ google-dns-ping.json     | ef1ff419   | ping             | 2021-12-14T16:05:04  
 google-dns-ping.json     | 9158273a   | ping             | 2021-12-15T20:05:00  | 2021-12-17T09:58:53  | 1 day, 13:53:53     
 google-dns-ping.json     | ec85a2dc   | ping             | 2021-12-16T20:05:06  | 2021-12-16T20:06:24  | 0:01:18             
 google-dns-ping.json     | 1f8015f9   | ping             | 2021-12-18T00:11:08  | None                 | None                
-google-dns-ping.json     | 067d4408   | ping             | 2021-12-19T00:12:27  | None                 | None                
+google-dns-ping.json     | 067d4408   | ping             | 2021-12-19T00:12:27  | 2021-12-19T00:54:55  | 0:42:28             
