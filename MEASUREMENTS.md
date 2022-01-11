@@ -179,7 +179,7 @@ google-dns-ping.json     | a58a2093   | ping             | 2022-01-02T00:12:35  
 google-dns-ping.json     | c9f0da18   | ping             | 2022-01-03T04:05:01  | 2022-01-03T04:06:24  | 0:01:23             
 google-dns-ping.json     | 7ae86ef8   | ping             | 2022-01-04T04:05:18  | 2022-01-04T04:06:38  | 0:01:20             
 google-dns-ping.json     | 485b32bd   | ping             | 2022-01-05T08:05:11  | 2022-01-05T08:06:34  | 0:01:23             
-google-dns-ping.json     | 49262be5   | ping             | 2022-01-06T08:05:21  | None                 | None                
+google-dns-ping.json     | 49262be5   | ping             | 2022-01-06T08:05:21  | 2022-01-11T10:06:29  | 5 days, 2:01:08     
 google-dns-ping.json     | 22c679cc   | ping             | 2022-01-07T12:05:34  | 2022-01-07T12:07:09  | 0:01:35             
 google-dns-ping.json     | fc796364   | ping             | 2022-01-08T12:05:36  | 2022-01-08T15:55:13  | 3:49:37             
 google-dns-ping.json     | d0aeac6a   | ping             | 2022-01-09T12:07:24  | 2022-01-09T12:09:17  | 0:01:53             
