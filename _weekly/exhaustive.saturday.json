@@ -12,5 +12,6 @@
       }
     }
   ],
+  "tags": ["!public", "collection:exhaustive"],
   "tool": "diamond-miner"
 }
