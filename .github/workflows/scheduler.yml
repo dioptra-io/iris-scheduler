@@ -9,20 +9,13 @@ on:
 jobs:
   main:
     runs-on: self-hosted
-    timeout-minutes: 2
+    timeout-minutes: 5
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
         with:
           python-version: '3.9'
-      - name: Cache
-        id: cache
-        uses: actions/cache@v2.1.7
-        with:
-          path: .venv/
-          key: venv-202112-${{ runner.os }}-${{ hashFiles('poetry.lock') }}
       - name: Install dependencies
-        if: steps.cache.outputs.cache-hit != 'true'
         run: |
           pip install poetry
           poetry config virtualenvs.in-project true
