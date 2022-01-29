@@ -14,7 +14,7 @@ Name                     | UUID       | Tool             | State                
 1slash16.json            | a1e00506   | diamond-miner    | finished             | 2022-01-27T20:31:54.158168 | 2022-01-27T20:31:54.391318 | 2022-01-27T20:33:49.650765 | 0:01:55.259447      
 1slash16.json            | 404eb547   | diamond-miner    | finished             | 2022-01-28T20:31:58.021361 | 2022-01-28T20:31:58.529589 | 2022-01-28T20:34:06.105945 | 0:02:07.576356      
 exhaustive.saturday.json | 4e007a28   | diamond-miner    | finished             | 2022-01-22T00:03:08.050808 | 2022-01-22T00:03:08.347950 | 2022-01-22T23:20:01.670642 | 23:16:53.322692     
-exhaustive.saturday.json | 0c25fc02   | diamond-miner    | created              | 2022-01-29T00:02:57.454345 | None                 | None                 | None                
+exhaustive.saturday.json | 0c25fc02   | diamond-miner    | ongoing              | 2022-01-29T00:02:57.454345 | 2022-01-29T00:02:57.775533 | None                 | None                
 google-dns-ping.json     | 665909aa   | ping             | canceled             | 2022-01-18T16:03:47.329355 | 2022-01-18T16:03:50.626659 | 2022-01-18T16:21:19.050574 | 0:17:28.423915      
 google-dns-ping.json     | 9af8c7d4   | ping             | finished             | 2022-01-20T19:31:29.642013 | 2022-01-20T19:31:29.866647 | 2022-01-20T19:31:44.417927 | 0:00:14.551280      
 google-dns-ping.json     | 69ffb6eb   | ping             | finished             | 2022-01-21T19:31:30.845170 | 2022-01-21T19:31:31.178996 | 2022-01-21T19:31:45.677518 | 0:00:14.498522      
