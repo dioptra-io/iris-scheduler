@@ -6,8 +6,8 @@ authors = ["Maxime Mouchet <max@maxmouchet.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.8"
-dioptra-iris-client = "^0.3.0"
+python = "^3.10"
+dioptra-iris-client = "^0.4.0"
 
 [tool.poetry.dev-dependencies]
 

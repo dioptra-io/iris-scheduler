@@ -2,7 +2,6 @@ import json
 import logging
 from datetime import datetime, timedelta
 from pathlib import Path
-from typing import Optional
 
 from iris_client import IrisClient
 
@@ -16,23 +15,25 @@ ISOWEEKDAYS = {
     "sunday": 7,
 }
 
+SCHEDULER_TAG = "scheduled"
 
-def creation_time(measurement: dict) -> Optional[datetime]:
+
+def creation_time(measurement: dict) -> datetime | None:
     if s := measurement["creation_time"]:
         return datetime.fromisoformat(s).replace(microsecond=0)
 
 
-def start_time(measurement: dict) -> Optional[datetime]:
+def start_time(measurement: dict) -> datetime | None:
     if s := measurement["start_time"]:
         return datetime.fromisoformat(s).replace(microsecond=0)
 
 
-def end_time(measurement: dict) -> Optional[datetime]:
+def end_time(measurement: dict) -> datetime | None:
     if s := measurement["end_time"]:
         return datetime.fromisoformat(s).replace(microsecond=0)
 
 
-def duration(measurement: dict) -> Optional[timedelta]:
+def duration(measurement: dict) -> timedelta | None:
     st, et = start_time(measurement), end_time(measurement)
     if st and et:
         return et - st
@@ -103,7 +104,7 @@ def schedule_measurements(client: IrisClient) -> None:
             measurement = json.loads(file.read_text())
             measurement.setdefault("tags", [])
             measurement["tags"].append(file.name)
-            measurement["tags"].append("scheduled")
+            measurement["tags"].append(SCHEDULER_TAG)
 
             measurements = client.all("/measurements/", params=dict(tag=file.name))
             if measurements:
@@ -126,7 +127,7 @@ def upload_target_lists(client: IrisClient) -> None:
 
 
 def index_measurements(client: IrisClient, destination: Path) -> None:
-    measurements = client.all("/measurements/", params=dict(tag="scheduled"))
+    measurements = client.all("/measurements/", params=dict(tag=SCHEDULER_TAG))
     destination.write_text(generate_md(measurements))
 
 
