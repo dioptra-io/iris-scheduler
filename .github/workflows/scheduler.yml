@@ -23,6 +23,7 @@ jobs:
       - name: Run scheduler
         run: .venv/bin/python3 scheduler.py
         env:
+          IRIS_BASE_URL: ${{ secrets.IRIS_BASE_URL }}
           IRIS_USERNAME: ${{ secrets.IRIS_USERNAME }}
           IRIS_PASSWORD: ${{ secrets.IRIS_PASSWORD }}
       - uses: stefanzweifel/git-auto-commit-action@v4

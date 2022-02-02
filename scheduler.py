@@ -1,15 +1,10 @@
 import json
 import logging
-import os
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Optional
 
-from oauthlib.oauth2 import LegacyApplicationClient
-from requests import HTTPError, Session
-from requests_oauthlib import OAuth2Session
-
-IRIS_URL = "https://api.iris.dioptra.io"
+from iris_client import IrisClient
 
 ISOWEEKDAYS = {
     "monday": 1,
@@ -22,15 +17,6 @@ ISOWEEKDAYS = {
 }
 
 
-def request(session, method, path, **kwargs):
-    req = session.request(method, IRIS_URL + path, timeout=5, **kwargs)
-    try:
-        req.raise_for_status()
-    except HTTPError as e:
-        raise RuntimeError(req.text) from e
-    return req.json()
-
-
 def creation_time(measurement: dict) -> datetime:
     return datetime.fromisoformat(measurement["creation_time"])
 
@@ -40,11 +26,7 @@ def start_time(measurement: dict) -> datetime:
 
 
 def end_time(measurement: dict) -> datetime:
-    d = datetime.fromisoformat(measurement["end_time"])
-    # https://github.com/dioptra-io/iris/commit/a60551b6e5405396a935bbf1ff69ac6cf3082da1
-    if d < datetime(2021, 10, 26):
-        d -= timedelta(hours=2)
-    return d
+    return datetime.fromisoformat(measurement["end_time"])
 
 
 def duration(measurement: dict) -> Optional[timedelta]:
@@ -104,10 +86,10 @@ def should_schedule(freq, last_measurement, meta):
     return False
 
 
-def schedule_measurements(session: Session) -> None:
+def schedule_measurements(client: IrisClient) -> None:
     for freq in ("oneshot", "hourly", "daily", "weekly"):
         for file in Path(f"_{freq}").glob("*.json"):
-            logging.info(f"Processing {file}...")
+            logging.info("Processing %s...", file)
 
             # Extract the optional meta component:
             # measurement.saturday.json => saturday
@@ -120,47 +102,37 @@ def schedule_measurements(session: Session) -> None:
             measurement["tags"].append(file.name)
             measurement["tags"].append("scheduled")
 
-            res = request(
-                session,
-                "GET",
-                "/measurements/",
-                params={"limit": 200, "tag": file.name},
-            )
+            measurements = client.all("/measurements/", params=dict(tag=file.name))
+            if measurements:
+                last = sorted(measurements, key=creation_time)[-1]
+            else:
+                last = None
 
-            last = None
-            if res["count"] > 0:
-                last = sorted(res["results"], key=creation_time)[-1]
             if should_schedule(freq, last, meta):
                 logging.info("Scheduling measurement...")
-                request(session, "POST", "/measurements/", json=measurement)
+                client.post("/measurements/", json=measurement)
             else:
                 logging.info("Skipping measurement...")
 
 
-def upload_target_lists(session: Session) -> None:
+def upload_target_lists(client: IrisClient) -> None:
     for file in Path("targets").glob("*.csv"):
-        logging.info(f"Uploading {file}...")
+        logging.info("Uploading %s...", file)
         with file.open("rb") as f:
-            request(session, "POST", "/targets/", files={"target_file": f})
+            client.post("/targets/", files=dict(target_file=f))
+
+
+def index_measurements(client: IrisClient, destination: Path) -> None:
+    measurements = client.all("/measurements/", params=dict(tag="scheduled"))
+    destination.write_text(generate_md(measurements))
 
 
 def main():
     logging.basicConfig(level=logging.INFO)
-    session = OAuth2Session(client=LegacyApplicationClient(client_id="iris-scheduler"))
-    session.fetch_token(
-        f"{IRIS_URL}/auth/jwt/login",
-        username=os.environ["IRIS_USERNAME"],
-        password=os.environ["IRIS_PASSWORD"],
-    )
-    upload_target_lists(session)
-    schedule_measurements(session)
-    res = request(
-        session,
-        "GET",
-        "/measurements/",
-        params={"limit": 200, "tag": "scheduled"},
-    )
-    Path("MEASUREMENTS.md").write_text(generate_md(res["results"]))
+    with IrisClient() as client:
+        upload_target_lists(client)
+        schedule_measurements(client)
+        index_measurements(client, Path("MEASUREMENTS.md"))
 
 
 if __name__ == "__main__":
