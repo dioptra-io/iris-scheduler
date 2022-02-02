@@ -17,29 +17,32 @@ ISOWEEKDAYS = {
 }
 
 
-def creation_time(measurement: dict) -> datetime:
-    return datetime.fromisoformat(measurement["creation_time"])
+def creation_time(measurement: dict) -> Optional[datetime]:
+    if s := measurement["creation_time"]:
+        return datetime.fromisoformat(s).replace(microsecond=0)
 
 
-def start_time(measurement: dict) -> datetime:
-    return datetime.fromisoformat(measurement["start_time"])
+def start_time(measurement: dict) -> Optional[datetime]:
+    if s := measurement["start_time"]:
+        return datetime.fromisoformat(s).replace(microsecond=0)
 
 
-def end_time(measurement: dict) -> datetime:
-    return datetime.fromisoformat(measurement["end_time"])
+def end_time(measurement: dict) -> Optional[datetime]:
+    if s := measurement["end_time"]:
+        return datetime.fromisoformat(s).replace(microsecond=0)
 
 
 def duration(measurement: dict) -> Optional[timedelta]:
-    if measurement.get("start_time") and measurement.get("end_time"):
-        return end_time(measurement) - start_time(measurement)
-    return None
+    st, et = start_time(measurement), end_time(measurement)
+    if st and et:
+        return et - st
 
 
 def measurement_name(measurement: dict) -> str:
     name = "Unknown"
     for tag in measurement["tags"]:
         if tag.endswith(".json"):
-            name = tag
+            name = tag[:-5]
             break
     return name
 
@@ -61,9 +64,9 @@ def generate_md(measurements):
             measurement["uuid"].split("-")[0],
             str(measurement.get("tool")),
             str(measurement.get("state")),
-            str(measurement.get("creation_time")),
-            str(measurement.get("start_time")),
-            str(measurement.get("end_time")),
+            str(creation_time(measurement)),
+            str(start_time(measurement)),
+            str(end_time(measurement)),
             str(duration(measurement)),
         )
     return md
