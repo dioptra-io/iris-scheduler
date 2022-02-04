@@ -19,7 +19,7 @@ Name                     | UUID       | Tool             | State                
 1slash16                 | 5f5cd3b4   | diamond-miner    | finished             | 2022-02-01 21:01:47  | 2022-02-01 21:01:48  | 2022-02-01 21:03:59  | 0:02:11             
 1slash16                 | 03cdcbdd   | diamond-miner    | finished             | 2022-02-02 21:01:50  | 2022-02-02 21:01:50  | 2022-02-02 21:04:04  | 0:02:14             
 1slash16                 | a93f86c0   | diamond-miner    | finished             | 2022-02-03 21:19:07  | 2022-02-03 21:19:07  | 2022-02-03 21:21:22  | 0:02:15             
-1slash16                 | cac67018   | diamond-miner    | ongoing              | 2022-02-04 21:31:21  | 2022-02-04 21:31:22  | None                 | None                
+1slash16                 | cac67018   | diamond-miner    | finished             | 2022-02-04 21:31:21  | 2022-02-04 21:31:22  | 2022-02-04 21:33:29  | 0:02:07             
 exhaustive.saturday      | 4e007a28   | diamond-miner    | finished             | 2022-01-22 00:03:08  | 2022-01-22 00:03:08  | 2022-01-22 23:20:01  | 23:16:53            
 exhaustive.saturday      | 0c25fc02   | diamond-miner    | canceled             | 2022-01-29 00:02:57  | 2022-01-29 00:02:57  | 2022-01-30 20:17:41  | 1 day, 20:14:44     
 google-dns-ping          | 665909aa   | ping             | canceled             | 2022-01-18 16:03:47  | 2022-01-18 16:03:50  | 2022-01-18 16:21:19  | 0:17:29             
@@ -38,4 +38,4 @@ google-dns-ping          | 6018b666   | ping             | finished             
 google-dns-ping          | d14c49d0   | ping             | finished             | 2022-02-01 21:01:48  | 2022-02-01 21:01:48  | 2022-02-01 21:02:02  | 0:00:14             
 google-dns-ping          | 214ee1fa   | ping             | finished             | 2022-02-02 21:01:50  | 2022-02-02 21:01:51  | 2022-02-02 21:02:06  | 0:00:15             
 google-dns-ping          | 3ff49492   | ping             | finished             | 2022-02-03 21:19:07  | 2022-02-03 21:19:07  | 2022-02-03 21:19:18  | 0:00:11             
-google-dns-ping          | f78048ee   | ping             | created              | 2022-02-04 21:31:22  | None                 | None                 | None                
+google-dns-ping          | f78048ee   | ping             | finished             | 2022-02-04 21:31:22  | 2022-02-04 21:31:22  | 2022-02-04 21:31:37  | 0:00:15             
