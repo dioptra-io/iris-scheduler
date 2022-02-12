@@ -54,4 +54,4 @@ google-dns-ping          | 5ce9b508   | ping             | finished             
 google-dns-ping          | 7c1458ca   | ping             | finished             | 2022-02-08 22:20:17  | 2022-02-08 22:20:17  | 2022-02-08 22:20:27  | 0:00:10             
 google-dns-ping          | f8cdab19   | ping             | finished             | 2022-02-09 22:32:19  | 2022-02-09 22:32:19  | 2022-02-09 22:32:35  | 0:00:16             
 google-dns-ping          | cdb237d4   | ping             | finished             | 2022-02-10 22:46:22  | 2022-02-10 22:46:23  | 2022-02-11 03:35:39  | 4:49:16             
-google-dns-ping          | bab5b605   | ping             | ongoing              | 2022-02-11 23:01:37  | 2022-02-11 23:01:37  | None                 | None                
+google-dns-ping          | bab5b605   | ping             | finished             | 2022-02-11 23:01:37  | 2022-02-11 23:01:37  | 2022-02-12 02:14:00  | 3:12:23             
