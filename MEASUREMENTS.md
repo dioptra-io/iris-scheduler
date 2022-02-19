@@ -34,6 +34,7 @@ Name                     | UUID       | Tool             | State                
 1slash16                 | 848577fa   | diamond-miner    | finished             | 2022-02-16 23:20:37  | 2022-02-16 23:20:38  | 2022-02-16 23:22:44  | 0:02:06             
 1slash16                 | c836db36   | diamond-miner    | finished             | 2022-02-17 23:31:42  | 2022-02-17 23:31:43  | 2022-02-17 23:33:55  | 0:02:12             
 1slash16                 | e3ab21f6   | diamond-miner    | finished             | 2022-02-18 23:31:51  | 2022-02-18 23:31:51  | 2022-02-18 23:34:01  | 0:02:10             
+1slash16                 | 2ed6340d   | diamond-miner    | ongoing              | 2022-02-19 23:32:02  | 2022-02-19 23:32:02  | None                 | None                
 exhaustive.saturday      | 4e007a28   | diamond-miner    | finished             | 2022-01-22 00:03:08  | 2022-01-22 00:03:08  | 2022-01-22 23:20:01  | 23:16:53            
 exhaustive.saturday      | 0c25fc02   | diamond-miner    | canceled             | 2022-01-29 00:02:57  | 2022-01-29 00:02:57  | 2022-01-30 20:17:41  | 1 day, 20:14:44     
 exhaustive.saturday      | 6fe900ae   | diamond-miner    | finished             | 2022-02-05 00:03:16  | 2022-02-05 00:03:17  | 2022-02-05 23:24:56  | 23:21:39            
@@ -70,3 +71,4 @@ google-dns-ping          | 6c74eb3e   | ping             | finished             
 google-dns-ping          | 5bcab614   | ping             | finished             | 2022-02-16 23:20:38  | 2022-02-16 23:20:38  | 2022-02-16 23:20:53  | 0:00:15             
 google-dns-ping          | 6ccacee8   | ping             | finished             | 2022-02-17 23:31:43  | 2022-02-17 23:31:43  | 2022-02-17 23:31:58  | 0:00:15             
 google-dns-ping          | c5916cb2   | ping             | finished             | 2022-02-18 23:31:51  | 2022-02-18 23:31:51  | 2022-02-18 23:32:06  | 0:00:15             
+google-dns-ping          | f8f9b204   | ping             | ongoing              | 2022-02-19 23:32:03  | 2022-02-19 23:32:03  | None                 | None                
