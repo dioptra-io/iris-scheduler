@@ -41,7 +41,6 @@ Name                     | UUID       | Tool             | State                
 exhaustive.saturday      | 4e007a28   | diamond-miner    | finished             | 2022-01-22 00:03:08  | 2022-01-22 00:03:08  | 2022-01-22 23:20:01  | 23:16:53            
 exhaustive.saturday      | 0c25fc02   | diamond-miner    | canceled             | 2022-01-29 00:02:57  | 2022-01-29 00:02:57  | 2022-01-30 20:17:41  | 1 day, 20:14:44     
 exhaustive.saturday      | 6fe900ae   | diamond-miner    | finished             | 2022-02-05 00:03:16  | 2022-02-05 00:03:17  | 2022-02-05 23:24:56  | 23:21:39            
-exhaustive.saturday      | 99e3835b   | diamond-miner    | finished             | 2022-02-12 00:03:31  | 2022-02-12 00:03:31  | 2022-02-13 00:48:26  | 1 day, 0:44:55      
 exhaustive.saturday      | 01c878ab   | diamond-miner    | finished             | 2022-02-19 00:04:08  | 2022-02-19 00:04:08  | 2022-02-19 21:39:57  | 21:35:49            
 google-dns-ping          | 665909aa   | ping             | canceled             | 2022-01-18 16:03:47  | 2022-01-18 16:03:50  | 2022-01-18 16:21:19  | 0:17:29             
 google-dns-ping          | 9af8c7d4   | ping             | finished             | 2022-01-20 19:31:29  | 2022-01-20 19:31:29  | 2022-01-20 19:31:44  | 0:00:15             
@@ -78,3 +77,4 @@ google-dns-ping          | f8f9b204   | ping             | finished             
 google-dns-ping          | 61197cd8   | ping             | finished             | 2022-02-20 23:46:14  | 2022-02-20 23:46:14  | 2022-02-20 23:46:30  | 0:00:16             
 google-dns-ping          | 4223f977   | ping             | finished             | 2022-02-21 23:46:18  | 2022-02-21 23:46:19  | 2022-02-21 23:46:27  | 0:00:08             
 google-dns-ping          | fc45261f   | ping             | finished             | 2022-02-22 23:46:23  | 2022-02-22 23:46:23  | 2022-02-22 23:46:38  | 0:00:15             
+invalid:exhaustive.saturday | 99e3835b   | diamond-miner    | finished             | 2022-02-12 00:03:31  | 2022-02-12 00:03:31  | 2022-02-13 00:48:26  | 1 day, 0:44:55      
