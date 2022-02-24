@@ -80,3 +80,4 @@ google-dns-ping          | 4223f977   | ping             | finished             
 google-dns-ping          | fc45261f   | ping             | finished             | 2022-02-22 23:46:23  | 2022-02-22 23:46:23  | 2022-02-22 23:46:38  | 0:00:15             
 google-dns-ping          | 5fecc7b1   | ping             | finished             | 2022-02-24 00:04:26  | 2022-02-24 00:04:27  | 2022-02-24 00:04:37  | 0:00:10             
 invalid:exhaustive.saturday | 99e3835b   | diamond-miner    | finished             | 2022-02-12 00:03:31  | 2022-02-12 00:03:31  | 2022-02-13 00:48:26  | 1 day, 0:44:55      
+ukraine-conflict-2022    | 9b0babcf   | yarrp            | ongoing              | 2022-02-24 14:01:29  | 2022-02-24 14:01:30  | None                 | None                
