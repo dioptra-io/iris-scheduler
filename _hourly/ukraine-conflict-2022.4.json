@@ -23,5 +23,6 @@
       "probing_rate": 2500
     }
   ],
-  "tool": "yarrp"
+  "tool": "yarrp",
+  "tags": ["!public"]
 }
