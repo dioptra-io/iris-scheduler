@@ -1,0 +1,27 @@
+{
+  "agents": [
+    {
+      "tag": "lip6",
+      "target_file": "rib.20220224.1200.firstslash24.csv",
+      "tool_parameters": {
+        "flow_mapper": "RandomFlowMapper",
+        "flow_mapper_kwargs": {
+          "seed": 2022
+        }
+      },
+      "probing_rate": 5000
+    },
+    {
+      "tag": "ukraine",
+      "target_file": "rib.20220224.1200.firstslash24.csv",
+      "tool_parameters": {
+        "flow_mapper": "RandomFlowMapper",
+        "flow_mapper_kwargs": {
+          "seed": 2022
+        }
+      },
+      "probing_rate": 5000
+    }
+  ],
+  "tool": "yarrp"
+}
