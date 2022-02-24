@@ -9,7 +9,7 @@
           "seed": 2022
         }
       },
-      "probing_rate": 5000
+      "probing_rate": 2500
     },
     {
       "tag": "ukraine",
@@ -20,7 +20,7 @@
           "seed": 2022
         }
       },
-      "probing_rate": 5000
+      "probing_rate": 2500
     }
   ],
   "tool": "yarrp"

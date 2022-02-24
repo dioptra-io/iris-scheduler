@@ -77,8 +77,12 @@ def should_schedule(freq, last_measurement, meta):
     diff = None
     if last_measurement:
         diff = datetime.now() - start_time(last_measurement)
+    logging.info("freq=%s diff=%s meta=%s", freq, diff, meta)
     if freq == "hourly":
-        if not last_measurement or diff >= timedelta(hours=1):
+        delta = 1
+        if meta:
+            delta = int(meta)
+        if not last_measurement or diff >= timedelta(hours=delta):
             return True
     if freq == "daily":
         if not last_measurement or diff >= timedelta(days=1):
