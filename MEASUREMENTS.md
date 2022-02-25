@@ -80,7 +80,7 @@ google-dns-ping          | 61197cd8   | ping             | finished             
 google-dns-ping          | 4223f977   | ping             | finished             | 2022-02-21 23:46:18  | 2022-02-21 23:46:19  | 2022-02-21 23:46:27  | 0:00:08             
 google-dns-ping          | fc45261f   | ping             | finished             | 2022-02-22 23:46:23  | 2022-02-22 23:46:23  | 2022-02-22 23:46:38  | 0:00:15             
 google-dns-ping          | 5fecc7b1   | ping             | finished             | 2022-02-24 00:04:26  | 2022-02-24 00:04:27  | 2022-02-24 00:04:37  | 0:00:10             
-google-dns-ping          | 2ef7806e   | ping             | ongoing              | 2022-02-25 00:04:39  | 2022-02-25 00:04:39  | None                 | None                
+google-dns-ping          | 2ef7806e   | ping             | finished             | 2022-02-25 00:04:39  | 2022-02-25 00:04:39  | 2022-02-25 00:04:54  | 0:00:15             
 invalid:exhaustive.saturday | 99e3835b   | diamond-miner    | finished             | 2022-02-12 00:03:31  | 2022-02-12 00:03:31  | 2022-02-13 00:48:26  | 1 day, 0:44:55      
 ukraine-conflict-2022    | ad56656a   | yarrp            | canceled             | 2022-02-24 15:02:25  | 2022-02-24 15:02:26  | 2022-02-24 15:23:21  | 0:20:55             
 ukraine-conflict-2022.4  | 9b0babcf   | yarrp            | finished             | 2022-02-24 14:01:29  | 2022-02-24 14:01:30  | 2022-02-24 15:23:54  | 1:22:24             
