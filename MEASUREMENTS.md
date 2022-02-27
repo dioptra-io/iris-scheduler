@@ -85,7 +85,7 @@ google-dns-ping          | fc45261f   | ping             | finished             
 google-dns-ping          | 5fecc7b1   | ping             | finished             | 2022-02-24 00:04:26  | 2022-02-24 00:04:27  | 2022-02-24 00:04:37  | 0:00:10             
 google-dns-ping          | 2ef7806e   | ping             | finished             | 2022-02-25 00:04:39  | 2022-02-25 00:04:39  | 2022-02-25 00:04:54  | 0:00:15             
 google-dns-ping          | d4f2d813   | ping             | finished             | 2022-02-26 00:24:10  | 2022-02-26 00:24:10  | 2022-02-26 01:09:12  | 0:45:02             
-google-dns-ping          | 11bd363e   | ping             | ongoing              | 2022-02-27 00:24:34  | 2022-02-27 00:24:34  | None                 | None                
+google-dns-ping          | 11bd363e   | ping             | finished             | 2022-02-27 00:24:34  | 2022-02-27 00:24:34  | 2022-02-27 00:38:58  | 0:14:24             
 invalid:exhaustive.saturday | 99e3835b   | diamond-miner    | finished             | 2022-02-12 00:03:31  | 2022-02-12 00:03:31  | 2022-02-13 00:48:26  | 1 day, 0:44:55      
 ukraine-conflict-2022    | ad56656a   | yarrp            | canceled             | 2022-02-24 15:02:25  | 2022-02-24 15:02:26  | 2022-02-24 15:23:21  | 0:20:55             
 ukraine-conflict-2022.4  | 9b0babcf   | yarrp            | finished             | 2022-02-24 14:01:29  | 2022-02-24 14:01:30  | 2022-02-24 15:23:54  | 1:22:24             
@@ -99,7 +99,7 @@ ukraine-conflict-2022.4  | 5025cf5a   | yarrp            | finished             
 ukraine-conflict-2022.4  | 79f20fe4   | yarrp            | finished             | 2022-02-25 20:46:52  | 2022-02-25 20:46:53  | 2022-02-25 23:01:53  | 2:15:00             
 ukraine-conflict-2022.4  | 60d65bd7   | yarrp            | finished             | 2022-02-26 01:12:57  | 2022-02-26 01:12:58  | 2022-02-26 05:25:08  | 4:12:10             
 ukraine-conflict-2022.4  | 40270c22   | yarrp            | finished             | 2022-02-26 05:20:07  | 2022-02-26 05:20:08  | 2022-02-26 21:01:27  | 15:41:19            
-ukraine-conflict-2022.4  | f8dd6a58   | yarrp            | ongoing              | 2022-02-26 09:20:39  | 2022-02-26 09:20:40  | None                 | None                
-ukraine-conflict-2022.4  | 673d3429   | yarrp            | ongoing              | 2022-02-26 13:21:12  | 2022-02-26 13:21:13  | None                 | None                
+ukraine-conflict-2022.4  | f8dd6a58   | yarrp            | finished             | 2022-02-26 09:20:39  | 2022-02-26 09:20:40  | 2022-02-27 00:39:00  | 15:18:20            
+ukraine-conflict-2022.4  | 673d3429   | yarrp            | finished             | 2022-02-26 13:21:12  | 2022-02-26 13:21:13  | 2022-02-27 00:38:14  | 11:17:01            
 ukraine-conflict-2022.4  | 1870cf5c   | yarrp            | ongoing              | 2022-02-26 17:32:07  | 2022-02-26 17:32:09  | None                 | None                
 ukraine-conflict-2022.4  | 8c89fc31   | yarrp            | ongoing              | 2022-02-26 21:46:52  | 2022-02-26 21:46:53  | None                 | None                
