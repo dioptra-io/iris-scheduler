@@ -43,7 +43,7 @@ Name                     | UUID       | Tool             | State                
 1slash16                 | 01a6b009   | diamond-miner    | finished             | 2022-02-26 00:24:09  | 2022-02-26 00:24:09  | 2022-02-26 01:11:18  | 0:47:09             
 1slash16                 | 28e9901e   | diamond-miner    | finished             | 2022-02-27 00:24:34  | 2022-02-27 00:24:34  | 2022-02-27 02:52:20  | 2:27:46             
 1slash16                 | 821d9f56   | diamond-miner    | finished             | 2022-02-28 00:45:27  | 2022-02-28 00:45:27  | 2022-02-28 01:01:44  | 0:16:17             
-1slash16                 | dab657ad   | diamond-miner    | ongoing              | 2022-03-01 00:47:54  | 2022-03-01 00:47:54  | None                 | None                
+1slash16                 | dab657ad   | diamond-miner    | finished             | 2022-03-01 00:47:54  | 2022-03-01 00:47:54  | 2022-03-01 02:02:52  | 1:14:58             
 exhaustive.saturday      | 4e007a28   | diamond-miner    | finished             | 2022-01-22 00:03:08  | 2022-01-22 00:03:08  | 2022-01-22 23:20:01  | 23:16:53            
 exhaustive.saturday      | 0c25fc02   | diamond-miner    | canceled             | 2022-01-29 00:02:57  | 2022-01-29 00:02:57  | 2022-01-30 20:17:41  | 1 day, 20:14:44     
 exhaustive.saturday      | 6fe900ae   | diamond-miner    | finished             | 2022-02-05 00:03:16  | 2022-02-05 00:03:17  | 2022-02-05 23:24:56  | 23:21:39            
@@ -118,4 +118,4 @@ ukraine-conflict-2022.4  | 32f999a2   | yarrp            | finished             
 ukraine-conflict-2022.4  | 577d2e56   | yarrp            | finished             | 2022-02-28 11:46:50  | 2022-02-28 11:46:51  | 2022-02-28 14:01:25  | 2:14:34             
 ukraine-conflict-2022.4  | 4b9f2dc6   | yarrp            | finished             | 2022-02-28 15:47:32  | 2022-02-28 15:47:33  | 2022-02-28 18:02:22  | 2:14:49             
 ukraine-conflict-2022.4  | e87acc36   | yarrp            | finished             | 2022-02-28 20:02:40  | 2022-02-28 20:02:41  | 2022-02-28 22:17:34  | 2:14:53             
-ukraine-conflict-2022.4  | ea98f443   | yarrp            | ongoing              | 2022-03-01 00:05:16  | 2022-03-01 00:05:17  | None                 | None                
+ukraine-conflict-2022.4  | ea98f443   | yarrp            | finished             | 2022-03-01 00:05:16  | 2022-03-01 00:05:17  | 2022-03-01 02:20:03  | 2:14:46             
