@@ -52,6 +52,7 @@ Name                     | UUID       | Tool             | State                
 1slash16                 | 5fe67337   | diamond-miner    | finished             | 2022-03-07 10:02:06  | 2022-03-07 10:02:06  | 2022-03-07 10:45:33  | 0:43:27             
 1slash16                 | b1f3f9eb   | diamond-miner    | finished             | 2022-03-08 10:21:30  | 2022-03-08 10:21:31  | 2022-03-08 10:26:39  | 0:05:08             
 1slash16                 | 28f0db72   | diamond-miner    | finished             | 2022-03-09 10:34:19  | 2022-03-09 10:34:19  | 2022-03-09 10:36:37  | 0:02:18             
+1slash16                 | c6ec72d3   | diamond-miner    | ongoing              | 2022-03-10 10:34:26  | 2022-03-10 10:34:27  | None                 | None                
 exhaustive.saturday      | 4e007a28   | diamond-miner    | finished             | 2022-01-22 00:03:08  | 2022-01-22 00:03:08  | 2022-01-22 23:20:01  | 23:16:53            
 exhaustive.saturday      | 0c25fc02   | diamond-miner    | canceled             | 2022-01-29 00:02:57  | 2022-01-29 00:02:57  | 2022-01-30 20:17:41  | 1 day, 20:14:44     
 exhaustive.saturday      | 6fe900ae   | diamond-miner    | finished             | 2022-02-05 00:03:16  | 2022-02-05 00:03:17  | 2022-02-05 23:24:56  | 23:21:39            
@@ -107,6 +108,7 @@ google-dns-ping          | b62251dd   | ping             | finished             
 google-dns-ping          | 7dbf45a5   | ping             | finished             | 2022-03-07 10:02:07  | 2022-03-07 10:02:07  | 2022-03-07 10:21:10  | 0:19:03             
 google-dns-ping          | 54031b10   | ping             | finished             | 2022-03-08 10:21:31  | 2022-03-08 10:21:31  | 2022-03-08 10:21:43  | 0:00:12             
 google-dns-ping          | 1bc04ad5   | ping             | finished             | 2022-03-09 10:34:19  | 2022-03-09 10:34:19  | 2022-03-09 10:34:36  | 0:00:17             
+google-dns-ping          | 3211058f   | ping             | created              | 2022-03-10 10:34:27  | None                 | None                 | None                
 invalid:exhaustive.saturday | 99e3835b   | diamond-miner    | finished             | 2022-02-12 00:03:31  | 2022-02-12 00:03:31  | 2022-02-13 00:48:26  | 1 day, 0:44:55      
 ukraine-conflict-2022    | ad56656a   | yarrp            | canceled             | 2022-02-24 15:02:25  | 2022-02-24 15:02:26  | 2022-02-24 15:23:21  | 0:20:55             
 ukraine-conflict-2022.4  | 9b0babcf   | yarrp            | finished             | 2022-02-24 14:01:29  | 2022-02-24 14:01:30  | 2022-02-24 15:23:54  | 1:22:24             
