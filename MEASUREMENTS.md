@@ -110,7 +110,7 @@ google-dns-ping          | 7dbf45a5   | ping             | finished             
 google-dns-ping          | 54031b10   | ping             | finished             | 2022-03-08 10:21:31  | 2022-03-08 10:21:31  | 2022-03-08 10:21:43  | 0:00:12             
 google-dns-ping          | 1bc04ad5   | ping             | finished             | 2022-03-09 10:34:19  | 2022-03-09 10:34:19  | 2022-03-09 10:34:36  | 0:00:17             
 google-dns-ping          | 3211058f   | ping             | finished             | 2022-03-10 10:34:27  | 2022-03-10 10:34:27  | 2022-03-10 10:34:43  | 0:00:16             
-google-dns-ping          | e5b34166   | ping             | created              | 2022-03-11 10:34:34  | None                 | None                 | None                
+google-dns-ping          | e5b34166   | ping             | finished             | 2022-03-11 10:34:34  | 2022-03-11 10:34:34  | 2022-03-11 10:36:03  | 0:01:29             
 invalid:exhaustive.saturday | 99e3835b   | diamond-miner    | finished             | 2022-02-12 00:03:31  | 2022-02-12 00:03:31  | 2022-02-13 00:48:26  | 1 day, 0:44:55      
 ukraine-conflict-2022    | ad56656a   | yarrp            | canceled             | 2022-02-24 15:02:25  | 2022-02-24 15:02:26  | 2022-02-24 15:23:21  | 0:20:55             
 ukraine-conflict-2022.4  | 9b0babcf   | yarrp            | finished             | 2022-02-24 14:01:29  | 2022-02-24 14:01:30  | 2022-02-24 15:23:54  | 1:22:24             
