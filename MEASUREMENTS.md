@@ -60,6 +60,7 @@ exhaustive.saturday      | 6fe900ae   | diamond-miner    | finished             
 exhaustive.saturday      | 01c878ab   | diamond-miner    | finished             | 2022-02-19 00:04:08  | 2022-02-19 00:04:08  | 2022-02-19 21:39:57  | 21:35:49            
 exhaustive.saturday      | 7e5bb1f9   | diamond-miner    | finished             | 2022-02-26 00:04:32  | 2022-02-26 00:04:33  | 2022-02-27 02:08:10  | 1 day, 2:03:37      
 exhaustive.saturday      | ba61e623   | diamond-miner    | finished             | 2022-03-05 00:04:24  | 2022-03-05 00:04:25  | 2022-03-06 05:50:03  | 1 day, 5:45:38      
+exhaustive.saturday      | 7d0a8680   | diamond-miner    | created              | 2022-03-12 00:04:33  | None                 | None                 | None                
 google-dns-ping          | 665909aa   | ping             | canceled             | 2022-01-18 16:03:47  | 2022-01-18 16:03:50  | 2022-01-18 16:21:19  | 0:17:29             
 google-dns-ping          | 9af8c7d4   | ping             | finished             | 2022-01-20 19:31:29  | 2022-01-20 19:31:29  | 2022-01-20 19:31:44  | 0:00:15             
 google-dns-ping          | 69ffb6eb   | ping             | finished             | 2022-01-21 19:31:30  | 2022-01-21 19:31:31  | 2022-01-21 19:31:45  | 0:00:14             
@@ -197,4 +198,4 @@ ukraine-conflict-2022.4  | 6cb468cc   | yarrp            | finished             
 ukraine-conflict-2022.4  | bd1083ad   | yarrp            | finished             | 2022-03-11 09:02:19  | 2022-03-11 09:02:20  | 2022-03-11 11:16:29  | 2:14:09             
 ukraine-conflict-2022.4  | 6c14cc07   | yarrp            | finished             | 2022-03-11 13:06:03  | 2022-03-11 13:06:04  | 2022-03-11 15:21:07  | 2:15:03             
 ukraine-conflict-2022.4  | 684177fd   | yarrp            | finished             | 2022-03-11 17:21:10  | 2022-03-11 17:21:11  | 2022-03-11 19:41:22  | 2:20:11             
-ukraine-conflict-2022.4  | ae007ac6   | yarrp            | ongoing              | 2022-03-11 21:32:17  | 2022-03-11 21:32:18  | None                 | None                
+ukraine-conflict-2022.4  | ae007ac6   | yarrp            | finished             | 2022-03-11 21:32:17  | 2022-03-11 21:32:18  | 2022-03-11 23:52:52  | 2:20:34             
