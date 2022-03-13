@@ -55,7 +55,7 @@ Name                     | UUID       | Tool             | State                
 1slash16                 | c6ec72d3   | diamond-miner    | finished             | 2022-03-10 10:34:26  | 2022-03-10 10:34:27  | 2022-03-10 10:37:00  | 0:02:33             
 1slash16                 | c6bc3e7b   | diamond-miner    | finished             | 2022-03-11 10:34:34  | 2022-03-11 10:34:34  | 2022-03-11 11:00:07  | 0:25:33             
 1slash16                 | b1f8f6e1   | diamond-miner    | finished             | 2022-03-12 10:46:23  | 2022-03-12 10:46:23  | 2022-03-13 10:32:37  | 23:46:14            
-1slash16                 | a5ecbd91   | diamond-miner    | ongoing              | 2022-03-13 10:46:28  | 2022-03-13 10:46:28  | None                 | None                
+1slash16                 | a5ecbd91   | diamond-miner    | finished             | 2022-03-13 10:46:28  | 2022-03-13 10:46:28  | 2022-03-13 12:56:22  | 2:09:54             
 exhaustive.saturday      | 4e007a28   | diamond-miner    | finished             | 2022-01-22 00:03:08  | 2022-01-22 00:03:08  | 2022-01-22 23:20:01  | 23:16:53            
 exhaustive.saturday      | 0c25fc02   | diamond-miner    | canceled             | 2022-01-29 00:02:57  | 2022-01-29 00:02:57  | 2022-01-30 20:17:41  | 1 day, 20:14:44     
 exhaustive.saturday      | 6fe900ae   | diamond-miner    | finished             | 2022-02-05 00:03:16  | 2022-02-05 00:03:17  | 2022-02-05 23:24:56  | 23:21:39            
