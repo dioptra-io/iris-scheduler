@@ -230,3 +230,4 @@ ukraine-conflict-2022.4  | ebcaeab8   | yarrp            | finished             
 ukraine-conflict-2022.4  | e327934e   | yarrp            | finished             | 2022-03-15 09:02:17  | 2022-03-15 09:02:18  | 2022-03-15 11:22:01  | 2:19:43             
 ukraine-conflict-2022.4  | ccdab0ce   | yarrp            | finished             | 2022-03-15 13:06:54  | 2022-03-15 13:06:55  | 2022-03-15 15:22:06  | 2:15:11             
 ukraine-conflict-2022.4  | f552d61a   | yarrp            | finished             | 2022-03-15 17:21:29  | 2022-03-15 17:21:30  | 2022-03-15 19:37:28  | 2:15:58             
+ukraine-conflict-2022.4  | 61d20cd9   | yarrp            | ongoing              | 2022-03-15 21:31:55  | 2022-03-15 21:31:56  | None                 | None                
