@@ -12,6 +12,6 @@
       }
     }
   ],
-  "tags": ["!public", "collection:exhaustive"],
+  "tags": ["!public", "collection:exhaustive", "exported"],
   "tool": "diamond-miner"
 }
