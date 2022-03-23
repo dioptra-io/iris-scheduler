@@ -21,7 +21,7 @@ jobs:
           poetry config virtualenvs.in-project true
           poetry install
       - name: Run scheduler
-        run: .venv/bin/python3 scheduler.py
+        run: .venv/bin/python3 iris_scheduler.py
         env:
           IRIS_BASE_URL: ${{ secrets.IRIS_BASE_URL }}
           IRIS_USERNAME: ${{ secrets.IRIS_USERNAME }}
