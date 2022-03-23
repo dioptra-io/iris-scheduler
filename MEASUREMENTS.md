@@ -12,6 +12,7 @@ ukraine-conflict-2022.4 | 659dd580 | yarrp | ongoing | 2022-03-22 19:31:56 | 202
 ukraine-conflict-2022.4 | 83f49787 | yarrp | ongoing | 2022-03-22 23:33:30 | 2022-03-22 23:33:31 | None | None
 ukraine-conflict-2022.4 | 9054e59f | yarrp | ongoing | 2022-03-23 03:39:16 | 2022-03-23 03:39:17 | None | None
 ukraine-conflict-2022.4 | b3399336 | yarrp | ongoing | 2022-03-23 17:04:00 | 2022-03-23 17:04:02 | None | None
+ukraine-conflict-2022.4 | 590f6070 | yarrp | ongoing | 2022-03-23 21:19:06 | 2022-03-23 21:19:07 | None | None
 
 ## Per name
 
@@ -340,5 +341,6 @@ ukraine-conflict-2022.4 | 9054e59f | yarrp | ongoing | 2022-03-23 03:39:16 | 202
 ukraine-conflict-2022.4 | 95629f27 | yarrp | finished | 2022-03-23 07:46:54 | 2022-03-23 07:46:55 | 2022-03-23 16:36:37 | 8:49:42
 ukraine-conflict-2022.4 | 1219998e | yarrp | finished | 2022-03-23 12:57:22 | 2022-03-23 12:57:23 | 2022-03-23 16:35:56 | 3:38:33
 ukraine-conflict-2022.4 | b3399336 | yarrp | ongoing | 2022-03-23 17:04:00 | 2022-03-23 17:04:02 | None | None
+ukraine-conflict-2022.4 | 590f6070 | yarrp | ongoing | 2022-03-23 21:19:06 | 2022-03-23 21:19:07 | None | None
 </details>
 
