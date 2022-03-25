@@ -65,6 +65,7 @@ def generate_md(measurements):
             "uuid": measurement["uuid"].split("-")[0],
             "tool": measurement.get("tool"),
             "state": measurement.get("state"),
+            "agents": len(measurement.get("agents", [])),
             "created": creation_time(measurement),
             "start": start_time(measurement),
             "end": end_time(measurement),
