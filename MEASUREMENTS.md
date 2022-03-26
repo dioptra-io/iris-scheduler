@@ -95,6 +95,7 @@ exhaustive.saturday | 7e5bb1f9 | diamond-miner | finished | 1 | 2022-02-26 00:04
 exhaustive.saturday | ba61e623 | diamond-miner | finished | 1 | 2022-03-05 00:04:24 | 2022-03-05 00:04:25 | 2022-03-06 05:50:03 | 1 day, 5:45:38
 exhaustive.saturday | 7d0a8680 | diamond-miner | finished | 1 | 2022-03-12 00:04:33 | 2022-03-12 00:04:34 | 2022-03-13 07:51:11 | 1 day, 7:46:37
 exhaustive.saturday | e4d8851e | diamond-miner | finished | 1 | 2022-03-19 00:04:33 | 2022-03-19 00:04:34 | 2022-03-20 02:36:02 | 1 day, 2:31:28
+exhaustive.saturday | f6bc9b91 | diamond-miner | created | 1 | 2022-03-26 00:05:05 | None | None | None
 </details>
 
 <details>
