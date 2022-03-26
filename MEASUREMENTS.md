@@ -12,6 +12,7 @@ google-dns-ping | a2ee7363 | ping | ongoing | 1 | 2022-03-26 13:33:22 | 2022-03-
 ukraine-conflict-2022.4 | e4e736ee | yarrp | ongoing | 2 | 2022-03-26 07:32:54 | 2022-03-26 07:32:56 | None | None
 ukraine-conflict-2022.4 | 9fa6fd34 | yarrp | ongoing | 2 | 2022-03-26 11:46:52 | 2022-03-26 11:46:53 | None | None
 ukraine-conflict-2022.4 | 4ba8def4 | yarrp | ongoing | 2 | 2022-03-26 16:02:14 | 2022-03-26 16:02:15 | None | None
+ukraine-conflict-2022.4 | 906bc7cf | yarrp | ongoing | 2 | 2022-03-26 20:21:17 | 2022-03-26 20:21:18 | None | None
 
 ## Per name
 
@@ -363,5 +364,6 @@ ukraine-conflict-2022.4 | 80ebf9a2 | yarrp | finished | 2 | 2022-03-26 03:21:58 
 ukraine-conflict-2022.4 | e4e736ee | yarrp | ongoing | 2 | 2022-03-26 07:32:54 | 2022-03-26 07:32:56 | None | None
 ukraine-conflict-2022.4 | 9fa6fd34 | yarrp | ongoing | 2 | 2022-03-26 11:46:52 | 2022-03-26 11:46:53 | None | None
 ukraine-conflict-2022.4 | 4ba8def4 | yarrp | ongoing | 2 | 2022-03-26 16:02:14 | 2022-03-26 16:02:15 | None | None
+ukraine-conflict-2022.4 | 906bc7cf | yarrp | ongoing | 2 | 2022-03-26 20:21:17 | 2022-03-26 20:21:18 | None | None
 </details>
 
