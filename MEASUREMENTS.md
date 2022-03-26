@@ -8,6 +8,7 @@ Name | UUID | Tool | State | Agents | Created | Start | End | Duration
 --   | --   | --   | --    | --     | --      | --    | --  | --
 exhaustive.saturday | f6bc9b91 | diamond-miner | ongoing | 1 | 2022-03-26 00:05:05 | 2022-03-26 00:05:05 | None | None
 ukraine-conflict-2022.4 | e4e736ee | yarrp | ongoing | 2 | 2022-03-26 07:32:54 | 2022-03-26 07:32:56 | None | None
+ukraine-conflict-2022.4 | 9fa6fd34 | yarrp | ongoing | 2 | 2022-03-26 11:46:52 | 2022-03-26 11:46:53 | None | None
 
 ## Per name
 
@@ -355,5 +356,6 @@ ukraine-conflict-2022.4 | 82791bc4 | yarrp | finished | 2 | 2022-03-25 19:19:32 
 ukraine-conflict-2022.4 | 54dc55e4 | yarrp | finished | 2 | 2022-03-25 23:21:06 | 2022-03-25 23:21:07 | 2022-03-26 02:13:22 | 2:52:15
 ukraine-conflict-2022.4 | 80ebf9a2 | yarrp | finished | 2 | 2022-03-26 03:21:58 | 2022-03-26 03:21:59 | 2022-03-26 07:54:07 | 4:32:08
 ukraine-conflict-2022.4 | e4e736ee | yarrp | ongoing | 2 | 2022-03-26 07:32:54 | 2022-03-26 07:32:56 | None | None
+ukraine-conflict-2022.4 | 9fa6fd34 | yarrp | ongoing | 2 | 2022-03-26 11:46:52 | 2022-03-26 11:46:53 | None | None
 </details>
 
