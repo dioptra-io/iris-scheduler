@@ -1,0 +1,14 @@
+{
+  "agents": [
+    {
+      "tag": "gcp-ipv6",
+      "target_file": "ipv6-yarrp.csv",
+      "tool_parameters": {
+        "flow_mapper": "RandomFlowMapper",
+        "flow_mapper_kwargs": {"seed": 2021}
+      },
+      "probing_rate": 2500
+    }
+  ],
+  "tool": "yarrp"
+}
