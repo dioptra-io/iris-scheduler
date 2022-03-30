@@ -185,7 +185,7 @@ google-dns-ping | a2ee7363 | ping | finished | 1 | 2022-03-26 13:33:22 | 2022-03
 google-dns-ping | 3af3dcef | ping | finished | 1 | 2022-03-27 13:33:34 | 2022-03-27 13:33:34 | 2022-03-27 14:27:09 | 0:53:35
 google-dns-ping | 519f43a5 | ping | finished | 1 | 2022-03-28 13:36:23 | 2022-03-28 13:36:23 | 2022-03-28 13:36:39 | 0:00:16
 google-dns-ping | e2ccf645 | ping | finished | 1 | 2022-03-29 13:36:45 | 2022-03-29 13:36:46 | 2022-03-29 13:38:07 | 0:01:21
-google-dns-ping | 7fdd61e1 | ping | created | 1 | 2022-03-30 13:36:59 | None | None | None
+google-dns-ping | 7fdd61e1 | ping | finished | 1 | 2022-03-30 13:36:59 | 2022-03-30 13:36:59 | 2022-03-30 13:39:29 | 0:02:30
 </details>
 
 <details>
