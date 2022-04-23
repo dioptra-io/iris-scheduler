@@ -8,7 +8,6 @@ Name | UUID | Tool | State | Agents | Created | Start | End | Duration
 --   | --   | --   | --    | --     | --      | --    | --  | --
 1slash16 | 947931a4 | diamond-miner | ongoing | 1 | 2022-04-23 10:48:07 | 2022-04-23 10:48:07 | None | None
 exhaustive.saturday | 26784e08 | diamond-miner | ongoing | 1 | 2022-04-23 00:05:18 | 2022-04-23 00:05:18 | None | None
-google-dns-ping | 7d2352d8 | ping | ongoing | 1 | 2022-04-23 10:48:08 | 2022-04-23 10:48:08 | None | None
 ipv6-hitlist | 7765b928 | yarrp | ongoing | 1 | 2022-04-23 10:48:05 | 2022-04-23 10:48:06 | None | None
 
 ## Per name
@@ -231,7 +230,7 @@ google-dns-ping | 09e3457a | ping | finished | 1 | 2022-04-19 09:52:30 | 2022-04
 google-dns-ping | fbed6527 | ping | finished | 1 | 2022-04-20 10:03:06 | 2022-04-20 10:03:06 | 2022-04-20 10:03:22 | 0:00:16
 google-dns-ping | 9d76b69c | ping | finished | 1 | 2022-04-21 10:22:48 | 2022-04-21 10:22:49 | 2022-04-21 10:23:04 | 0:00:15
 google-dns-ping | a75a5f3f | ping | finished | 1 | 2022-04-22 10:37:35 | 2022-04-22 10:37:35 | 2022-04-22 10:37:49 | 0:00:14
-google-dns-ping | 7d2352d8 | ping | ongoing | 1 | 2022-04-23 10:48:08 | 2022-04-23 10:48:08 | None | None
+google-dns-ping | 7d2352d8 | ping | finished | 1 | 2022-04-23 10:48:08 | 2022-04-23 10:48:08 | 2022-04-23 19:25:28 | 8:37:20
 </details>
 
 <details>
