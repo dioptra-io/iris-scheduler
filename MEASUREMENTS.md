@@ -11,7 +11,6 @@ Name | UUID | Tool | State | Agents | Created | Start | End | Duration
 exhaustive.saturday | 26784e08 | diamond-miner | ongoing | 1 | 2022-04-23 00:05:18 | 2022-04-23 00:05:18 | None | None
 google-dns-ping | 6c4897c2 | ping | ongoing | 1 | 2022-04-24 11:02:56 | 2022-04-24 11:02:56 | None | None
 google-dns-ping | 7fb9a09e | ping | ongoing | 1 | 2022-04-25 11:21:29 | 2022-04-25 11:21:29 | None | None
-ipv6-hitlist | 7765b928 | yarrp | ongoing | 1 | 2022-04-23 10:48:05 | 2022-04-23 10:48:06 | None | None
 ipv6-hitlist | 13778e93 | yarrp | ongoing | 1 | 2022-04-24 11:02:53 | 2022-04-24 11:02:54 | None | None
 ipv6-hitlist | 0ab8909c | yarrp | ongoing | 1 | 2022-04-25 11:21:27 | 2022-04-25 11:21:28 | None | None
 
@@ -276,7 +275,7 @@ ipv6-hitlist | 7230d45a | yarrp | finished | 1 | 2022-04-19 09:52:28 | 2022-04-1
 ipv6-hitlist | 38b93ada | yarrp | finished | 1 | 2022-04-20 10:03:04 | 2022-04-20 10:03:05 | 2022-04-20 13:24:03 | 3:20:58
 ipv6-hitlist | d87eb21b | yarrp | finished | 1 | 2022-04-21 10:22:45 | 2022-04-21 10:22:46 | 2022-04-21 13:43:40 | 3:20:54
 ipv6-hitlist | 98d7f9c4 | yarrp | finished | 1 | 2022-04-22 10:37:32 | 2022-04-22 10:37:33 | 2022-04-22 13:57:29 | 3:19:56
-ipv6-hitlist | 7765b928 | yarrp | ongoing | 1 | 2022-04-23 10:48:05 | 2022-04-23 10:48:06 | None | None
+ipv6-hitlist | 7765b928 | yarrp | finished | 1 | 2022-04-23 10:48:05 | 2022-04-23 10:48:06 | 2022-04-25 15:19:36 | 2 days, 4:31:30
 ipv6-hitlist | 13778e93 | yarrp | ongoing | 1 | 2022-04-24 11:02:53 | 2022-04-24 11:02:54 | None | None
 ipv6-hitlist | 0ab8909c | yarrp | ongoing | 1 | 2022-04-25 11:21:27 | 2022-04-25 11:21:28 | None | None
 </details>
