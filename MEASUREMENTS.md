@@ -8,7 +8,6 @@ Name | UUID | Tool | State | Agents | Created | Start | End | Duration
 --   | --   | --   | --    | --     | --      | --    | --  | --
 1slash16 | b7dfbed1 | diamond-miner | ongoing | 1 | 2022-04-24 11:02:55 | 2022-04-24 11:02:55 | None | None
 1slash16 | 580b571b | diamond-miner | ongoing | 1 | 2022-04-25 11:21:28 | 2022-04-25 11:21:28 | None | None
-exhaustive.saturday | 26784e08 | diamond-miner | ongoing | 1 | 2022-04-23 00:05:18 | 2022-04-23 00:05:18 | None | None
 google-dns-ping | 6c4897c2 | ping | ongoing | 1 | 2022-04-24 11:02:56 | 2022-04-24 11:02:56 | None | None
 google-dns-ping | 7fb9a09e | ping | ongoing | 1 | 2022-04-25 11:21:29 | 2022-04-25 11:21:29 | None | None
 ipv6-hitlist | 13778e93 | yarrp | ongoing | 1 | 2022-04-24 11:02:53 | 2022-04-24 11:02:54 | None | None
@@ -131,7 +130,7 @@ exhaustive.saturday | e4d8851e | diamond-miner | finished | 1 | 2022-03-19 00:04
 exhaustive.saturday | f6bc9b91 | diamond-miner | finished | 1 | 2022-03-26 00:05:05 | 2022-03-26 00:05:05 | 2022-03-27 04:57:40 | 1 day, 4:52:35
 exhaustive.saturday | 4e076079 | diamond-miner | finished | 1 | 2022-04-02 00:05:13 | 2022-04-02 00:05:14 | 2022-04-02 20:06:25 | 20:01:11
 exhaustive.saturday | f9789424 | diamond-miner | finished | 1 | 2022-04-09 00:05:38 | 2022-04-09 00:05:38 | 2022-04-09 21:00:38 | 20:55:00
-exhaustive.saturday | 26784e08 | diamond-miner | ongoing | 1 | 2022-04-23 00:05:18 | 2022-04-23 00:05:18 | None | None
+exhaustive.saturday | 26784e08 | diamond-miner | finished | 1 | 2022-04-23 00:05:18 | 2022-04-23 00:05:18 | 2022-04-25 15:48:13 | 2 days, 15:42:55
 </details>
 
 <details>
