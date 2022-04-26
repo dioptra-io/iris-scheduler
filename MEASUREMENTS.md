@@ -8,7 +8,6 @@ Name | UUID | Tool | State | Agents | Created | Start | End | Duration
 --   | --   | --   | --    | --     | --      | --    | --  | --
 1slash16 | b7dfbed1 | diamond-miner | ongoing | 1 | 2022-04-24 11:02:55 | 2022-04-24 11:02:55 | None | None
 1slash16 | 580b571b | diamond-miner | ongoing | 1 | 2022-04-25 11:21:28 | 2022-04-25 11:21:28 | None | None
-1slash16 | bc3ee331 | diamond-miner | ongoing | 1 | 2022-04-26 11:33:20 | 2022-04-26 11:33:20 | None | None
 google-dns-ping | 6c4897c2 | ping | ongoing | 1 | 2022-04-24 11:02:56 | 2022-04-24 11:02:56 | None | None
 google-dns-ping | 7fb9a09e | ping | ongoing | 1 | 2022-04-25 11:21:29 | 2022-04-25 11:21:29 | None | None
 ipv6-hitlist | 13778e93 | yarrp | ongoing | 1 | 2022-04-24 11:02:53 | 2022-04-24 11:02:54 | None | None
@@ -114,7 +113,7 @@ Name | UUID | Tool | State | Agents |Created | Start | End | Duration
 1slash16 | 947931a4 | diamond-miner | finished | 1 | 2022-04-23 10:48:07 | 2022-04-23 10:48:07 | 2022-04-25 13:44:18 | 2 days, 2:56:11
 1slash16 | b7dfbed1 | diamond-miner | ongoing | 1 | 2022-04-24 11:02:55 | 2022-04-24 11:02:55 | None | None
 1slash16 | 580b571b | diamond-miner | ongoing | 1 | 2022-04-25 11:21:28 | 2022-04-25 11:21:28 | None | None
-1slash16 | bc3ee331 | diamond-miner | ongoing | 1 | 2022-04-26 11:33:20 | 2022-04-26 11:33:20 | None | None
+1slash16 | bc3ee331 | diamond-miner | finished | 1 | 2022-04-26 11:33:20 | 2022-04-26 11:33:20 | 2022-04-26 11:35:45 | 0:02:25
 </details>
 
 <details>
@@ -241,7 +240,7 @@ google-dns-ping | a75a5f3f | ping | finished | 1 | 2022-04-22 10:37:35 | 2022-04
 google-dns-ping | 7d2352d8 | ping | finished | 1 | 2022-04-23 10:48:08 | 2022-04-23 10:48:08 | 2022-04-23 19:25:28 | 8:37:20
 google-dns-ping | 6c4897c2 | ping | ongoing | 1 | 2022-04-24 11:02:56 | 2022-04-24 11:02:56 | None | None
 google-dns-ping | 7fb9a09e | ping | ongoing | 1 | 2022-04-25 11:21:29 | 2022-04-25 11:21:29 | None | None
-google-dns-ping | 7f9296b0 | ping | created | 1 | 2022-04-26 11:33:21 | None | None | None
+google-dns-ping | 7f9296b0 | ping | finished | 1 | 2022-04-26 11:33:21 | 2022-04-26 11:33:21 | 2022-04-26 11:33:32 | 0:00:11
 </details>
 
 <details>
