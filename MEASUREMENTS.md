@@ -8,8 +8,11 @@ Name | UUID | Tool | State | Agents | Created | Start | End | Duration
 --   | --   | --   | --    | --     | --      | --    | --  | --
 1slash16 | b7dfbed1 | diamond-miner | ongoing | 1 | 2022-04-24 11:02:55 | 2022-04-24 11:02:55 | None | None
 1slash16 | 580b571b | diamond-miner | ongoing | 1 | 2022-04-25 11:21:28 | 2022-04-25 11:21:28 | None | None
+1slash16 | 0e31ac4f | diamond-miner | ongoing | 1 | 2022-04-27 11:47:37 | 2022-04-27 11:47:38 | None | None
 google-dns-ping | 6c4897c2 | ping | ongoing | 1 | 2022-04-24 11:02:56 | 2022-04-24 11:02:56 | None | None
 google-dns-ping | 7fb9a09e | ping | ongoing | 1 | 2022-04-25 11:21:29 | 2022-04-25 11:21:29 | None | None
+google-dns-ping | a490b061 | ping | ongoing | 1 | 2022-04-27 11:47:38 | 2022-04-27 11:47:38 | None | None
+ipv6-hitlist | 649b72e1 | yarrp | ongoing | 1 | 2022-04-27 11:47:36 | 2022-04-27 11:47:37 | None | None
 
 ## Per name
 
@@ -111,6 +114,7 @@ Name | UUID | Tool | State | Agents |Created | Start | End | Duration
 1slash16 | b7dfbed1 | diamond-miner | ongoing | 1 | 2022-04-24 11:02:55 | 2022-04-24 11:02:55 | None | None
 1slash16 | 580b571b | diamond-miner | ongoing | 1 | 2022-04-25 11:21:28 | 2022-04-25 11:21:28 | None | None
 1slash16 | bc3ee331 | diamond-miner | finished | 1 | 2022-04-26 11:33:20 | 2022-04-26 11:33:20 | 2022-04-26 11:35:45 | 0:02:25
+1slash16 | 0e31ac4f | diamond-miner | ongoing | 1 | 2022-04-27 11:47:37 | 2022-04-27 11:47:38 | None | None
 </details>
 
 <details>
@@ -238,6 +242,7 @@ google-dns-ping | 7d2352d8 | ping | finished | 1 | 2022-04-23 10:48:08 | 2022-04
 google-dns-ping | 6c4897c2 | ping | ongoing | 1 | 2022-04-24 11:02:56 | 2022-04-24 11:02:56 | None | None
 google-dns-ping | 7fb9a09e | ping | ongoing | 1 | 2022-04-25 11:21:29 | 2022-04-25 11:21:29 | None | None
 google-dns-ping | 7f9296b0 | ping | finished | 1 | 2022-04-26 11:33:21 | 2022-04-26 11:33:21 | 2022-04-26 11:33:32 | 0:00:11
+google-dns-ping | a490b061 | ping | ongoing | 1 | 2022-04-27 11:47:38 | 2022-04-27 11:47:38 | None | None
 </details>
 
 <details>
@@ -278,6 +283,7 @@ ipv6-hitlist | 7765b928 | yarrp | finished | 1 | 2022-04-23 10:48:05 | 2022-04-2
 ipv6-hitlist | 13778e93 | yarrp | agent_failure | 1 | 2022-04-24 11:02:53 | 2022-04-24 11:02:54 | 2022-04-26 14:09:14 | 2 days, 3:06:20
 ipv6-hitlist | 0ab8909c | yarrp | agent_failure | 1 | 2022-04-25 11:21:27 | 2022-04-25 11:21:28 | 2022-04-26 14:09:14 | 1 day, 2:47:46
 ipv6-hitlist | 357916cf | yarrp | agent_failure | 1 | 2022-04-26 11:33:19 | 2022-04-26 11:33:20 | 2022-04-26 14:09:14 | 2:35:54
+ipv6-hitlist | 649b72e1 | yarrp | ongoing | 1 | 2022-04-27 11:47:36 | 2022-04-27 11:47:37 | None | None
 </details>
 
 <details>
