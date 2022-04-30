@@ -8,9 +8,12 @@ Name | UUID | Tool | State | Agents | Created | Start | End | Duration
 --   | --   | --   | --    | --     | --      | --    | --  | --
 1slash16 | b7dfbed1 | diamond-miner | ongoing | 1 | 2022-04-24 11:02:55 | 2022-04-24 11:02:55 | None | None
 1slash16 | 580b571b | diamond-miner | ongoing | 1 | 2022-04-25 11:21:28 | 2022-04-25 11:21:28 | None | None
+1slash16 | b6f3074c | diamond-miner | ongoing | 1 | 2022-04-30 12:42:27 | 2022-04-30 12:42:27 | None | None
 exhaustive.saturday | fc113c89 | diamond-miner | ongoing | 1 | 2022-04-30 00:05:30 | 2022-04-30 00:05:31 | None | None
 google-dns-ping | 6c4897c2 | ping | ongoing | 1 | 2022-04-24 11:02:56 | 2022-04-24 11:02:56 | None | None
 google-dns-ping | 7fb9a09e | ping | ongoing | 1 | 2022-04-25 11:21:29 | 2022-04-25 11:21:29 | None | None
+google-dns-ping | 6a9b8648 | ping | ongoing | 1 | 2022-04-30 12:42:28 | 2022-04-30 12:42:28 | None | None
+ipv6-hitlist | 1ba92d56 | yarrp | ongoing | 1 | 2022-04-30 12:42:25 | 2022-04-30 12:42:26 | None | None
 
 ## Per name
 
@@ -115,6 +118,7 @@ Name | UUID | Tool | State | Agents |Created | Start | End | Duration
 1slash16 | 0e31ac4f | diamond-miner | finished | 1 | 2022-04-27 11:47:37 | 2022-04-27 11:47:38 | 2022-04-27 11:49:40 | 0:02:02
 1slash16 | 1d5b03a0 | diamond-miner | finished | 1 | 2022-04-28 12:03:33 | 2022-04-28 12:03:33 | 2022-04-28 12:05:43 | 0:02:10
 1slash16 | 9ba9b123 | diamond-miner | finished | 1 | 2022-04-29 12:24:14 | 2022-04-29 12:24:15 | 2022-04-29 12:26:30 | 0:02:15
+1slash16 | b6f3074c | diamond-miner | ongoing | 1 | 2022-04-30 12:42:27 | 2022-04-30 12:42:27 | None | None
 </details>
 
 <details>
@@ -246,6 +250,7 @@ google-dns-ping | 7f9296b0 | ping | finished | 1 | 2022-04-26 11:33:21 | 2022-04
 google-dns-ping | a490b061 | ping | finished | 1 | 2022-04-27 11:47:38 | 2022-04-27 11:47:38 | 2022-04-27 11:47:53 | 0:00:15
 google-dns-ping | ff1f359f | ping | finished | 1 | 2022-04-28 12:03:34 | 2022-04-28 12:03:34 | 2022-04-28 12:03:44 | 0:00:10
 google-dns-ping | e6755a1e | ping | finished | 1 | 2022-04-29 12:24:15 | 2022-04-29 12:24:16 | 2022-04-29 12:24:30 | 0:00:14
+google-dns-ping | 6a9b8648 | ping | ongoing | 1 | 2022-04-30 12:42:28 | 2022-04-30 12:42:28 | None | None
 </details>
 
 <details>
@@ -289,6 +294,7 @@ ipv6-hitlist | 357916cf | yarrp | agent_failure | 1 | 2022-04-26 11:33:19 | 2022
 ipv6-hitlist | 649b72e1 | yarrp | finished | 1 | 2022-04-27 11:47:36 | 2022-04-27 11:47:37 | 2022-04-27 14:52:21 | 3:04:44
 ipv6-hitlist | 49298515 | yarrp | finished | 1 | 2022-04-28 12:03:32 | 2022-04-28 12:03:33 | 2022-04-28 15:19:45 | 3:16:12
 ipv6-hitlist | 0ff3fd57 | yarrp | finished | 1 | 2022-04-29 12:24:13 | 2022-04-29 12:24:14 | 2022-04-29 15:40:45 | 3:16:31
+ipv6-hitlist | 1ba92d56 | yarrp | ongoing | 1 | 2022-04-30 12:42:25 | 2022-04-30 12:42:26 | None | None
 </details>
 
 <details>
