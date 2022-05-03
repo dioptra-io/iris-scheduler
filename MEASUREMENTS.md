@@ -10,7 +10,6 @@ Name | UUID | Tool | State | Agents | Created | Start | End | Duration
 1slash16 | 580b571b | diamond-miner | ongoing | 1 | 2022-04-25 11:21:28 | 2022-04-25 11:21:28 | None | None
 google-dns-ping | 6c4897c2 | ping | ongoing | 1 | 2022-04-24 11:02:56 | 2022-04-24 11:02:56 | None | None
 google-dns-ping | 7fb9a09e | ping | ongoing | 1 | 2022-04-25 11:21:29 | 2022-04-25 11:21:29 | None | None
-ipv6-hitlist | cbc7bf98 | yarrp | ongoing | 1 | 2022-05-03 13:05:24 | 2022-05-03 13:05:25 | None | None
 
 ## Per name
 
@@ -300,7 +299,7 @@ ipv6-hitlist | 0ff3fd57 | yarrp | finished | 1 | 2022-04-29 12:24:13 | 2022-04-2
 ipv6-hitlist | 1ba92d56 | yarrp | finished | 1 | 2022-04-30 12:42:25 | 2022-04-30 12:42:26 | 2022-04-30 16:00:18 | 3:17:52
 ipv6-hitlist | f98c9a47 | yarrp | finished | 1 | 2022-05-01 12:57:27 | 2022-05-01 12:57:28 | 2022-05-01 16:12:48 | 3:15:20
 ipv6-hitlist | e2ea167f | yarrp | agent_failure | 1 | 2022-05-02 13:03:11 | 2022-05-02 13:03:12 | 2022-05-02 15:43:23 | 2:40:11
-ipv6-hitlist | cbc7bf98 | yarrp | ongoing | 1 | 2022-05-03 13:05:24 | 2022-05-03 13:05:25 | None | None
+ipv6-hitlist | cbc7bf98 | yarrp | finished | 1 | 2022-05-03 13:05:24 | 2022-05-03 13:05:25 | 2022-05-03 16:20:07 | 3:14:42
 </details>
 
 <details>
