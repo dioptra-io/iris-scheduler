@@ -8,7 +8,6 @@ Name | UUID | Tool | State | Agents | Created | Start | End | Duration
 --   | --   | --   | --    | --     | --      | --    | --  | --
 1slash16 | b7dfbed1 | diamond-miner | ongoing | 1 | 2022-04-24 11:02:55 | 2022-04-24 11:02:55 | None | None
 1slash16 | 580b571b | diamond-miner | ongoing | 1 | 2022-04-25 11:21:28 | 2022-04-25 11:21:28 | None | None
-1slash16 | 2fdce54e | diamond-miner | ongoing | 1 | 2022-05-04 13:28:14 | 2022-05-04 13:28:14 | None | None
 google-dns-ping | 6c4897c2 | ping | ongoing | 1 | 2022-04-24 11:02:56 | 2022-04-24 11:02:56 | None | None
 google-dns-ping | 7fb9a09e | ping | ongoing | 1 | 2022-04-25 11:21:29 | 2022-04-25 11:21:29 | None | None
 ipv6-hitlist | 007bf88e | yarrp | ongoing | 1 | 2022-05-04 13:28:12 | 2022-05-04 13:28:13 | None | None
@@ -120,7 +119,7 @@ Name | UUID | Tool | State | Agents |Created | Start | End | Duration
 1slash16 | 3ed8b7df | diamond-miner | finished | 1 | 2022-05-01 12:57:28 | 2022-05-01 12:57:28 | 2022-05-01 12:59:40 | 0:02:12
 1slash16 | b144b81f | diamond-miner | finished | 1 | 2022-05-02 13:03:13 | 2022-05-02 13:03:13 | 2022-05-02 13:05:20 | 0:02:07
 1slash16 | b0303dac | diamond-miner | finished | 1 | 2022-05-03 13:05:25 | 2022-05-03 13:05:26 | 2022-05-03 13:07:23 | 0:01:57
-1slash16 | 2fdce54e | diamond-miner | ongoing | 1 | 2022-05-04 13:28:14 | 2022-05-04 13:28:14 | None | None
+1slash16 | 2fdce54e | diamond-miner | finished | 1 | 2022-05-04 13:28:14 | 2022-05-04 13:28:14 | 2022-05-04 13:30:23 | 0:02:09
 </details>
 
 <details>
@@ -256,7 +255,7 @@ google-dns-ping | 6a9b8648 | ping | finished | 1 | 2022-04-30 12:42:28 | 2022-04
 google-dns-ping | d85524eb | ping | finished | 1 | 2022-05-01 12:57:29 | 2022-05-01 12:57:29 | 2022-05-01 12:57:46 | 0:00:17
 google-dns-ping | a637d1fc | ping | finished | 1 | 2022-05-02 13:03:14 | 2022-05-02 13:03:14 | 2022-05-02 13:03:29 | 0:00:15
 google-dns-ping | 17c40716 | ping | finished | 1 | 2022-05-03 13:05:26 | 2022-05-03 13:05:27 | 2022-05-03 13:05:42 | 0:00:15
-google-dns-ping | b22a4c89 | ping | created | 1 | 2022-05-04 13:28:15 | None | None | None
+google-dns-ping | b22a4c89 | ping | finished | 1 | 2022-05-04 13:28:15 | 2022-05-04 13:28:15 | 2022-05-04 13:28:30 | 0:00:15
 </details>
 
 <details>
