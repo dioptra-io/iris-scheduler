@@ -8,8 +8,10 @@ Name | UUID | Tool | State | Agents | Created | Start | End | Duration
 --   | --   | --   | --    | --     | --      | --    | --  | --
 1slash16 | b7dfbed1 | diamond-miner | ongoing | 1 | 2022-04-24 11:02:55 | 2022-04-24 11:02:55 | None | None
 1slash16 | 580b571b | diamond-miner | ongoing | 1 | 2022-04-25 11:21:28 | 2022-04-25 11:21:28 | None | None
+1slash16 | d8706af9 | diamond-miner | ongoing | 1 | 2022-05-06 13:51:54 | 2022-05-06 13:51:54 | None | None
 google-dns-ping | 6c4897c2 | ping | ongoing | 1 | 2022-04-24 11:02:56 | 2022-04-24 11:02:56 | None | None
 google-dns-ping | 7fb9a09e | ping | ongoing | 1 | 2022-04-25 11:21:29 | 2022-04-25 11:21:29 | None | None
+ipv6-hitlist | 42f78a77 | yarrp | ongoing | 1 | 2022-05-06 13:51:52 | 2022-05-06 13:51:53 | None | None
 
 ## Per name
 
@@ -120,6 +122,7 @@ Name | UUID | Tool | State | Agents |Created | Start | End | Duration
 1slash16 | b0303dac | diamond-miner | finished | 1 | 2022-05-03 13:05:25 | 2022-05-03 13:05:26 | 2022-05-03 13:07:23 | 0:01:57
 1slash16 | 2fdce54e | diamond-miner | finished | 1 | 2022-05-04 13:28:14 | 2022-05-04 13:28:14 | 2022-05-04 13:30:23 | 0:02:09
 1slash16 | 29c49673 | diamond-miner | finished | 1 | 2022-05-05 13:43:14 | 2022-05-05 13:43:14 | 2022-05-05 13:45:25 | 0:02:11
+1slash16 | d8706af9 | diamond-miner | ongoing | 1 | 2022-05-06 13:51:54 | 2022-05-06 13:51:54 | None | None
 </details>
 
 <details>
@@ -257,6 +260,7 @@ google-dns-ping | a637d1fc | ping | finished | 1 | 2022-05-02 13:03:14 | 2022-05
 google-dns-ping | 17c40716 | ping | finished | 1 | 2022-05-03 13:05:26 | 2022-05-03 13:05:27 | 2022-05-03 13:05:42 | 0:00:15
 google-dns-ping | b22a4c89 | ping | finished | 1 | 2022-05-04 13:28:15 | 2022-05-04 13:28:15 | 2022-05-04 13:28:30 | 0:00:15
 google-dns-ping | 8e0aec5f | ping | finished | 1 | 2022-05-05 13:43:15 | 2022-05-05 13:43:15 | 2022-05-05 13:43:30 | 0:00:15
+google-dns-ping | 22dbc316 | ping | created | 1 | 2022-05-06 13:51:55 | None | None | None
 </details>
 
 <details>
@@ -306,6 +310,7 @@ ipv6-hitlist | e2ea167f | yarrp | agent_failure | 1 | 2022-05-02 13:03:11 | 2022
 ipv6-hitlist | cbc7bf98 | yarrp | finished | 1 | 2022-05-03 13:05:24 | 2022-05-03 13:05:25 | 2022-05-03 16:20:07 | 3:14:42
 ipv6-hitlist | 007bf88e | yarrp | finished | 1 | 2022-05-04 13:28:12 | 2022-05-04 13:28:13 | 2022-05-04 16:38:07 | 3:09:54
 ipv6-hitlist | 887cdd18 | yarrp | finished | 1 | 2022-05-05 13:43:12 | 2022-05-05 13:43:13 | 2022-05-05 16:51:22 | 3:08:09
+ipv6-hitlist | 42f78a77 | yarrp | ongoing | 1 | 2022-05-06 13:51:52 | 2022-05-06 13:51:53 | None | None
 </details>
 
 <details>
