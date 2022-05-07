@@ -12,6 +12,7 @@ Name | UUID | Tool | State | Agents | Created | Start | End | Duration
 exhaustive.saturday | 1ad78ec8 | diamond-miner | ongoing | 1 | 2022-05-07 00:05:22 | 2022-05-07 00:05:22 | None | None
 google-dns-ping | 6c4897c2 | ping | ongoing | 1 | 2022-04-24 11:02:56 | 2022-04-24 11:02:56 | None | None
 google-dns-ping | 7fb9a09e | ping | ongoing | 1 | 2022-04-25 11:21:29 | 2022-04-25 11:21:29 | None | None
+google-dns-ping | 45ac9bf6 | ping | ongoing | 1 | 2022-05-07 14:03:04 | 2022-05-07 14:03:05 | None | None
 ipv6-hitlist | 1b1972cd | yarrp | ongoing | 1 | 2022-05-07 14:03:01 | 2022-05-07 14:03:03 | None | None
 
 ## Per name
@@ -264,7 +265,7 @@ google-dns-ping | 17c40716 | ping | finished | 1 | 2022-05-03 13:05:26 | 2022-05
 google-dns-ping | b22a4c89 | ping | finished | 1 | 2022-05-04 13:28:15 | 2022-05-04 13:28:15 | 2022-05-04 13:28:30 | 0:00:15
 google-dns-ping | 8e0aec5f | ping | finished | 1 | 2022-05-05 13:43:15 | 2022-05-05 13:43:15 | 2022-05-05 13:43:30 | 0:00:15
 google-dns-ping | 22dbc316 | ping | finished | 1 | 2022-05-06 13:51:55 | 2022-05-06 13:51:55 | 2022-05-06 13:52:11 | 0:00:16
-google-dns-ping | 45ac9bf6 | ping | created | 1 | 2022-05-07 14:03:04 | None | None | None
+google-dns-ping | 45ac9bf6 | ping | ongoing | 1 | 2022-05-07 14:03:04 | 2022-05-07 14:03:05 | None | None
 </details>
 
 <details>
