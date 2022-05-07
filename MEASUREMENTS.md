@@ -141,6 +141,7 @@ exhaustive.saturday | 4e076079 | diamond-miner | finished | 1 | 2022-04-02 00:05
 exhaustive.saturday | f9789424 | diamond-miner | finished | 1 | 2022-04-09 00:05:38 | 2022-04-09 00:05:38 | 2022-04-09 21:00:38 | 20:55:00
 exhaustive.saturday | 26784e08 | diamond-miner | finished | 1 | 2022-04-23 00:05:18 | 2022-04-23 00:05:18 | 2022-04-25 15:48:13 | 2 days, 15:42:55
 exhaustive.saturday | fc113c89 | diamond-miner | finished | 1 | 2022-04-30 00:05:30 | 2022-04-30 00:05:31 | 2022-04-30 20:29:39 | 20:24:08
+exhaustive.saturday | 1ad78ec8 | diamond-miner | created | 1 | 2022-05-07 00:05:22 | None | None | None
 </details>
 
 <details>
