@@ -13,7 +13,6 @@ google-dns-ping | 6c4897c2 | ping | ongoing | 1 | 2022-04-24 11:02:56 | 2022-04-
 google-dns-ping | 7fb9a09e | ping | ongoing | 1 | 2022-04-25 11:21:29 | 2022-04-25 11:21:29 | None | None
 ipv6-hitlist | 00c4db82 | yarrp | ongoing | 1 | 2022-05-10 09:04:09 | 2022-05-10 09:04:10 | None | None
 ipv6-hitlist | 10f1f456 | yarrp | ongoing | 1 | 2022-05-14 11:03:54 | 2022-05-14 11:04:00 | None | None
-ipv6-hitlist | bb4c04b5 | yarrp | ongoing | 1 | 2022-05-18 12:03:25 | 2022-05-18 12:03:27 | None | None
 
 ## Per name
 
@@ -344,7 +343,7 @@ ipv6-hitlist | 10f1f456 | yarrp | ongoing | 1 | 2022-05-14 11:03:54 | 2022-05-14
 ipv6-hitlist | cf7000e7 | yarrp | finished | 1 | 2022-05-15 11:21:32 | 2022-05-15 11:21:34 | 2022-05-15 14:32:47 | 3:11:13
 ipv6-hitlist | 45876977 | yarrp | finished | 1 | 2022-05-16 11:33:57 | 2022-05-16 11:33:58 | 2022-05-16 14:54:16 | 3:20:18
 ipv6-hitlist | c4463b11 | yarrp | finished | 1 | 2022-05-17 11:47:35 | 2022-05-17 11:47:37 | 2022-05-17 15:06:21 | 3:18:44
-ipv6-hitlist | bb4c04b5 | yarrp | ongoing | 1 | 2022-05-18 12:03:25 | 2022-05-18 12:03:27 | None | None
+ipv6-hitlist | bb4c04b5 | yarrp | finished | 1 | 2022-05-18 12:03:25 | 2022-05-18 12:03:27 | 2022-05-18 15:02:57 | 2:59:30
 </details>
 
 <details>
