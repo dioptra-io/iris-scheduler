@@ -12,8 +12,6 @@ exhaustive.saturday | 1ad78ec8 | diamond-miner | ongoing | 1 | 2022-05-07 00:05:
 google-dns-ping | 6c4897c2 | ping | ongoing | 1 | 2022-04-24 11:02:56 | 2022-04-24 11:02:56 | None | None
 google-dns-ping | 7fb9a09e | ping | ongoing | 1 | 2022-04-25 11:21:29 | 2022-04-25 11:21:29 | None | None
 ipv6-hitlist | 00c4db82 | yarrp | ongoing | 1 | 2022-05-10 09:04:09 | 2022-05-10 09:04:10 | None | None
-ipv6-hitlist | 10f1f456 | yarrp | ongoing | 1 | 2022-05-14 11:03:54 | 2022-05-14 11:04:00 | None | None
-ipv6-hitlist | 3e14beca | yarrp | ongoing | 1 | 2022-05-19 12:24:18 | 2022-05-19 12:24:19 | None | None
 
 ## Per name
 
@@ -342,12 +340,12 @@ ipv6-hitlist | 00c4db82 | yarrp | ongoing | 1 | 2022-05-10 09:04:09 | 2022-05-10
 ipv6-hitlist | 738e1046 | yarrp | finished | 1 | 2022-05-11 09:23:00 | 2022-05-11 09:23:05 | 2022-05-11 12:46:58 | 3:23:53
 ipv6-hitlist | e04ae576 | yarrp | finished | 1 | 2022-05-12 09:36:16 | 2022-05-12 09:36:21 | 2022-05-12 12:59:32 | 3:23:11
 ipv6-hitlist | 21b5133f | yarrp | finished | 1 | 2022-05-13 09:49:36 | 2022-05-13 09:49:38 | 2022-05-13 13:15:58 | 3:26:20
-ipv6-hitlist | 10f1f456 | yarrp | ongoing | 1 | 2022-05-14 11:03:54 | 2022-05-14 11:04:00 | None | None
+ipv6-hitlist | 10f1f456 | yarrp | agent_failure | 1 | 2022-05-14 11:03:54 | 2022-05-14 11:04:00 | 2022-05-19 15:15:17 | 5 days, 4:11:17
 ipv6-hitlist | cf7000e7 | yarrp | finished | 1 | 2022-05-15 11:21:32 | 2022-05-15 11:21:34 | 2022-05-15 14:32:47 | 3:11:13
 ipv6-hitlist | 45876977 | yarrp | finished | 1 | 2022-05-16 11:33:57 | 2022-05-16 11:33:58 | 2022-05-16 14:54:16 | 3:20:18
 ipv6-hitlist | c4463b11 | yarrp | finished | 1 | 2022-05-17 11:47:35 | 2022-05-17 11:47:37 | 2022-05-17 15:06:21 | 3:18:44
 ipv6-hitlist | bb4c04b5 | yarrp | finished | 1 | 2022-05-18 12:03:25 | 2022-05-18 12:03:27 | 2022-05-18 15:02:57 | 2:59:30
-ipv6-hitlist | 3e14beca | yarrp | ongoing | 1 | 2022-05-19 12:24:18 | 2022-05-19 12:24:19 | None | None
+ipv6-hitlist | 3e14beca | yarrp | agent_failure | 1 | 2022-05-19 12:24:18 | 2022-05-19 12:24:19 | 2022-05-19 15:15:18 | 2:50:59
 </details>
 
 <details>
