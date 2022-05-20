@@ -8,7 +8,7 @@ Name | UUID | Tool | State | Agents | Created | Start | End | Duration
 --   | --   | --   | --    | --     | --      | --    | --  | --
 {% for m in measurements %}
 {% if m.state == "ongoing" %}
-{{ m.name }} | {{ m.uuid }} | {{ m.tool }} | {{ m.state }} | {{ m.agents }} | {{ m.created }} | {{ m.start }} | {{ m.end }} | {{ m.duration }}
+{{ m.name }} | <a href="https://api.iris.dioptra.io/measurements/{{ m.uuid }}">{{ m.short_uuid }}</a> | {{ m.tool }} | {{ m.state }} | {{ m.agents }} | {{ m.created }} | {{ m.start }} | {{ m.end }} | {{ m.duration }}
 {% endif %}
 {% endfor %}
 
@@ -21,7 +21,7 @@ Name | UUID | Tool | State | Agents | Created | Start | End | Duration
 Name | UUID | Tool | State | Agents |Created | Start | End | Duration
 --   | --   | --   | --    | --     | --     | --    | --  | --
 {% for m in ms %}
-{{ m.name }} | {{ m.uuid }} | {{ m.tool }} | {{ m.state }} | {{ m.agents }} | {{ m.created }} | {{ m.start }} | {{ m.end }} | {{ m.duration }}
+{{ m.name }} | <a href="https://api.iris.dioptra.io/measurements/{{ m.uuid }}">{{ m.short_uuid }}</a> | {{ m.tool }} | {{ m.state }} | {{ m.agents }} | {{ m.created }} | {{ m.start }} | {{ m.end }} | {{ m.duration }}
 {% endfor %}
 </details>
 

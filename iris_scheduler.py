@@ -62,7 +62,8 @@ def generate_md(measurements):
     measurements = [
         {
             "name": measurement_name(measurement),
-            "uuid": measurement["uuid"].split("-")[0],
+            "uuid": measurement["uuid"],
+            "short_uuid": measurement["uuid"].split("-")[0],
             "tool": measurement.get("tool"),
             "state": measurement.get("state"),
             "agents": len(measurement.get("agents", [])),
@@ -142,8 +143,8 @@ def index_measurements(client: IrisClient, destination: Path) -> None:
 def main():
     logging.basicConfig(level=logging.INFO)
     with IrisClient() as client:
-        upload_target_lists(client)
-        schedule_measurements(client)
+        # upload_target_lists(client)
+        # schedule_measurements(client)
         index_measurements(client, Path("MEASUREMENTS.md"))
 
 
