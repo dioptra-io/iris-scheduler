@@ -143,8 +143,8 @@ def index_measurements(client: IrisClient, destination: Path) -> None:
 def main():
     logging.basicConfig(level=logging.INFO)
     with IrisClient() as client:
-        # upload_target_lists(client)
-        # schedule_measurements(client)
+        upload_target_lists(client)
+        schedule_measurements(client)
         index_measurements(client, Path("MEASUREMENTS.md"))
 
 
