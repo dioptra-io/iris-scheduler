@@ -7,7 +7,7 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-dioptra-iris-client = "^0.4.3"
+dioptra-iris-client = "^0.4.4"
 Jinja2 = "^3.1.2"
 
 [tool.poetry.dev-dependencies]

@@ -80,7 +80,7 @@ test = ["pytest (>=6.2.0)", "pytest-cov", "pytest-subtests", "pytest-xdist", "pr
 
 [[package]]
 name = "dioptra-iris-client"
-version = "0.4.3"
+version = "0.4.4"
 description = "Python client for the Iris API."
 category = "main"
 optional = false
@@ -200,7 +200,7 @@ python-versions = ">=3.5"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "2d252d61403c1bfda5c9590292a173e98d49449d21c0c21002c8aaf871f2e7c6"
+content-hash = "7b4fbbcd66432d1691081904a5608e56aeb74662f958935a287b6d0ae43dd39e"
 
 [metadata.files]
 anyio = [
@@ -294,8 +294,8 @@ cryptography = [
     {file = "cryptography-36.0.1.tar.gz", hash = "sha256:53e5c1dc3d7a953de055d77bef2ff607ceef7a2aac0353b5d630ab67f7423638"},
 ]
 dioptra-iris-client = [
-    {file = "dioptra-iris-client-0.4.3.tar.gz", hash = "sha256:61ea4e45c54ed806842761a97d1d328ebce51ea78595c2e2d668e725175e498a"},
-    {file = "dioptra_iris_client-0.4.3-py3-none-any.whl", hash = "sha256:769f1fdb8f2eab4fe9ce95beec14dcd03723492719123b6a717fff7308f43816"},
+    {file = "dioptra-iris-client-0.4.4.tar.gz", hash = "sha256:6422aabb11d4ca3fff1a7a7ffa6fc08cb9017fb2540003e36180d5973df234e2"},
+    {file = "dioptra_iris_client-0.4.4-py3-none-any.whl", hash = "sha256:5c19486da02e9b4f7ac7c453fa1974e79ab3b889bb1b8de697068033f2fd7246"},
 ]
 h11 = [
     {file = "h11-0.12.0-py3-none-any.whl", hash = "sha256:36a3cb8c0a032f56e2da7084577878a035d3b61d104230d4bd49c0c6b555a9c6"},
