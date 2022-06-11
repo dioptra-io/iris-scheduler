@@ -173,6 +173,7 @@ exhaustive.saturday | <a href="https://api.iris.dioptra.io/measurements/c94b1d48
 exhaustive.saturday | <a href="https://api.iris.dioptra.io/measurements/e1d4e4eb-938f-4cfb-ac94-7c98bc7d523c">e1d4e4eb</a> | diamond-miner | finished | 1 | 2022-05-22 19:08:27 | 2022-05-22 19:08:27 | 2022-05-23 12:34:46 | 17:26:19
 exhaustive.saturday | <a href="https://api.iris.dioptra.io/measurements/604566a2-e254-410e-ba21-f2a0cf695346">604566a2</a> | diamond-miner | finished | 1 | 2022-05-28 00:27:26 | 2022-05-28 00:27:27 | 2022-05-28 17:29:14 | 17:01:47
 exhaustive.saturday | <a href="https://api.iris.dioptra.io/measurements/b01bee5d-94c3-4829-a259-434b8c4b2130">b01bee5d</a> | diamond-miner | finished | 1 | 2022-06-04 00:05:29 | 2022-06-04 00:05:29 | 2022-06-04 16:45:50 | 16:40:21
+exhaustive.saturday | <a href="https://api.iris.dioptra.io/measurements/65825d27-b751-40eb-8431-2b80759b02b9">65825d27</a> | diamond-miner | created | 1 | 2022-06-11 00:05:29 | None | None | None
 </details>
 
 <details>
