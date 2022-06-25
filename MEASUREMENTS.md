@@ -156,6 +156,7 @@ Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 1slash16 | <a href="https://api.iris.dioptra.io/measurements/90faed7d-93e1-4a01-877d-787e0089a47a">90faed7d</a> | diamond-miner | F | 1 | 2022-06-22 18:41:34 | 2022-06-22 18:41:38 | 2022-06-22 18:43:44 | 0:02:06
 1slash16 | <a href="https://api.iris.dioptra.io/measurements/f979264d-d38d-4eb1-be1e-2f8ae82361d0">f979264d</a> | diamond-miner | F | 1 | 2022-06-23 18:51:39 | 2022-06-23 18:51:41 | 2022-06-23 18:53:49 | 0:02:08
 1slash16 | <a href="https://api.iris.dioptra.io/measurements/145fbf1d-a1e3-466b-9f12-ea78e7a3054f">145fbf1d</a> | diamond-miner | F | 1 | 2022-06-24 19:02:13 | 2022-06-24 19:02:14 | 2022-06-24 19:04:24 | 0:02:10
+1slash16 | <a href="https://api.iris.dioptra.io/measurements/11e4b4bd-bb57-429e-9cbe-fb0f0b226de1">11e4b4bd</a> | diamond-miner | O | 1 | 2022-06-25 19:02:15 | 2022-06-25 19:02:16 | None | None
 </details>
 
 <details>
@@ -340,6 +341,7 @@ google-dns-ping | <a href="https://api.iris.dioptra.io/measurements/5560afc2-b95
 google-dns-ping | <a href="https://api.iris.dioptra.io/measurements/cc595aae-1fd7-473d-b942-6b647c60626d">cc595aae</a> | ping | F | 1 | 2022-06-22 18:41:38 | 2022-06-22 18:41:41 | 2022-06-22 18:41:56 | 0:00:15
 google-dns-ping | <a href="https://api.iris.dioptra.io/measurements/c845f74b-22ff-4821-9149-463e170576da">c845f74b</a> | ping | F | 1 | 2022-06-23 18:51:41 | 2022-06-23 18:51:42 | 2022-06-23 18:51:58 | 0:00:16
 google-dns-ping | <a href="https://api.iris.dioptra.io/measurements/708b27af-f751-4129-a186-c80dfc393faa">708b27af</a> | ping | F | 1 | 2022-06-24 19:02:14 | 2022-06-24 19:02:15 | 2022-06-24 19:02:31 | 0:00:16
+google-dns-ping | <a href="https://api.iris.dioptra.io/measurements/512ef62d-502b-4707-8bd2-3c5691b1b085">512ef62d</a> | ping | C | 1 | 2022-06-25 19:02:16 | None | None | None
 </details>
 
 <details>
