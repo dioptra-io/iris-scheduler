@@ -160,7 +160,7 @@ Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 1slash16 | <a href="https://api.iris.dioptra.io/measurements/dc980b5a-57a0-4494-9ec1-7939e461ceeb">dc980b5a</a> | diamond-miner | F | 1 | 2022-06-26 19:19:34 | 2022-06-26 19:19:35 | 2022-06-26 19:21:53 | 0:02:18
 1slash16 | <a href="https://api.iris.dioptra.io/measurements/06452bf5-efc0-4b4a-b036-d50c0f37a1a2">06452bf5</a> | diamond-miner | F | 1 | 2022-06-27 19:20:10 | 2022-06-27 19:20:11 | 2022-06-27 19:22:26 | 0:02:15
 1slash16 | <a href="https://api.iris.dioptra.io/measurements/a1ea2673-4efd-4ff4-82d2-4c570d429053">a1ea2673</a> | diamond-miner | F | 1 | 2022-06-28 19:31:56 | 2022-06-28 19:31:58 | 2022-06-28 19:34:18 | 0:02:20
-1slash16 | <a href="https://api.iris.dioptra.io/measurements/bf67de2d-9c19-4699-9ddd-d4f0371318e3">bf67de2d</a> | diamond-miner | O | 1 | 2022-06-29 19:32:18 | 2022-06-29 19:32:20 | None | None
+1slash16 | <a href="https://api.iris.dioptra.io/measurements/bf67de2d-9c19-4699-9ddd-d4f0371318e3">bf67de2d</a> | diamond-miner | F | 1 | 2022-06-29 19:32:18 | 2022-06-29 19:32:20 | 2022-06-29 19:34:30 | 0:02:10
 </details>
 
 <details>
@@ -349,7 +349,7 @@ google-dns-ping | <a href="https://api.iris.dioptra.io/measurements/512ef62d-502
 google-dns-ping | <a href="https://api.iris.dioptra.io/measurements/4d670269-4c99-44db-b816-ec88524b1665">4d670269</a> | ping | F | 1 | 2022-06-26 19:19:36 | 2022-06-26 19:19:37 | 2022-06-26 19:19:53 | 0:00:16
 google-dns-ping | <a href="https://api.iris.dioptra.io/measurements/f094118c-c067-4082-b97d-efdfa1882b0b">f094118c</a> | ping | F | 1 | 2022-06-27 19:20:12 | 2022-06-27 19:20:13 | 2022-06-27 19:20:29 | 0:00:16
 google-dns-ping | <a href="https://api.iris.dioptra.io/measurements/77664362-979c-4261-906f-59f7337b6d3b">77664362</a> | ping | F | 1 | 2022-06-28 19:31:57 | 2022-06-28 19:31:59 | 2022-06-28 19:32:10 | 0:00:11
-google-dns-ping | <a href="https://api.iris.dioptra.io/measurements/71947cde-f043-4c76-b092-7be79498e92e">71947cde</a> | ping | C | 1 | 2022-06-29 19:32:20 | None | None | None
+google-dns-ping | <a href="https://api.iris.dioptra.io/measurements/71947cde-f043-4c76-b092-7be79498e92e">71947cde</a> | ping | F | 1 | 2022-06-29 19:32:20 | 2022-06-29 19:32:22 | 2022-06-29 19:32:37 | 0:00:15
 </details>
 
 <details>
