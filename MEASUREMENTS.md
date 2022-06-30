@@ -606,3 +606,4 @@ ukraine-conflict-2022.4 | <a href="https://api.iris.dioptra.io/measurements/5b6c
 ukraine-conflict-2022.4 | <a href="https://api.iris.dioptra.io/measurements/ffc5a902-e9e0-4e99-b3f1-db373f2ea1c4">ffc5a902</a> | yarrp | C | 2 | 2022-03-30 11:32:17 | 2022-03-30 11:32:19 | 2022-03-30 12:54:53 | 1:22:34
 ukraine-conflict-2022.4 | <a href="https://api.iris.dioptra.io/measurements/e8490185-67a8-4dd7-a504-c21c88d0309d">e8490185</a> | yarrp | C | 2 | 2022-03-30 15:35:51 | 2022-03-30 15:35:52 | 2022-03-30 16:02:17 | 0:26:25
 </details>
+

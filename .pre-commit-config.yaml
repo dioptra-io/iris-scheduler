@@ -33,6 +33,8 @@ repos:
     rev: v4.2.0
     hooks:
       - id: trailing-whitespace
+        exclude_types: ["markdown"]
       - id: end-of-file-fixer
+        exclude_types: ["markdown"]
       - id: check-yaml
       - id: check-added-large-files
