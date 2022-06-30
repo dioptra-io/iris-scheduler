@@ -7,10 +7,29 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+crontab = "^0.23.0"
 dioptra-iris-client = "^0.4.4"
 Jinja2 = "^3.1.2"
+typer = "^0.4.1"
 
 [tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+iris-scheduler = "iris_scheduler.main:app"
+
+[tool.mypy]
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+implicit_reexport = false
+no_implicit_optional = true
+strict_equality = true
+strict_optional = true
+warn_no_return = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_ignores = true
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

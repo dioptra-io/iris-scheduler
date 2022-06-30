@@ -9,26 +9,19 @@ on:
 jobs:
   main:
     runs-on: self-hosted
-    timeout-minutes: 5
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v3
-        with:
-          python-version: '3.10'
-      - name: Install dependencies
-        run: |
-          pip install poetry
-          poetry config virtualenvs.in-project true
-          poetry install
-      - name: Run scheduler
-        run: .venv/bin/python3 iris_scheduler.py
+      - uses: dioptra-io/setup-poetry-action@v1
+      - name: Install the scheduler
+        run: poetry install
+      - name: Run the scheduler
+        run: poetry run iris-scheduler
         env:
           IRIS_BASE_URL: ${{ secrets.IRIS_BASE_URL }}
           IRIS_USERNAME: ${{ secrets.IRIS_USERNAME }}
           IRIS_PASSWORD: ${{ secrets.IRIS_PASSWORD }}
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_user_name: github-actions[bot]
-          commit_user_email: 41898282+github-actions[bot]@users.noreply.github.com
-          commit_author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
           file_pattern: MEASUREMENTS.md

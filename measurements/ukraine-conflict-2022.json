@@ -24,5 +24,11 @@
     }
   ],
   "tool": "yarrp",
-  "tags": ["!public"]
+  "tags": ["!public"],
+  "scheduler": {
+    "cron": "0 */4 * * *",
+    "not_before": "2022-02-24T00:00:00",
+    "not_after":"2022-03-30T00:00:00",
+    "type": "regular"
+  }
 }

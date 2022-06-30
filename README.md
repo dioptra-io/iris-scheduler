@@ -5,9 +5,17 @@
 [`MEASUREMENTS.md`](MEASUREMENTS.md)
 
 The [`iris_scheduler.py`](iris_scheduler.py) script is run every fifteen minutes and on new commits via the [`scheduler.yml`](.github/workflows/scheduler.yml) workflow.
-It acts as follows:
-- Target lists in `targets/` are automatically uploaded.
-- Measurements are tagged with their filename.
-- Measurements in `hourly/` are created every hour.
-- Measurements in `daily/` are created once a day.
-- Measurements in `weekly/` are created once a week, on Saturday.
+
+Each measurement file must have the following metadata:
+```json
+{
+  // ...,
+  "scheduler": {
+    "cron": "0 0 * * Sat",
+    "not_before": "2022-06-30T00:00:00",
+    // Optional, to stop scheduling the measurement after some time.
+    "not_after": "2030-01-01T00:00:00",
+    "type": "regular"
+  }
+}
+```
