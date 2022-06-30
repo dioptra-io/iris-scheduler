@@ -13,8 +13,7 @@
   "tool": "yarrp",
     "scheduler": {
     "cron": "0 6 * * *",
-    "not_before": "2022-02-24T00:00:00",
-    "not_after":"2022-03-30T00:00:00",
+    "not_before": "2022-01-01T00:00:00",
     "type": "regular"
   }
 }
