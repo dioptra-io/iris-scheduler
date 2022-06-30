@@ -2,7 +2,7 @@ name: Scheduler
 
 on:
   push:
-    paths-ignore: ['**.md']
+    paths-ignore: ['README.md']
   schedule:
     - cron:  '0/15 * * * *'
 
