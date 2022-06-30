@@ -31,7 +31,7 @@ def schedule_measurement(
     not_after = None
     if "not_after" in scheduler:
         not_after = datetime.fromisoformat(scheduler["not_after"])
-    last_run = get_last_run(client, "exhaustive.saturday.json")
+    last_run = get_last_run(client, file.name)
     next_run = get_next_run(cron, last_run or not_before)
     logger.info(
         "file=%s not_before=%s not_after=%s last_run=%s next_run=%s",
@@ -41,7 +41,8 @@ def schedule_measurement(
         last_run,
         next_run,
     )
-    if next_run > datetime.utcnow() or (not_after and next_run > not_after):
+    now = datetime.utcnow()
+    if (not_after and now > not_after) or next_run > now:
         logger.info("file=%s action=skip", file.name)
     else:
         logger.info("file=%s action=schedule", file.name)

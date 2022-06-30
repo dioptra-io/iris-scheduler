@@ -15,8 +15,8 @@
   "tags": ["!public", "collection:exhaustive"],
   "tool": "diamond-miner",
   "scheduler": {
-    "cron": "0 0 * * Sat",
-    "not_before": "2022-01-01T00:00:00",
+    "cron": "0 1 * * Sat",
+    "not_before": "2022-07-02T00:00:00",
     "type": "regular"
   }
 }
