@@ -11,7 +11,7 @@
     }
   ],
   "tool": "yarrp",
-    "scheduler": {
+  "scheduler": {
     "cron": "0 6 * * *",
     "not_before": "2022-01-01T00:00:00",
     "type": "regular"
