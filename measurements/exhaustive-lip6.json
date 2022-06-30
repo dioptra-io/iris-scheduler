@@ -16,8 +16,7 @@
   "tool": "diamond-miner",
   "scheduler": {
     "cron": "0 0 * * Sat",
-    "not_before": "2022-06-30T00:00:00",
-    "not_after": "2030-01-01T00:00:00",
+    "not_before": "2022-01-01T00:00:00",
     "type": "regular"
   }
 }
