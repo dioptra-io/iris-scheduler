@@ -15,7 +15,7 @@ Each measurement file must have the following metadata:
     "not_before": "2022-06-30T00:00:00",
     // Optional, to stop scheduling the measurement after some time.
     "not_after": "2030-01-01T00:00:00",
-    "type": "regular"
+    "type": "regular" // or "zeph"
   }
 }
 ```
