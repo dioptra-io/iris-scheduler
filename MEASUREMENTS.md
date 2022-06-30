@@ -410,6 +410,7 @@ ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/c4463b11-2b5f-4
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/bb4c04b5-1be5-4e8a-8dc4-e55d04285212">bb4c04b5</a> | yarrp | F | 1 | 2022-05-18 12:03:25 | 2022-05-18 12:03:27 | 2022-05-18 15:02:57 | 2:59:30
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/3e14beca-2a90-46e6-b9eb-c6690d5b784f">3e14beca</a> | yarrp | A | 1 | 2022-05-19 12:24:18 | 2022-05-19 12:24:19 | 2022-05-19 15:15:18 | 2:50:59
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/45939a02-6e40-48ed-ae0b-ff55a40cbd92">45939a02</a> | yarrp | F | 1 | 2022-05-22 19:04:36 | 2022-05-22 19:04:38 | 2022-05-22 22:25:55 | 3:21:17
+ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/262833e6-1d26-48a8-b998-53d2a3b83a55">262833e6</a> | yarrp | C | 1 | 2022-06-30 19:31:56 | None | None | None
 </details>
 
 <details>
