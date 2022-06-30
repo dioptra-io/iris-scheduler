@@ -4,6 +4,7 @@
 
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
+zeph-test | <a href="https://api.iris.dioptra.io/measurements/ba62383b-6086-4ded-840b-82be993009bb">ba62383b</a> | diamond-miner | O | 5 | 2022-06-30 21:24:41 | 2022-06-30 21:24:43 | None | None
 
 ## Per name
 
@@ -607,5 +608,13 @@ ukraine-conflict-2022.4 | <a href="https://api.iris.dioptra.io/measurements/9bcc
 ukraine-conflict-2022.4 | <a href="https://api.iris.dioptra.io/measurements/5b6cc579-37fe-4514-897b-20d3a175917f">5b6cc579</a> | yarrp | F | 2 | 2022-03-30 07:21:33 | 2022-03-30 07:21:35 | 2022-03-30 09:30:09 | 2:08:34
 ukraine-conflict-2022.4 | <a href="https://api.iris.dioptra.io/measurements/ffc5a902-e9e0-4e99-b3f1-db373f2ea1c4">ffc5a902</a> | yarrp | C | 2 | 2022-03-30 11:32:17 | 2022-03-30 11:32:19 | 2022-03-30 12:54:53 | 1:22:34
 ukraine-conflict-2022.4 | <a href="https://api.iris.dioptra.io/measurements/e8490185-67a8-4dd7-a504-c21c88d0309d">e8490185</a> | yarrp | C | 2 | 2022-03-30 15:35:51 | 2022-03-30 15:35:52 | 2022-03-30 16:02:17 | 0:26:25
+</details>
+
+<details>
+<summary>zeph-test</summary>
+
+Name | UUID | Tool | S  | A  | Created | Start | End | Duration
+--   | --   | --   | -- | -- | --      | --    | --  | --
+zeph-test | <a href="https://api.iris.dioptra.io/measurements/ba62383b-6086-4ded-840b-82be993009bb">ba62383b</a> | diamond-miner | O | 5 | 2022-06-30 21:24:41 | 2022-06-30 21:24:43 | None | None
 </details>
 

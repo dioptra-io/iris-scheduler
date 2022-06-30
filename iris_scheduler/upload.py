@@ -6,8 +6,8 @@ from iris_client import IrisClient
 from iris_scheduler.logger import logger
 
 
-def get_last_modified(client: IrisClient, key: str) -> datetime | None:
-    res = client.get(f"/targets/{key}", params={"with_content": False})
+def get_last_modified(iris: IrisClient, key: str) -> datetime | None:
+    res = iris.get(f"/targets/{key}", params={"with_content": False})
     if res.is_success:
         target_file = res.json()
         return datetime.fromisoformat(target_file["last_modified"]).replace(
@@ -16,8 +16,8 @@ def get_last_modified(client: IrisClient, key: str) -> datetime | None:
     return None
 
 
-def upload_target(client: IrisClient, file: Path, dry_run: bool) -> None:
-    remote_date = get_last_modified(client, file.name)
+def upload_target(iris: IrisClient, file: Path, dry_run: bool) -> None:
+    remote_date = get_last_modified(iris, file.name)
     local_date = datetime.fromtimestamp(file.stat().st_mtime, timezone.utc)
     logger.info(
         "file=%s local_date=%s remote_date=%s",
@@ -31,5 +31,5 @@ def upload_target(client: IrisClient, file: Path, dry_run: bool) -> None:
         logger.info("file=%s action=upload", file.name)
         if not dry_run:
             with file.open("rb") as f:
-                client.post("/targets/", files={"target_file": f}).raise_for_status()
+                iris.post("/targets/", files={"target_file": f}).raise_for_status()
     return None

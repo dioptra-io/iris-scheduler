@@ -1,0 +1,15 @@
+{
+  "ranker_class": "DFGCoverRanker",
+  "prefixes_file": "1slash22.csv",
+  "agent_tag": "gcp-mlab",
+  "tool": "diamond-miner",
+  "protocol": "icmp",
+  "min_ttl": 2,
+  "max_ttl": 32,
+  "exploration_ratio": 0.1,
+  "scheduler": {
+    "cron": "0 1 * * *",
+    "not_before": "2022-06-30T00:00:00",
+    "type": "zeph"
+  }
+}

@@ -55,7 +55,8 @@ def generate_md(measurements: list[dict]) -> str:
             "uuid": measurement["uuid"],
             "short_uuid": measurement["uuid"].split("-")[0],
             "tool": measurement["tool"],
-            "state": measurement["state"][0].upper(),
+            "state": measurement["state"],
+            "short_state": measurement["state"][0].upper(),
             "agents": len(measurement["agents"]),
             "created": creation_time(measurement),
             "start": start_time(measurement),
@@ -68,10 +69,8 @@ def generate_md(measurements: list[dict]) -> str:
     return template.render(measurements=measurements)
 
 
-def index_measurements(
-    client: IrisClient, scheduler_tag: str, destination: Path
-) -> None:
-    measurements = client.all(
+def index_measurements(iris: IrisClient, scheduler_tag: str, destination: Path) -> None:
+    measurements = iris.all(
         "/measurements/", params={"limit": 200, "tag": scheduler_tag}
     )
     destination.write_text(generate_md(measurements))

@@ -1,16 +1,21 @@
 import json
 from datetime import datetime, timedelta
 from pathlib import Path
+from typing import Any
 
 from crontab import CronTab
 from iris_client import IrisClient
+from pych_client import ClickHouseClient
+from zeph import rankers
+from zeph.main import run_zeph
 
 from iris_scheduler.logger import logger
 
 
-def get_last_run(client: IrisClient, tag: str) -> datetime | None:
-    if measurements := client.all("/measurements/", params={"limit": 200, "tag": tag}):
-        return max(datetime.fromisoformat(m["creation_time"]) for m in measurements)
+def get_last(iris: IrisClient, tag: str) -> dict | None:
+    if measurements := iris.all("/measurements/", params={"limit": 200, "tag": tag}):
+        measurements.sort(key=lambda x: datetime.fromisoformat(x["creation_time"]))
+        return measurements[-1]  # type: ignore
     return None
 
 
@@ -20,19 +25,24 @@ def get_next_run(cron: CronTab, last_run: datetime) -> datetime:
 
 
 def schedule_measurement(
-    client: IrisClient, file: Path, scheduler_tag: str, dry_run: bool
+    iris: IrisClient,
+    clickhouse: ClickHouseClient,
+    prefixes_dir: Path,
+    scheduler_tag: str,
+    file: Path,
+    dry_run: bool,
 ) -> None:
     measurement = json.loads(file.read_text())
-    measurement.setdefault("tags", [])
-    measurement["tags"] += [file.name, scheduler_tag]
     scheduler = measurement.pop("scheduler")
+    tags = [file.name, scheduler_tag]
     cron = CronTab(scheduler["cron"])
     not_before = datetime.fromisoformat(scheduler["not_before"])
     not_after = None
     if "not_after" in scheduler:
         not_after = datetime.fromisoformat(scheduler["not_after"])
-    last_run = get_last_run(client, file.name)
-    next_run = get_next_run(cron, last_run or not_before)
+    last = get_last(iris, file.name)
+    last_run = datetime.fromisoformat(last["creation_time"]) if last else not_before
+    next_run = get_next_run(cron, last_run)
     logger.info(
         "file=%s not_before=%s not_after=%s last_run=%s next_run=%s",
         file.name,
@@ -44,8 +54,87 @@ def schedule_measurement(
     now = datetime.utcnow()
     if (not_after and now > not_after) or next_run > now:
         logger.info("file=%s action=skip", file.name)
-    else:
-        logger.info("file=%s action=schedule", file.name)
-        if not dry_run:
-            client.post("/measurements/", json=measurement).raise_for_status()
+        return None
+    match scheduler["type"]:
+        case "regular":
+            schedule_regular_measurement(
+                iris,
+                file.name,
+                measurement,
+                tags,
+                dry_run,
+            )
+        case "zeph":
+            schedule_zeph_measurement(
+                iris,
+                clickhouse,
+                prefixes_dir,
+                file.name,
+                last,
+                measurement,
+                tags,
+                dry_run,
+            )
+        case _:
+            raise RuntimeError("Unsupported measurement type")
     return None
+
+
+def schedule_regular_measurement(
+    iris: IrisClient,
+    name: str,
+    measurement: dict,
+    tags: list[str],
+    dry_run: bool,
+) -> None:
+    logger.info("file=%s action=schedule-regular", name)
+    measurement.setdefault("tags", [])
+    measurement["tags"] += tags
+    if not dry_run:
+        iris.post("/measurements/", json=measurement).raise_for_status()
+    return None
+
+
+def schedule_zeph_measurement(
+    iris: IrisClient,
+    clickhouse: ClickHouseClient,
+    prefixes_dir: Path,
+    name: str,
+    last: dict | None,
+    measurement: dict,
+    tags: list[str],
+    dry_run: bool,
+) -> Any:
+    if last and last["state"] not in ("finished", "canceled"):
+        logger.info("file=%s action=skip-unfinished-zeph-cycle")
+        return None
+    logger.info("file=%s action=schedule-zeph", name)
+    measurement.setdefault("measurement_tags", [])
+    measurement["measurement_tags"] += tags
+    universe = set()
+    prefixes_file = prefixes_dir / measurement["prefixes_file"]
+    with prefixes_file.open() as f:
+        for line in f:
+            if line.startswith("#"):
+                continue
+            line = line.strip()
+            assert line.endswith("/24") or line.endswith("/64")
+            universe.add(line)
+    logger.info("file=%s distinct-prefixes=%s", name, len(universe))
+    ranker = getattr(rankers, measurement["ranker_class"])()
+    return run_zeph(
+        iris=iris,
+        clickhouse=clickhouse,
+        ranker=ranker,
+        universe=universe,
+        agent_tag=measurement["agent_tag"],
+        measurement_tags=measurement["measurement_tags"],
+        tool=measurement["tool"],
+        protocol=measurement["protocol"],
+        min_ttl=measurement["min_ttl"],
+        max_ttl=measurement["max_ttl"],
+        exploration_ratio=measurement["exploration_ratio"],
+        previous_uuid=last["uuid"] if last else None,
+        fixed_budget=measurement.get("fixed_budget"),
+        dry_run=dry_run,
+    )
