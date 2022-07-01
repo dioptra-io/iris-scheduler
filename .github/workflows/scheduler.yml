@@ -1,5 +1,8 @@
 name: Scheduler
 
+# Ensure at-most one scheduler instance is running at any given time.
+concurrency: iris-scheduler
+
 on:
   push:
     paths-ignore: ['README.md']
@@ -9,7 +12,7 @@ on:
 jobs:
   main:
     runs-on: self-hosted
-    timeout-minutes: 15
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v3
