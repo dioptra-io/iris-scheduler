@@ -1,6 +1,7 @@
 import logging
 from pathlib import Path
 
+import httpx
 import typer
 from iris_client import IrisClient
 from pych_client import ClickHouseClient
@@ -67,6 +68,7 @@ def main(
             base_url=iris_base_url,
             username=iris_username,
             password=iris_password,
+            timeout=httpx.Timeout(5.0, read=None, write=None),
         ) as iris,
         ClickHouseClient(
             base_url=clickhouse_base_url,
