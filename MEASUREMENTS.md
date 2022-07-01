@@ -4,7 +4,6 @@
 
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
-zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/4c53cebc-e542-467e-8c97-6338b2c52b99">4c53cebc</a> | diamond-miner | O | 5 | 2022-07-01 16:10:18 | 2022-07-01 16:10:20 | None | None
 
 ## Per name
 
@@ -284,6 +283,6 @@ ukraine-conflict-2022.4 | <a href="https://api.iris.dioptra.io/measurements/e849
 
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
-zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/4c53cebc-e542-467e-8c97-6338b2c52b99">4c53cebc</a> | diamond-miner | O | 5 | 2022-07-01 16:10:18 | 2022-07-01 16:10:20 | None | None
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/4c53cebc-e542-467e-8c97-6338b2c52b99">4c53cebc</a> | diamond-miner | F | 5 | 2022-07-01 16:10:18 | 2022-07-01 16:10:20 | 2022-07-01 17:22:36 | 1:12:16
 </details>
 
