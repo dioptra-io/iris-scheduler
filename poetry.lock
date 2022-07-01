@@ -129,7 +129,7 @@ httpx = ">=0.22.0,<0.23.0"
 
 [[package]]
 name = "dioptra-zeph"
-version = "1.2.2"
+version = "1.2.3"
 description = "An orchestrator for distributed IP tracing"
 category = "main"
 optional = false
@@ -512,8 +512,8 @@ dioptra-iris-client = [
     {file = "dioptra_iris_client-0.4.4-py3-none-any.whl", hash = "sha256:5c19486da02e9b4f7ac7c453fa1974e79ab3b889bb1b8de697068033f2fd7246"},
 ]
 dioptra-zeph = [
-    {file = "dioptra-zeph-1.2.2.tar.gz", hash = "sha256:2fd8ede41569fee29ad61f0e8161121e6d8e5b7df6dd4d252d2343c1dc4d3722"},
-    {file = "dioptra_zeph-1.2.2-py3-none-any.whl", hash = "sha256:332261ffb09fb61a2db260778905f0e76eab816efd58cc0d29922472bb615349"},
+    {file = "dioptra-zeph-1.2.3.tar.gz", hash = "sha256:b6499a51145b60217715f9dd565c6328a32c8d6ec0720f843cf820b332b34d8f"},
+    {file = "dioptra_zeph-1.2.3-py3-none-any.whl", hash = "sha256:00de0f774dc240c3c7b2789ba5d3d6b48f8a03d327f30d9f6340e62545347ba7"},
 ]
 h11 = [
     {file = "h11-0.12.0-py3-none-any.whl", hash = "sha256:36a3cb8c0a032f56e2da7084577878a035d3b61d104230d4bd49c0c6b555a9c6"},
