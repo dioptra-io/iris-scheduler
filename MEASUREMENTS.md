@@ -5,6 +5,7 @@
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/62954faf-4eeb-45d6-9b45-c55ed4e57dbb">62954faf</a> | yarrp | O | 1 | 2022-07-01 10:01:28 | 2022-07-01 10:01:30 | None | None
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/c48b81a0-22bd-4820-b746-8c680138820a">c48b81a0</a> | diamond-miner | O | 5 | 2022-07-01 10:34:00 | 2022-07-01 10:34:03 | None | None
 
 ## Per name
 
@@ -609,6 +610,14 @@ ukraine-conflict-2022.4 | <a href="https://api.iris.dioptra.io/measurements/9bcc
 ukraine-conflict-2022.4 | <a href="https://api.iris.dioptra.io/measurements/5b6cc579-37fe-4514-897b-20d3a175917f">5b6cc579</a> | yarrp | F | 2 | 2022-03-30 07:21:33 | 2022-03-30 07:21:35 | 2022-03-30 09:30:09 | 2:08:34
 ukraine-conflict-2022.4 | <a href="https://api.iris.dioptra.io/measurements/ffc5a902-e9e0-4e99-b3f1-db373f2ea1c4">ffc5a902</a> | yarrp | C | 2 | 2022-03-30 11:32:17 | 2022-03-30 11:32:19 | 2022-03-30 12:54:53 | 1:22:34
 ukraine-conflict-2022.4 | <a href="https://api.iris.dioptra.io/measurements/e8490185-67a8-4dd7-a504-c21c88d0309d">e8490185</a> | yarrp | C | 2 | 2022-03-30 15:35:51 | 2022-03-30 15:35:52 | 2022-03-30 16:02:17 | 0:26:25
+</details>
+
+<details>
+<summary>zeph-gcp-daily</summary>
+
+Name | UUID | Tool | S  | A  | Created | Start | End | Duration
+--   | --   | --   | -- | -- | --      | --    | --  | --
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/c48b81a0-22bd-4820-b746-8c680138820a">c48b81a0</a> | diamond-miner | O | 5 | 2022-07-01 10:34:00 | 2022-07-01 10:34:03 | None | None
 </details>
 
 <details>
