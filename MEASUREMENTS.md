@@ -4,6 +4,7 @@
 
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
+ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/62954faf-4eeb-45d6-9b45-c55ed4e57dbb">62954faf</a> | yarrp | O | 1 | 2022-07-01 10:01:28 | 2022-07-01 10:01:30 | None | None
 
 ## Per name
 
@@ -412,6 +413,7 @@ ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/3e14beca-2a90-4
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/45939a02-6e40-48ed-ae0b-ff55a40cbd92">45939a02</a> | yarrp | F | 1 | 2022-05-22 19:04:36 | 2022-05-22 19:04:38 | 2022-05-22 22:25:55 | 3:21:17
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/262833e6-1d26-48a8-b998-53d2a3b83a55">262833e6</a> | yarrp | C | 1 | 2022-06-30 19:31:56 | 2022-06-30 19:31:57 | 2022-06-30 19:37:59 | 0:06:02
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/9d07fc48-413d-478c-9dd0-f22453857eb9">9d07fc48</a> | yarrp | C | 1 | 2022-06-30 19:33:08 | 2022-06-30 19:33:09 | 2022-06-30 19:37:31 | 0:04:22
+ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/62954faf-4eeb-45d6-9b45-c55ed4e57dbb">62954faf</a> | yarrp | O | 1 | 2022-07-01 10:01:28 | 2022-07-01 10:01:30 | None | None
 </details>
 
 <details>
@@ -615,5 +617,6 @@ ukraine-conflict-2022.4 | <a href="https://api.iris.dioptra.io/measurements/e849
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
 zeph-test | <a href="https://api.iris.dioptra.io/measurements/ba62383b-6086-4ded-840b-82be993009bb">ba62383b</a> | diamond-miner | F | 5 | 2022-06-30 21:24:41 | 2022-06-30 21:24:43 | 2022-06-30 21:39:45 | 0:15:02
+zeph-test | <a href="https://api.iris.dioptra.io/measurements/51418720-1401-4790-b4a5-ee0c7d9f804b">51418720</a> | diamond-miner | F | 5 | 2022-07-01 10:00:44 | 2022-07-01 10:00:46 | 2022-07-01 10:01:11 | 0:00:25
 </details>
 
