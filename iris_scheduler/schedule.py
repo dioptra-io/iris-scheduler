@@ -106,7 +106,7 @@ def schedule_zeph_measurement(
     dry_run: bool,
 ) -> Any:
     if last and last["state"] not in ("finished", "canceled"):
-        logger.info("file=%s action=skip-unfinished-zeph-cycle")
+        logger.info("file=%s action=skip-unfinished-zeph-cycle", name)
         return None
     logger.info("file=%s action=schedule-zeph", name)
     measurement.setdefault("measurement_tags", [])

@@ -8,7 +8,7 @@
   "max_ttl": 32,
   "exploration_ratio": 0.1,
   "scheduler": {
-    "cron": "0 1 * * *",
+    "cron": "* 2,14 * * *",
     "not_before": "2022-06-30T00:00:00",
     "type": "zeph"
   }
