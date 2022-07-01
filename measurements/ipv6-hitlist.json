@@ -14,6 +14,7 @@
   "scheduler": {
     "cron": "0 6 * * *",
     "not_before": "2022-01-01T00:00:00",
+    "not_after": "2022-06-30T00:00:00",
     "type": "regular"
   }
 }
