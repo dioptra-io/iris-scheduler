@@ -55,6 +55,9 @@ def schedule_measurement(
     if (not_after and now > not_after) or next_run > now:
         logger.info("file=%s action=skip", file.name)
         return None
+    if last and last["state"] not in ("finished", "canceled"):
+        logger.info("file=%s action=skip-unfinished", file.name)
+        return None
     match scheduler["type"]:
         case "regular":
             schedule_regular_measurement(
@@ -105,9 +108,6 @@ def schedule_zeph_measurement(
     tags: list[str],
     dry_run: bool,
 ) -> Any:
-    if last and last["state"] not in ("finished", "canceled"):
-        logger.info("file=%s action=skip-unfinished-zeph-cycle", name)
-        return None
     logger.info("file=%s action=schedule-zeph", name)
     measurement.setdefault("measurement_tags", [])
     measurement["measurement_tags"] += tags
