@@ -36,4 +36,5 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           file_pattern: MEASUREMENTS.md
+          commit_author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
         continue-on-error: true
