@@ -26,26 +26,6 @@ def main(
         False,
         help="Do not upload targets or create measurements",
     ),
-    clickhouse_base_url: str = typer.Option(
-        None,
-        help="ClickHouse URL",
-        metavar="URL",
-    ),
-    clickhouse_database: str = typer.Option(
-        None,
-        help="ClickHouse database",
-        metavar="DATABASE",
-    ),
-    clickhouse_username: str = typer.Option(
-        None,
-        help="ClickHouse username",
-        metavar="USERNAME",
-    ),
-    clickhouse_password: str = typer.Option(
-        None,
-        help="ClickHouse password",
-        metavar="PASSWORD",
-    ),
     iris_base_url: str = typer.Option(
         None,
         help="Iris API URL",
@@ -63,24 +43,18 @@ def main(
     ),
 ) -> None:
     logging.basicConfig(level=logging.INFO)
-    with (
-        IrisClient(
-            base_url=iris_base_url,
-            username=iris_username,
-            password=iris_password,
-            timeout=httpx.Timeout(5.0, read=None, write=None),
-        ) as iris,
-        ClickHouseClient(
-            base_url=clickhouse_base_url,
-            database=clickhouse_database,
-            username=clickhouse_username,
-            password=clickhouse_password,
-        ) as clickhouse,
-    ):
-        for file in TARGETS_DIR.glob("*.csv"):
-            upload_target(iris, file, dry_run)
-        for file in MEASUREMENTS_DIR.glob("*.json"):
-            schedule_measurement(
-                iris, clickhouse, PREFIXES_DIR, SCHEDULER_TAG, file, dry_run
-            )
-        index_measurements(iris, SCHEDULER_TAG, INDEX_FILE)
+    with IrisClient(
+        base_url=iris_base_url,
+        username=iris_username,
+        password=iris_password,
+        timeout=httpx.Timeout(5.0, read=None, write=None),
+    ) as iris:
+        credentials = iris.get("/users/me/services").json()
+        with ClickHouseClient(**credentials["clickhouse"]) as clickhouse:
+            for file in TARGETS_DIR.glob("*.csv"):
+                upload_target(iris, file, dry_run)
+            for file in MEASUREMENTS_DIR.glob("*.json"):
+                schedule_measurement(
+                    iris, clickhouse, PREFIXES_DIR, SCHEDULER_TAG, file, dry_run
+                )
+            index_measurements(iris, SCHEDULER_TAG, INDEX_FILE)
