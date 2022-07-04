@@ -29,10 +29,6 @@ jobs:
           IRIS_BASE_URL: ${{ secrets.IRIS_BASE_URL }}
           IRIS_USERNAME: ${{ secrets.IRIS_USERNAME }}
           IRIS_PASSWORD: ${{ secrets.IRIS_PASSWORD }}
-          PYCH_BASE_URL: ${{ secrets.PYCH_BASE_URL }}
-          PYCH_DATABASE: ${{ secrets.PYCH_DATABASE }}
-          PYCH_USERNAME: ${{ secrets.PYCH_USERNAME }}
-          PYCH_PASSWORD: ${{ secrets.PYCH_PASSWORD }}
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           file_pattern: MEASUREMENTS.md
