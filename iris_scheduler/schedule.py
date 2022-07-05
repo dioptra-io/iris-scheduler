@@ -26,7 +26,6 @@ def get_next_run(cron: CronTab, last_run: datetime) -> datetime:
 
 def schedule_measurement(
     iris: IrisClient,
-    clickhouse: ClickHouseClient,
     prefixes_dir: Path,
     scheduler_tag: str,
     file: Path,
@@ -70,7 +69,6 @@ def schedule_measurement(
         case "zeph":
             schedule_zeph_measurement(
                 iris,
-                clickhouse,
                 prefixes_dir,
                 file.name,
                 last,
@@ -100,7 +98,6 @@ def schedule_regular_measurement(
 
 def schedule_zeph_measurement(
     iris: IrisClient,
-    clickhouse: ClickHouseClient,
     prefixes_dir: Path,
     name: str,
     last: dict | None,
@@ -109,6 +106,10 @@ def schedule_zeph_measurement(
     dry_run: bool,
 ) -> Any:
     logger.info("file=%s action=schedule-zeph", name)
+    params = {}
+    if last:
+        params["measurement_uuid"] = last["uuid"]
+    credentials = iris.get("/users/me/services", params=params).json()
     measurement.setdefault("measurement_tags", [])
     measurement["measurement_tags"] += tags
     universe = set()
@@ -122,19 +123,20 @@ def schedule_zeph_measurement(
             universe.add(line)
     logger.info("file=%s distinct-prefixes=%s", name, len(universe))
     ranker = getattr(rankers, measurement["ranker_class"])()
-    return run_zeph(
-        iris=iris,
-        clickhouse=clickhouse,
-        ranker=ranker,
-        universe=universe,
-        agent_tag=measurement["agent_tag"],
-        measurement_tags=measurement["measurement_tags"],
-        tool=measurement["tool"],
-        protocol=measurement["protocol"],
-        min_ttl=measurement["min_ttl"],
-        max_ttl=measurement["max_ttl"],
-        exploration_ratio=measurement["exploration_ratio"],
-        previous_uuid=last["uuid"] if last else None,
-        fixed_budget=measurement.get("fixed_budget"),
-        dry_run=dry_run,
-    )
+    with ClickHouseClient(**credentials["clickhouse"]) as clickhouse:
+        return run_zeph(
+            iris=iris,
+            clickhouse=clickhouse,
+            ranker=ranker,
+            universe=universe,
+            agent_tag=measurement["agent_tag"],
+            measurement_tags=measurement["measurement_tags"],
+            tool=measurement["tool"],
+            protocol=measurement["protocol"],
+            min_ttl=measurement["min_ttl"],
+            max_ttl=measurement["max_ttl"],
+            exploration_ratio=measurement["exploration_ratio"],
+            previous_uuid=last["uuid"] if last else None,
+            fixed_budget=measurement.get("fixed_budget"),
+            dry_run=dry_run,
+        )

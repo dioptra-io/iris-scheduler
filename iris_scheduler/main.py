@@ -1,10 +1,8 @@
 import logging
 from pathlib import Path
 
-import httpx
 import typer
 from iris_client import IrisClient
-from pych_client import ClickHouseClient
 
 from iris_scheduler.index import index_measurements
 from iris_scheduler.schedule import schedule_measurement
@@ -47,14 +45,9 @@ def main(
         base_url=iris_base_url,
         username=iris_username,
         password=iris_password,
-        timeout=httpx.Timeout(5.0, read=None, write=None),
     ) as iris:
-        credentials = iris.get("/users/me/services").json()
-        with ClickHouseClient(**credentials["clickhouse"]) as clickhouse:
-            for file in TARGETS_DIR.glob("*.csv"):
-                upload_target(iris, file, dry_run)
-            for file in MEASUREMENTS_DIR.glob("*.json"):
-                schedule_measurement(
-                    iris, clickhouse, PREFIXES_DIR, SCHEDULER_TAG, file, dry_run
-                )
-            index_measurements(iris, SCHEDULER_TAG, INDEX_FILE)
+        for file in TARGETS_DIR.glob("*.csv"):
+            upload_target(iris, file, dry_run)
+        for file in MEASUREMENTS_DIR.glob("*.json"):
+            schedule_measurement(iris, PREFIXES_DIR, SCHEDULER_TAG, file, dry_run)
+        index_measurements(iris, SCHEDULER_TAG, INDEX_FILE)
