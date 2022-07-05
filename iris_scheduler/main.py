@@ -45,6 +45,7 @@ def main(
         base_url=iris_base_url,
         username=iris_username,
         password=iris_password,
+        timeout=60,
     ) as iris:
         for file in TARGETS_DIR.glob("*.csv"):
             upload_target(iris, file, dry_run)
