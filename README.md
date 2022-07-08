@@ -4,7 +4,7 @@
 
 [`MEASUREMENTS.md`](MEASUREMENTS.md)
 
-The [`iris_scheduler.py`](iris_scheduler.py) script is run every fifteen minutes and on new commits via the [`scheduler.yml`](.github/workflows/scheduler.yml) workflow.
+The [`iris-scheduler`](/iris_scheduler/main.py) script is run every fifteen minutes and on new commits via the [`scheduler.yml`](.github/workflows/scheduler.yml) workflow.
 
 Each measurement file must have the following metadata:
 ```js
