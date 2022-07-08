@@ -24,7 +24,7 @@
     }
   ],
   "tool": "yarrp",
-  "tags": ["!public"],
+  "tags": ["visibility:public"],
   "scheduler": {
     "cron": "0 */4 * * *",
     "not_before": "2022-02-24T00:00:00",
