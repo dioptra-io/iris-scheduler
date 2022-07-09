@@ -3,6 +3,7 @@ from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Any
 
+import orjson
 from crontab import CronTab
 from iris_client import IrisClient
 from pych_client import ClickHouseClient
@@ -124,19 +125,24 @@ def schedule_zeph_measurement(
     logger.info("file=%s distinct-prefixes=%s", name, len(universe))
     ranker = getattr(rankers, measurement["ranker_class"])()
     with ClickHouseClient(**credentials["clickhouse"]) as clickhouse:
-        return run_zeph(
-            iris=iris,
-            clickhouse=clickhouse,
-            ranker=ranker,
-            universe=universe,
-            agent_tag=measurement["agent_tag"],
-            measurement_tags=measurement["measurement_tags"],
-            tool=measurement["tool"],
-            protocol=measurement["protocol"],
-            min_ttl=measurement["min_ttl"],
-            max_ttl=measurement["max_ttl"],
-            exploration_ratio=measurement["exploration_ratio"],
-            previous_uuid=last["uuid"] if last else None,
-            fixed_budget=measurement.get("fixed_budget"),
-            dry_run=dry_run,
-        )
+        try:
+            return run_zeph(
+                iris=iris,
+                clickhouse=clickhouse,
+                ranker=ranker,
+                universe=universe,
+                agent_tag=measurement["agent_tag"],
+                measurement_tags=measurement["measurement_tags"],
+                tool=measurement["tool"],
+                protocol=measurement["protocol"],
+                min_ttl=measurement["min_ttl"],
+                max_ttl=measurement["max_ttl"],
+                exploration_ratio=measurement["exploration_ratio"],
+                previous_uuid=last["uuid"] if last else None,
+                fixed_budget=measurement.get("fixed_budget"),
+                dry_run=dry_run,
+            )
+        except orjson.JSONDecodeError as e:
+            # TODO: Move this exception handling to Zeph.
+            print(e.doc)  # type: ignore
+            raise e
