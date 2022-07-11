@@ -1,5 +1,5 @@
 {
-  "ranker_class": "DFGCoverRanker",
+  "ranker": "DFGCoverRanker",
   "prefixes_file": "0slash0.csv",
   "agent_tag": "gcp-mlab",
   "tool": "diamond-miner",

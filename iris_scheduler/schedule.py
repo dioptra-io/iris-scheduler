@@ -7,7 +7,6 @@ import orjson
 from crontab import CronTab
 from iris_client import IrisClient
 from pych_client import ClickHouseClient
-from zeph import rankers
 from zeph.main import run_zeph
 
 from iris_scheduler.logger import logger
@@ -123,13 +122,12 @@ def schedule_zeph_measurement(
             assert line.endswith("/24") or line.endswith("/64")
             universe.add(line)
     logger.info("file=%s distinct-prefixes=%s", name, len(universe))
-    ranker = getattr(rankers, measurement["ranker_class"])()
     with ClickHouseClient(**credentials["clickhouse"]) as clickhouse:
         try:
             return run_zeph(
                 iris=iris,
                 clickhouse=clickhouse,
-                ranker=ranker,
+                ranker=measurement["ranker"],
                 universe=universe,
                 agent_tag=measurement["agent_tag"],
                 measurement_tags=measurement["measurement_tags"],
