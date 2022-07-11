@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 
 .idea/
+
+# Prefixes
+prefixes/0slash0.csv
