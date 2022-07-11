@@ -129,7 +129,7 @@ httpx = ">=0.23.0,<0.24.0"
 
 [[package]]
 name = "dioptra-zeph"
-version = "1.2.5"
+version = "1.2.6"
 description = "An orchestrator for distributed IP tracing"
 category = "main"
 optional = false
@@ -380,7 +380,7 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.10"
-content-hash = "edae564f094bd84b9ac7dd5d168c14ffb5a0eaea36b99119a9febf0357bbc780"
+content-hash = "7de9741efa0af657421ebe5f418414fc1e254769905eeb86e832b09a7f470d38"
 
 [metadata.files]
 anyio = []
