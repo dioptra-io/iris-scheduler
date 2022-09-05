@@ -20,6 +20,7 @@ exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/7317c383-e16
 exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/fddc7a01-ed8a-4c76-8692-939d4ea07be8">fddc7a01</a> | diamond-miner | C | 1 | 2022-08-06 01:29:51 | 2022-08-06 01:29:53 | 2022-08-22 10:22:24 | 16 days, 8:52:31
 exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/c90a8381-cb23-408b-8276-538dbe37f03b">c90a8381</a> | diamond-miner | F | 1 | 2022-08-22 10:37:00 | 2022-08-22 10:37:01 | 2022-08-23 03:29:19 | 16:52:18
 exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/e0103c29-6550-46e8-8369-6214c24eedd1">e0103c29</a> | diamond-miner | F | 1 | 2022-08-27 08:06:34 | 2022-08-27 08:06:35 | 2022-08-28 00:34:17 | 16:27:42
+exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/2b86c687-89b8-44f1-99c7-698400693174">2b86c687</a> | diamond-miner | F | 1 | 2022-09-03 01:30:53 | 2022-09-03 01:30:54 | 2022-09-03 18:25:37 | 16:54:43
 </details>
 
 <details>
