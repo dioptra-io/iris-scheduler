@@ -4,7 +4,6 @@
 
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
-exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/56ada142-ea2d-4b64-b7f2-fd1a636eef62">56ada142</a> | diamond-miner | O | 1 | 2023-03-11 01:30:05 | 2023-03-11 01:30:06 | None | None
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/5b5260f5-787b-4a2c-9b5c-c6c8379d37a4">5b5260f5</a> | yarrp | O | 5 | 2022-12-09 06:31:03 | 2022-12-09 06:31:29 | None | None
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/f9c6628e-fbba-45e0-923b-195a9d80d5bb">f9c6628e</a> | yarrp | O | 5 | 2022-12-25 06:05:30 | 2022-12-25 06:05:36 | None | None
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/a48a3b94-b2d7-4662-9b2e-34f33a1a5f75">a48a3b94</a> | diamond-miner | O | 5 | 2022-12-02 08:25:56 | 2022-12-02 08:25:58 | None | None
@@ -48,7 +47,7 @@ exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/66f7277b-080
 exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/f41f0567-0dac-462d-a766-826133a8ea3d">f41f0567</a> | diamond-miner | F | 1 | 2023-01-28 01:31:04 | 2023-01-28 01:31:04 | 2023-01-28 19:19:43 | 17:48:39
 exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/21ac5d0d-1f78-42a4-a290-a5d19feebf44">21ac5d0d</a> | diamond-miner | F | 1 | 2023-02-27 12:17:49 | 2023-02-27 12:17:50 | 2023-02-28 06:05:25 | 17:47:35
 exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/ee46f06a-d461-4cb4-bef8-1e07456c4baf">ee46f06a</a> | diamond-miner | F | 1 | 2023-03-04 01:30:42 | 2023-03-04 01:30:43 | 2023-03-04 18:56:30 | 17:25:47
-exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/56ada142-ea2d-4b64-b7f2-fd1a636eef62">56ada142</a> | diamond-miner | O | 1 | 2023-03-11 01:30:05 | 2023-03-11 01:30:06 | None | None
+exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/56ada142-ea2d-4b64-b7f2-fd1a636eef62">56ada142</a> | diamond-miner | F | 1 | 2023-03-11 01:30:05 | 2023-03-11 01:30:06 | 2023-03-11 18:58:28 | 17:28:22
 </details>
 
 <details>
