@@ -4,7 +4,6 @@
 
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
-exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/fa2ccf4f-cf3d-4462-bb6a-6404cb5744f8">fa2ccf4f</a> | diamond-miner | O | 1 | 2023-08-12 01:14:04 | 2023-08-12 01:14:04 | None | None
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/5b5260f5-787b-4a2c-9b5c-c6c8379d37a4">5b5260f5</a> | yarrp | O | 5 | 2022-12-09 06:31:03 | 2022-12-09 06:31:29 | None | None
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/f9c6628e-fbba-45e0-923b-195a9d80d5bb">f9c6628e</a> | yarrp | O | 5 | 2022-12-25 06:05:30 | 2022-12-25 06:05:36 | None | None
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/a48a3b94-b2d7-4662-9b2e-34f33a1a5f75">a48a3b94</a> | diamond-miner | O | 5 | 2022-12-02 08:25:56 | 2022-12-02 08:25:58 | None | None
@@ -70,7 +69,7 @@ exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/804062b9-7e3
 exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/56d44e42-68c8-4660-8b64-aa3cabd8c275">56d44e42</a> | diamond-miner | F | 1 | 2023-07-22 01:30:17 | 2023-07-22 01:30:18 | 2023-07-22 22:30:11 | 20:59:53
 exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/0a9ef4f6-d415-4aea-a5ca-f1f408edaa29">0a9ef4f6</a> | diamond-miner | F | 1 | 2023-07-29 01:30:05 | 2023-07-29 01:30:06 | 2023-07-29 22:22:45 | 20:52:39
 exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/45d4baeb-5c30-4158-ac7c-613c3374d0e6">45d4baeb</a> | diamond-miner | F | 1 | 2023-08-05 01:29:10 | 2023-08-05 01:29:10 | 2023-08-08 08:01:22 | 3 days, 6:32:12
-exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/fa2ccf4f-cf3d-4462-bb6a-6404cb5744f8">fa2ccf4f</a> | diamond-miner | O | 1 | 2023-08-12 01:14:04 | 2023-08-12 01:14:04 | None | None
+exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/fa2ccf4f-cf3d-4462-bb6a-6404cb5744f8">fa2ccf4f</a> | diamond-miner | F | 1 | 2023-08-12 01:14:04 | 2023-08-12 01:14:04 | 2023-08-12 22:11:11 | 20:57:07
 </details>
 
 <details>
