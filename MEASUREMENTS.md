@@ -4,6 +4,7 @@
 
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
+exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/c9374dfe-e679-4a71-9b99-573bd928b755">c9374dfe</a> | diamond-miner | O | 1 | 2023-09-23 01:14:23 | 2023-09-23 01:14:23 | None | None
 
 ## Per name
 
@@ -72,6 +73,7 @@ exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/ac69f195-762
 exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/74294a77-ef3b-4ea9-a8a4-4d26873ef15f">74294a77</a> | diamond-miner | F | 1 | 2023-09-05 11:29:16 | 2023-09-05 11:29:16 | 2023-09-06 09:33:17 | 22:04:01
 exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/a436a57f-2f76-4697-a331-6a9585d1426e">a436a57f</a> | diamond-miner | F | 1 | 2023-09-09 01:14:13 | 2023-09-09 01:14:13 | 2023-09-09 21:34:54 | 20:20:41
 exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/71eed6a1-8e2c-41f0-a7c8-aceeec427958">71eed6a1</a> | diamond-miner | F | 1 | 2023-09-16 01:14:18 | 2023-09-16 01:14:18 | 2023-09-16 22:34:54 | 21:20:36
+exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/c9374dfe-e679-4a71-9b99-573bd928b755">c9374dfe</a> | diamond-miner | O | 1 | 2023-09-23 01:14:23 | 2023-09-23 01:14:23 | None | None
 </details>
 
 <details>
