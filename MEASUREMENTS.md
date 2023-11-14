@@ -5,7 +5,7 @@
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/56bb864a-a00e-435f-aca9-60b74cef0f0e">56bb864a</a> | yarrp | O | 5 | 2023-11-14 11:50:46 | 2023-11-14 11:50:52 | None | None
-zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/9ddd9274-9d13-4115-8b64-7d5261c7ac24">9ddd9274</a> | diamond-miner | O | 5 | 2023-09-26 18:49:09 | 2023-09-26 18:49:11 | None | None
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/b0721cb4-9308-4d7e-84d2-15b530d9efaf">b0721cb4</a> | diamond-miner | O | 5 | 2023-11-14 13:18:39 | 2023-11-14 13:18:41 | None | None
 
 ## Per name
 
@@ -615,6 +615,7 @@ zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/28658e72-904c
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/1a95ccc9-6af3-4a34-ad51-0ab668b88d0c">1a95ccc9</a> | diamond-miner | F | 4 | 2023-09-24 08:04:31 | 2023-09-24 08:04:33 | 2023-09-24 13:25:12 | 5:20:39
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/e3498cde-d4f9-4c13-b79c-baad22cd1631">e3498cde</a> | diamond-miner | F | 4 | 2023-09-24 14:03:53 | 2023-09-24 14:03:55 | 2023-09-24 15:05:32 | 1:01:37
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/7a26377f-e72b-4c58-8a8a-4db7eeb4c4a1">7a26377f</a> | diamond-miner | F | 5 | 2023-09-24 20:04:15 | 2023-09-24 20:04:16 | 2023-09-26 18:41:19 | 1 day, 22:37:03
-zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/9ddd9274-9d13-4115-8b64-7d5261c7ac24">9ddd9274</a> | diamond-miner | O | 5 | 2023-09-26 18:49:09 | 2023-09-26 18:49:11 | None | None
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/9ddd9274-9d13-4115-8b64-7d5261c7ac24">9ddd9274</a> | diamond-miner | C | 5 | 2023-09-26 18:49:09 | 2023-09-26 18:49:11 | 2023-11-14 13:07:42 | 48 days, 18:18:31
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/b0721cb4-9308-4d7e-84d2-15b530d9efaf">b0721cb4</a> | diamond-miner | O | 5 | 2023-11-14 13:18:39 | 2023-11-14 13:18:41 | None | None
 </details>
 
