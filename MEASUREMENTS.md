@@ -4,6 +4,7 @@
 
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
+exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/250ecfe2-2ebd-4829-b209-138531facb17">250ecfe2</a> | diamond-miner | O | 1 | 2023-12-02 01:38:57 | 2023-12-02 01:38:57 | None | None
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/daf7636e-741b-43bc-9c6d-a61377fdb529">daf7636e</a> | yarrp | O | 5 | 2023-11-28 10:50:53 | 2023-11-28 10:50:58 | None | None
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/288428de-6e36-49e7-867c-ee6468f5e018">288428de</a> | diamond-miner | O | 5 | 2023-11-28 11:10:05 | 2023-11-28 11:10:07 | None | None
 
@@ -82,6 +83,7 @@ exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/6fa6493c-def
 exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/d99b94b3-a89c-4420-a1c5-6c857a8e438d">d99b94b3</a> | diamond-miner | F | 1 | 2023-11-11 01:38:16 | 2023-11-11 01:38:17 | 2023-11-11 20:58:24 | 19:20:07
 exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/ffab0ec6-dad2-423e-85a1-2ea3061d104b">ffab0ec6</a> | diamond-miner | F | 1 | 2023-11-18 01:41:44 | 2023-11-18 01:41:44 | 2023-11-18 21:05:13 | 19:23:29
 exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/e88c0f24-a835-4015-9427-f80f4778f81a">e88c0f24</a> | diamond-miner | C | 1 | 2023-11-25 01:39:00 | 2023-11-25 01:39:01 | 2023-11-28 10:42:55 | 3 days, 9:03:54
+exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/250ecfe2-2ebd-4829-b209-138531facb17">250ecfe2</a> | diamond-miner | O | 1 | 2023-12-02 01:38:57 | 2023-12-02 01:38:57 | None | None
 </details>
 
 <details>
