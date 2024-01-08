@@ -4,7 +4,7 @@
 
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
-exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/1e420dc4-82f2-446a-ab73-2ef8b64e83ac">1e420dc4</a> | diamond-miner | C | 1 | 2024-01-08 09:19:38 | None | None | None
+exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/1e420dc4-82f2-446a-ab73-2ef8b64e83ac">1e420dc4</a> | diamond-miner | O | 1 | 2024-01-08 09:19:38 | 2024-01-08 09:19:39 | None | None
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/199f46f6-bc83-41c6-80bf-0200e6b5760b">199f46f6</a> | yarrp | O | 10 | 2024-01-08 09:08:46 | 2024-01-08 09:08:53 | None | None
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/9cdc8eaa-89ec-46d0-b5ec-5d5de1f33dd7">9cdc8eaa</a> | diamond-miner | O | 10 | 2024-01-08 09:01:40 | 2024-01-08 09:01:43 | None | None
 
@@ -87,7 +87,7 @@ exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/250ecfe2-2eb
 exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/520b84f3-781b-47a9-a375-236702c63de6">520b84f3</a> | diamond-miner | C | 1 | 2023-12-11 11:20:38 | 2023-12-11 11:20:38 | 2023-12-19 11:10:47 | 7 days, 23:50:09
 exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/c240331e-ec59-4ab9-b017-e9a81b86639c">c240331e</a> | diamond-miner | C | 1 | 2023-12-19 11:18:21 | 2023-12-19 11:18:22 | 2023-12-19 14:31:40 | 3:13:18
 exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/48dfe196-b21f-467e-9f77-9d6d8f1e2fe5">48dfe196</a> | diamond-miner | C | 1 | 2023-12-23 01:38:03 | 2023-12-23 01:38:04 | 2024-01-08 08:33:16 | 16 days, 6:55:12
-exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/1e420dc4-82f2-446a-ab73-2ef8b64e83ac">1e420dc4</a> | diamond-miner | C | 1 | 2024-01-08 09:19:38 | None | None | None
+exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/1e420dc4-82f2-446a-ab73-2ef8b64e83ac">1e420dc4</a> | diamond-miner | O | 1 | 2024-01-08 09:19:38 | 2024-01-08 09:19:39 | None | None
 </details>
 
 <details>
