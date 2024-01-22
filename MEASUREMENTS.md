@@ -5,7 +5,7 @@
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
 exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/bfe74752-439c-4830-8047-410c742703ab">bfe74752</a> | diamond-miner | O | 1 | 2024-01-22 10:52:31 | 2024-01-22 10:52:32 | None | None
-zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/1d990a4f-282f-47e2-8d3b-f845c1862c51">1d990a4f</a> | diamond-miner | O | 10 | 2024-01-22 10:52:24 | 2024-01-22 10:52:27 | None | None
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/7285e47f-470c-4ed8-a7fa-c6e897d69d90">7285e47f</a> | diamond-miner | O | 10 | 2024-01-22 16:34:36 | 2024-01-22 16:34:40 | None | None
 
 ## Per name
 
@@ -690,6 +690,7 @@ zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/4a48d6d8-bcf3
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/22585970-3413-47ac-b004-6c37e602d449">22585970</a> | diamond-miner | F | 10 | 2024-01-19 02:24:00 | 2024-01-19 02:24:03 | 2024-01-19 03:45:48 | 1:21:45
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/160e284f-5572-420e-889a-ff2d1fcb7de3">160e284f</a> | diamond-miner | F | 10 | 2024-01-19 08:28:27 | 2024-01-19 08:28:31 | 2024-01-19 10:58:53 | 2:30:22
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/7a1bf19b-0965-4d21-a67c-6ff939fad815">7a1bf19b</a> | diamond-miner | F | 10 | 2024-01-19 14:22:38 | 2024-01-19 14:22:42 | 2024-01-19 15:44:55 | 1:22:13
-zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/1d990a4f-282f-47e2-8d3b-f845c1862c51">1d990a4f</a> | diamond-miner | O | 10 | 2024-01-22 10:52:24 | 2024-01-22 10:52:27 | None | None
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/1d990a4f-282f-47e2-8d3b-f845c1862c51">1d990a4f</a> | diamond-miner | F | 10 | 2024-01-22 10:52:24 | 2024-01-22 10:52:27 | 2024-01-22 16:27:54 | 5:35:27
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/7285e47f-470c-4ed8-a7fa-c6e897d69d90">7285e47f</a> | diamond-miner | O | 10 | 2024-01-22 16:34:36 | 2024-01-22 16:34:40 | None | None
 </details>
 
