@@ -4,7 +4,7 @@
 
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
-ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/145bf55b-f6c5-4842-bc9a-23517bbd0c50">145bf55b</a> | yarrp | O | 10 | 2024-01-26 20:28:02 | 2024-01-26 20:28:09 | None | None
+ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/75a7ec59-f6c8-4574-b738-7ca95eb0c46c">75a7ec59</a> | yarrp | O | 10 | 2024-01-27 22:30:10 | 2024-01-27 22:30:17 | None | None
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/3569deab-ddbd-46f5-a147-7597875b378e">3569deab</a> | diamond-miner | O | 10 | 2024-01-27 12:15:32 | 2024-01-27 12:15:35 | None | None
 
 ## Per name
@@ -239,7 +239,8 @@ ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/2ebbb070-9f5c-4
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/7f595cdb-58c0-474a-8bca-fb129673ed96">7f595cdb</a> | yarrp | F | 10 | 2024-01-22 10:44:52 | 2024-01-22 10:45:00 | 2024-01-22 13:56:58 | 3:11:58
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/71f803ab-ca6a-4bce-a8bd-e908a05569cf">71f803ab</a> | yarrp | F | 10 | 2024-01-23 06:17:18 | 2024-01-23 06:17:25 | 2024-01-23 21:17:33 | 15:00:08
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/040d0f4c-2233-4db4-8b1c-a73bc969ca6a">040d0f4c</a> | yarrp | F | 10 | 2024-01-24 06:17:28 | 2024-01-24 06:17:35 | 2024-01-26 20:16:17 | 2 days, 13:58:42
-ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/145bf55b-f6c5-4842-bc9a-23517bbd0c50">145bf55b</a> | yarrp | O | 10 | 2024-01-26 20:28:02 | 2024-01-26 20:28:09 | None | None
+ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/145bf55b-f6c5-4842-bc9a-23517bbd0c50">145bf55b</a> | yarrp | F | 10 | 2024-01-26 20:28:02 | 2024-01-26 20:28:09 | 2024-01-27 22:15:25 | 1 day, 1:47:16
+ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/75a7ec59-f6c8-4574-b738-7ca95eb0c46c">75a7ec59</a> | yarrp | O | 10 | 2024-01-27 22:30:10 | 2024-01-27 22:30:17 | None | None
 </details>
 
 <details>
