@@ -5,7 +5,7 @@
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/e180f996-d273-43de-8e05-e1c85fc3dcd5">e180f996</a> | yarrp | O | 10 | 2024-01-29 05:31:47 | 2024-01-29 05:31:54 | None | None
-zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/3569deab-ddbd-46f5-a147-7597875b378e">3569deab</a> | diamond-miner | O | 10 | 2024-01-27 12:15:32 | 2024-01-27 12:15:35 | None | None
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/bba2df06-28f3-42eb-bb78-137854fe7f7a">bba2df06</a> | diamond-miner | O | 10 | 2024-01-29 09:51:46 | 2024-01-29 09:51:49 | None | None
 
 ## Per name
 
@@ -700,6 +700,7 @@ zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/1d990a4f-282f
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/7285e47f-470c-4ed8-a7fa-c6e897d69d90">7285e47f</a> | diamond-miner | F | 10 | 2024-01-22 16:34:36 | 2024-01-22 16:34:40 | 2024-01-23 10:05:37 | 17:30:57
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/db736269-2f3f-45ef-968a-ebd6411ccbd0">db736269</a> | diamond-miner | F | 10 | 2024-01-23 10:13:07 | 2024-01-23 10:13:10 | 2024-01-25 10:58:35 | 2 days, 0:45:25
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/5b3be3ca-69ec-468d-9478-baba594ff015">5b3be3ca</a> | diamond-miner | F | 10 | 2024-01-25 11:11:17 | 2024-01-25 11:11:20 | 2024-01-27 11:55:06 | 2 days, 0:43:46
-zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/3569deab-ddbd-46f5-a147-7597875b378e">3569deab</a> | diamond-miner | O | 10 | 2024-01-27 12:15:32 | 2024-01-27 12:15:35 | None | None
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/3569deab-ddbd-46f5-a147-7597875b378e">3569deab</a> | diamond-miner | F | 10 | 2024-01-27 12:15:32 | 2024-01-27 12:15:35 | 2024-01-29 09:40:29 | 1 day, 21:24:54
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/bba2df06-28f3-42eb-bb78-137854fe7f7a">bba2df06</a> | diamond-miner | O | 10 | 2024-01-29 09:51:46 | 2024-01-29 09:51:49 | None | None
 </details>
 
