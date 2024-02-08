@@ -4,6 +4,7 @@
 
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
+ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/76abc2ea-1472-41d8-878e-949af3a66e2c">76abc2ea</a> | yarrp | O | 10 | 2024-02-08 06:17:00 | 2024-02-08 06:17:08 | None | None
 
 ## Per name
 
@@ -250,6 +251,7 @@ ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/5516a293-6c4f-4
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/eaad7b82-3fb9-427e-af2d-cf369f1ab42d">eaad7b82</a> | yarrp | F | 10 | 2024-02-05 06:16:27 | 2024-02-05 06:16:34 | 2024-02-05 09:32:35 | 3:16:01
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/9d214ae2-4755-42c2-8fdf-dfddfa9e658e">9d214ae2</a> | yarrp | F | 10 | 2024-02-06 06:16:30 | 2024-02-06 06:16:38 | 2024-02-06 09:33:27 | 3:16:49
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/5ef70016-2adf-46ff-a69d-ffcedd58c8fb">5ef70016</a> | yarrp | F | 10 | 2024-02-07 06:16:10 | 2024-02-07 06:16:17 | 2024-02-07 09:32:33 | 3:16:16
+ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/76abc2ea-1472-41d8-878e-949af3a66e2c">76abc2ea</a> | yarrp | O | 10 | 2024-02-08 06:17:00 | 2024-02-08 06:17:08 | None | None
 </details>
 
 <details>
