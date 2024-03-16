@@ -5,7 +5,7 @@
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
 exhaustive-lip6 | <a href="https://api.iris.dioptra.io/measurements/c3685f87-3e26-432e-aea1-4a875b6f79d9">c3685f87</a> | diamond-miner | O | 1 | 2024-03-16 01:34:22 | 2024-03-16 01:34:23 | None | None
-zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/c7fb6fa3-71cd-4025-b7cf-c1fb51432537">c7fb6fa3</a> | diamond-miner | O | 10 | 2024-03-15 20:52:26 | 2024-03-15 20:52:30 | None | None
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/c7fee1cc-61af-4ebd-bd2d-a520cf0e0804">c7fee1cc</a> | diamond-miner | O | 10 | 2024-03-16 04:37:49 | 2024-03-16 04:37:53 | None | None
 
 ## Per name
 
@@ -869,6 +869,7 @@ zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/db795912-4939
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/53eb39b7-e50d-46b1-a941-e2841a57ca94">53eb39b7</a> | diamond-miner | F | 10 | 2024-03-12 20:13:24 | 2024-03-12 20:13:27 | 2024-03-12 22:05:28 | 1:52:01
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/362c8cab-c5e2-4b98-ad4a-07f2349c8e56">362c8cab</a> | diamond-miner | F | 10 | 2024-03-13 02:13:04 | 2024-03-13 02:13:07 | 2024-03-13 03:53:20 | 1:40:13
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/40b6b9a4-9b3a-47a3-bb20-0431b04a101b">40b6b9a4</a> | diamond-miner | F | 9 | 2024-03-13 08:14:15 | 2024-03-13 08:14:18 | 2024-03-13 11:26:36 | 3:12:18
-zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/c7fb6fa3-71cd-4025-b7cf-c1fb51432537">c7fb6fa3</a> | diamond-miner | O | 10 | 2024-03-15 20:52:26 | 2024-03-15 20:52:30 | None | None
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/c7fb6fa3-71cd-4025-b7cf-c1fb51432537">c7fb6fa3</a> | diamond-miner | F | 10 | 2024-03-15 20:52:26 | 2024-03-15 20:52:30 | 2024-03-16 04:32:01 | 7:39:31
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/c7fee1cc-61af-4ebd-bd2d-a520cf0e0804">c7fee1cc</a> | diamond-miner | O | 10 | 2024-03-16 04:37:49 | 2024-03-16 04:37:53 | None | None
 </details>
 
