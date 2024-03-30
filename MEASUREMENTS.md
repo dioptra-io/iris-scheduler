@@ -4,7 +4,7 @@
 
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
-ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/b8a7df85-cea2-4f76-97af-65f34ae62f3f">b8a7df85</a> | yarrp | O | 10 | 2024-03-29 06:16:15 | 2024-03-29 06:16:22 | None | None
+ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/3279d030-b6c7-41ae-af17-9fd4b3c28840">3279d030</a> | yarrp | O | 10 | 2024-03-30 17:11:31 | 2024-03-30 17:11:38 | None | None
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/bdcf83ef-15ad-480c-b186-7374fe2a0fcc">bdcf83ef</a> | diamond-miner | O | 10 | 2024-03-28 01:42:20 | 2024-03-28 01:42:23 | None | None
 
 ## Per name
@@ -304,7 +304,8 @@ ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/cbf6a1ce-1f3c-4
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/74b1955d-02f2-4f85-82ad-cc9766995965">74b1955d</a> | yarrp | F | 10 | 2024-03-26 11:26:22 | 2024-03-26 11:26:29 | 2024-03-27 05:24:36 | 17:58:07
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/6905e19b-ab48-46d4-b4e6-180131800be0">6905e19b</a> | yarrp | F | 10 | 2024-03-27 06:16:29 | 2024-03-27 06:16:36 | 2024-03-28 07:51:31 | 1 day, 1:34:55
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/daff0227-7427-4799-b68f-22315a929d8a">daff0227</a> | yarrp | F | 10 | 2024-03-28 08:16:01 | 2024-03-28 08:16:08 | 2024-03-29 03:59:49 | 19:43:41
-ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/b8a7df85-cea2-4f76-97af-65f34ae62f3f">b8a7df85</a> | yarrp | O | 10 | 2024-03-29 06:16:15 | 2024-03-29 06:16:22 | None | None
+ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/b8a7df85-cea2-4f76-97af-65f34ae62f3f">b8a7df85</a> | yarrp | F | 10 | 2024-03-29 06:16:15 | 2024-03-29 06:16:22 | 2024-03-30 17:00:08 | 1 day, 10:43:46
+ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/3279d030-b6c7-41ae-af17-9fd4b3c28840">3279d030</a> | yarrp | O | 10 | 2024-03-30 17:11:31 | 2024-03-30 17:11:38 | None | None
 </details>
 
 <details>
