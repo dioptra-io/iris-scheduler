@@ -5,7 +5,7 @@
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/8eb13ba8-ad2c-4d04-a273-8a956bd10d0e">8eb13ba8</a> | yarrp | O | 10 | 2024-04-11 06:16:39 | 2024-04-11 06:16:46 | None | None
-zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/a6fe09b4-53d0-4bf8-9a91-9df7cef90271">a6fe09b4</a> | diamond-miner | O | 10 | 2024-04-10 22:39:52 | 2024-04-10 22:39:56 | None | None
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/0b645c10-312b-4ccf-8ad6-86930fa47a3f">0b645c10</a> | diamond-miner | O | 10 | 2024-04-11 09:37:31 | 2024-04-11 09:37:34 | None | None
 
 ## Per name
 
@@ -947,6 +947,7 @@ zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/16eb8fdd-e1ab
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/5ef548b9-d943-438b-882e-3a2ce663c5f6">5ef548b9</a> | diamond-miner | F | 10 | 2024-04-09 02:12:10 | 2024-04-09 02:12:13 | 2024-04-09 13:52:24 | 11:40:11
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/a4fa8143-2124-46d8-9f8c-3bfa3e2618b3">a4fa8143</a> | diamond-miner | F | 10 | 2024-04-09 14:12:06 | 2024-04-09 14:12:09 | 2024-04-09 20:38:13 | 6:26:04
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/37c707e1-c976-42ad-bbfc-293fac530924">37c707e1</a> | diamond-miner | F | 10 | 2024-04-09 20:52:09 | 2024-04-09 20:52:12 | 2024-04-09 22:42:30 | 1:50:18
-zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/a6fe09b4-53d0-4bf8-9a91-9df7cef90271">a6fe09b4</a> | diamond-miner | O | 10 | 2024-04-10 22:39:52 | 2024-04-10 22:39:56 | None | None
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/a6fe09b4-53d0-4bf8-9a91-9df7cef90271">a6fe09b4</a> | diamond-miner | F | 10 | 2024-04-10 22:39:52 | 2024-04-10 22:39:56 | 2024-04-11 09:26:27 | 10:46:31
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/0b645c10-312b-4ccf-8ad6-86930fa47a3f">0b645c10</a> | diamond-miner | O | 10 | 2024-04-11 09:37:31 | 2024-04-11 09:37:34 | None | None
 </details>
 
