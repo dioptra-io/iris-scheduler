@@ -4,7 +4,7 @@
 
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
-ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/0b4217fd-6ac6-433a-b1b0-0512a7cd99b8">0b4217fd</a> | yarrp | O | 10 | 2024-04-24 06:18:01 | 2024-04-24 06:18:08 | None | None
+ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/f87e1d3c-4b38-4622-b9e6-9204af0fecf1">f87e1d3c</a> | yarrp | O | 10 | 2024-04-25 09:14:41 | 2024-04-25 09:14:48 | None | None
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/ce5f5c48-4572-49dc-945b-133484c4afff">ce5f5c48</a> | diamond-miner | O | 10 | 2024-04-25 08:52:07 | 2024-04-25 08:52:11 | None | None
 
 ## Per name
@@ -328,7 +328,7 @@ ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/6161dcfd-c2f3-4
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/353a5ee1-00c6-4b04-a7aa-6a92f06d01b4">353a5ee1</a> | yarrp | F | 10 | 2024-04-21 06:16:22 | 2024-04-21 06:16:29 | 2024-04-21 09:19:41 | 3:03:12
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/75631b71-f404-49fd-9b05-74bc94bd04b1">75631b71</a> | yarrp | F | 10 | 2024-04-22 06:17:00 | 2024-04-22 06:17:07 | 2024-04-22 09:22:16 | 3:05:09
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/c7a7c6a8-7943-406e-a186-8639d35b7974">c7a7c6a8</a> | yarrp | F | 10 | 2024-04-23 06:16:43 | 2024-04-23 06:16:50 | 2024-04-23 09:23:02 | 3:06:12
-ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/0b4217fd-6ac6-433a-b1b0-0512a7cd99b8">0b4217fd</a> | yarrp | O | 10 | 2024-04-24 06:18:01 | 2024-04-24 06:18:08 | None | None
+ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/f87e1d3c-4b38-4622-b9e6-9204af0fecf1">f87e1d3c</a> | yarrp | O | 10 | 2024-04-25 09:14:41 | 2024-04-25 09:14:48 | None | None
 </details>
 
 <details>
@@ -1001,7 +1001,6 @@ zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/66863b05-dca6
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/83b9fb73-27e5-4fe4-b218-74aa0549c74c">83b9fb73</a> | diamond-miner | F | 10 | 2024-04-22 20:13:46 | 2024-04-22 20:13:49 | 2024-04-22 22:13:23 | 1:59:34
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/8493c87b-7216-43a2-98f6-448673bba744">8493c87b</a> | diamond-miner | F | 10 | 2024-04-23 02:21:21 | 2024-04-23 02:21:24 | 2024-04-23 04:15:36 | 1:54:12
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/4745da0d-e09a-4198-b848-474363ea697a">4745da0d</a> | diamond-miner | F | 10 | 2024-04-23 08:15:20 | 2024-04-23 08:15:23 | 2024-04-23 11:01:37 | 2:46:14
-zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/1dcf2bd0-9c2b-4203-8a36-ecb07574be4b">1dcf2bd0</a> | diamond-miner | C | 10 | 2024-04-23 14:12:38 | 2024-04-23 14:12:41 | 2024-04-25 08:41:10 | 1 day, 18:28:29
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/ce5f5c48-4572-49dc-945b-133484c4afff">ce5f5c48</a> | diamond-miner | O | 10 | 2024-04-25 08:52:07 | 2024-04-25 08:52:11 | None | None
 </details>
 
