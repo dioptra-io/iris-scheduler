@@ -5,7 +5,7 @@
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/3b867590-b17a-4a09-8a7e-e9c00566e1d4">3b867590</a> | yarrp | O | 10 | 2024-06-07 07:14:35 | 2024-06-07 07:14:41 | None | None
-zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/c4ee3ffd-a52c-40ad-94a5-ae5f0522f55f">c4ee3ffd</a> | diamond-miner | O | 10 | 2024-06-06 12:50:19 | 2024-06-06 12:50:22 | None | None
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/00cbc436-47ac-4ee0-8b96-161d92d99f29">00cbc436</a> | diamond-miner | O | 10 | 2024-06-07 07:51:19 | 2024-06-07 07:51:22 | None | None
 
 ## Per name
 
@@ -1109,6 +1109,7 @@ zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/06fb32e2-3782
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/3f9e89bd-f10d-4f75-ad0d-3b94a2cdf164">3f9e89bd</a> | diamond-miner | F | 10 | 2024-05-29 20:13:32 | 2024-05-29 20:13:35 | 2024-05-29 23:11:52 | 2:58:17
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/a75482d1-8c5c-4d56-845e-fc3861047992">a75482d1</a> | diamond-miner | F | 10 | 2024-05-30 02:26:23 | 2024-05-30 02:26:26 | 2024-05-30 04:49:00 | 2:22:34
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/710d321b-c882-4ec7-9101-b1663aed1b3b">710d321b</a> | diamond-miner | C | 10 | 2024-06-03 10:51:44 | 2024-06-03 10:51:48 | 2024-06-04 08:27:35 | 21:35:47
-zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/c4ee3ffd-a52c-40ad-94a5-ae5f0522f55f">c4ee3ffd</a> | diamond-miner | O | 10 | 2024-06-06 12:50:19 | 2024-06-06 12:50:22 | None | None
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/c4ee3ffd-a52c-40ad-94a5-ae5f0522f55f">c4ee3ffd</a> | diamond-miner | F | 10 | 2024-06-06 12:50:19 | 2024-06-06 12:50:22 | 2024-06-07 07:38:44 | 18:48:22
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/00cbc436-47ac-4ee0-8b96-161d92d99f29">00cbc436</a> | diamond-miner | O | 10 | 2024-06-07 07:51:19 | 2024-06-07 07:51:22 | None | None
 </details>
 
