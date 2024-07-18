@@ -39,6 +39,11 @@ jobs:
           python --version
           pip list
 
+      - name: Check SSL certificates
+        run: |
+          python -c "import certifi; print(certifi.where())"
+          ls -l $(python -c "import certifi; print(certifi.where())")
+
       - name: Install the scheduler
         run: poetry install --no-interaction --verbose
 
@@ -48,11 +53,6 @@ jobs:
           IRIS_BASE_URL: ${{ secrets.IRIS_BASE_URL }}
           IRIS_USERNAME: ${{ secrets.IRIS_USERNAME }}
           IRIS_PASSWORD: ${{ secrets.IRIS_PASSWORD }}
-
-      - name: Check SSL certificates
-        run: |
-          python -c "import certifi; print(certifi.where())"
-          ls -l $(python -c "import certifi; print(certifi.where())")
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
