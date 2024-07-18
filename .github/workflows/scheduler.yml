@@ -13,6 +13,9 @@ jobs:
   main:
     runs-on: self-hosted
     timeout-minutes: 60
+    env:
+      REQUESTS_CA_BUNDLE: ''
+
     steps:
       - name: Enable runner debug logging
         run: echo "ACTIONS_RUNNER_DEBUG=true" >> $GITHUB_ENV
@@ -48,7 +51,8 @@ jobs:
           ls -l $(python -c "import certifi; print(certifi.where())")
 
       - name: Run the scheduler
-        run: poetry run iris-scheduler
+        run: |
+          REQUESTS_CA_BUNDLE='' poetry run iris-scheduler
         env:
           IRIS_BASE_URL: ${{ secrets.IRIS_BASE_URL }}
           IRIS_USERNAME: ${{ secrets.IRIS_USERNAME }}
