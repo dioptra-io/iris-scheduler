@@ -31,10 +31,10 @@ jobs:
       - name: Decompress prefixes lists
         run: zstd -df prefixes/*.zst
 
-      - name: Debug: List installed dependencies
+      - name: List installed dependencies
         run: poetry show --verbose
 
-      - name: Debug: Python version and packages
+      - name: Python version and packages
         run: |
           python --version
           pip list
@@ -49,7 +49,7 @@ jobs:
           IRIS_USERNAME: ${{ secrets.IRIS_USERNAME }}
           IRIS_PASSWORD: ${{ secrets.IRIS_PASSWORD }}
 
-      - name: Debug: Check SSL certificates
+      - name: Check SSL certificates
         run: |
           python -c "import certifi; print(certifi.where())"
           ls -l $(python -c "import certifi; print(certifi.where())")
