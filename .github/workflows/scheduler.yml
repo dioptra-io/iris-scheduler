@@ -39,13 +39,13 @@ jobs:
           python --version
           pip list
 
+      - name: Install the scheduler
+        run: poetry install --no-interaction --verbose
+
       - name: Check SSL certificates
         run: |
           python -c "import certifi; print(certifi.where())"
           ls -l $(python -c "import certifi; print(certifi.where())")
-
-      - name: Install the scheduler
-        run: poetry install --no-interaction --verbose
 
       - name: Run the scheduler
         run: poetry run iris-scheduler
