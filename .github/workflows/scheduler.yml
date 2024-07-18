@@ -45,6 +45,10 @@ jobs:
       - name: Install the scheduler
         run: poetry install --no-interaction --verbose
 
+      - name: Upgrade certifi
+        run: |
+          poetry run pip install --upgrade certifi
+
       - name: Check SSL certificates
         run: |
           python -c "import certifi; print(certifi.where())"
