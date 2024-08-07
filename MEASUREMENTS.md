@@ -5,7 +5,7 @@
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/bdfda205-eb9b-4e2d-896a-aa75e47d1569">bdfda205</a> | yarrp | O | 10 | 2024-08-07 06:22:50 | 2024-08-07 06:22:57 | None | None
-zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/0e9cb889-9380-4e89-b6f4-da0702e93e55">0e9cb889</a> | diamond-miner | O | 10 | 2024-08-06 20:14:26 | 2024-08-06 20:14:29 | None | None
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/5a86f908-562b-4964-8ac6-857006934aa4">5a86f908</a> | diamond-miner | O | 10 | 2024-08-07 07:15:33 | 2024-08-07 07:15:36 | None | None
 
 ## Per name
 
@@ -1356,6 +1356,7 @@ zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/f82ac85d-c303
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/1d27813a-3069-45d8-9a1a-7969fb217fc7">1d27813a</a> | diamond-miner | F | 10 | 2024-08-06 02:10:18 | 2024-08-06 02:10:21 | 2024-08-06 02:56:48 | 0:46:27
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/d5b939ce-646d-4642-b6cb-a92665d80377">d5b939ce</a> | diamond-miner | F | 10 | 2024-08-06 08:18:20 | 2024-08-06 08:18:24 | 2024-08-06 09:55:55 | 1:37:31
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/c4c40b3b-a501-4266-a251-0bfb3741d50a">c4c40b3b</a> | diamond-miner | F | 10 | 2024-08-06 14:17:00 | 2024-08-06 14:17:04 | 2024-08-06 15:08:43 | 0:51:39
-zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/0e9cb889-9380-4e89-b6f4-da0702e93e55">0e9cb889</a> | diamond-miner | O | 10 | 2024-08-06 20:14:26 | 2024-08-06 20:14:29 | None | None
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/0e9cb889-9380-4e89-b6f4-da0702e93e55">0e9cb889</a> | diamond-miner | F | 10 | 2024-08-06 20:14:26 | 2024-08-06 20:14:29 | 2024-08-07 06:57:06 | 10:42:37
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/5a86f908-562b-4964-8ac6-857006934aa4">5a86f908</a> | diamond-miner | O | 10 | 2024-08-07 07:15:33 | 2024-08-07 07:15:36 | None | None
 </details>
 
