@@ -1,0 +1,69 @@
+name: Scheduler
+
+# Ensure at-most one scheduler instance is running at any given time.
+concurrency: iris-scheduler
+
+on:
+  push:
+    paths-ignore: ['README.md']
+  schedule:
+    - cron: '0/15 * * * *'
+
+jobs:
+  main:
+    runs-on: self-hosted
+    timeout-minutes: 60
+    env:
+      REQUESTS_CA_BUNDLE: ''
+
+    steps:
+      - name: Enable runner debug logging
+        run: echo "ACTIONS_RUNNER_DEBUG=true" >> $GITHUB_ENV
+
+      - name: Enable step debug logging
+        run: echo "ACTIONS_STEP_DEBUG=true" >> $GITHUB_ENV
+
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - uses: dioptra-io/setup-poetry-action@v1
+
+      - name: Decompress prefixes lists
+        run: zstd -df prefixes/*.zst
+
+      - name: List installed dependencies
+        run: poetry show --verbose
+
+      - name: Python version and packages
+        run: |
+          python --version
+          pip list
+
+      - name: Install the scheduler
+        run: poetry install --no-interaction --verbose
+
+      - name: Upgrade certifi
+        run: |
+          poetry run pip install --upgrade certifi
+
+      - name: Check SSL certificates
+        run: |
+          python -c "import certifi; print(certifi.where())"
+          ls -l $(python -c "import certifi; print(certifi.where())")
+
+      - name: Run the scheduler
+        run: |
+          REQUESTS_CA_BUNDLE='' poetry run iris-scheduler
+        env:
+          IRIS_BASE_URL: ${{ secrets.IRIS_BASE_URL }}
+          IRIS_USERNAME: ${{ secrets.IRIS_USERNAME }}
+          IRIS_PASSWORD: ${{ secrets.IRIS_PASSWORD }}
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          file_pattern: MEASUREMENTS.md
+          commit_author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+        continue-on-error: true
