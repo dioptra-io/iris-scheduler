@@ -11,7 +11,7 @@ on:
 
 jobs:
   main:
-    runs-on: self-hosted
+    runs-on: ['self-hosted', 'production']
     timeout-minutes: 60
     env:
       REQUESTS_CA_BUNDLE: ''
