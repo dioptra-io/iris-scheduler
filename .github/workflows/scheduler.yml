@@ -17,11 +17,10 @@ jobs:
       REQUESTS_CA_BUNDLE: ''
 
     steps:
-      - name: Enable runner debug logging
-        run: echo "ACTIONS_RUNNER_DEBUG=true" >> $GITHUB_ENV
-
-      - name: Enable step debug logging
-        run: echo "ACTIONS_STEP_DEBUG=true" >> $GITHUB_ENV
+      - name: Enable runner and step debug logging
+        run: |
+          echo "ACTIONS_RUNNER_DEBUG=true" >> $GITHUB_ENV
+          echo "ACTIONS_STEP_DEBUG=true" >> $GITHUB_ENV
 
       - uses: actions/checkout@v3
 
@@ -56,6 +55,8 @@ jobs:
 
       - name: Run the scheduler
         run: |
+          poetry run pip uninstall -y cffi
+          poetry run pip install cffi
           REQUESTS_CA_BUNDLE='' poetry run iris-scheduler
         env:
           IRIS_BASE_URL: ${{ secrets.IRIS_BASE_URL }}
