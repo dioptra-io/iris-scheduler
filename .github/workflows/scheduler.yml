@@ -45,7 +45,8 @@ jobs:
         run: apt-get install -y libffi-dev
 
       - name: Install the scheduler
-        run: poetry install --no-interaction --verbose
+        run: |
+          poetry install --no-interaction --verbose
 
       - name: Upgrade certifi
         run: |
