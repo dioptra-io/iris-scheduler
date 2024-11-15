@@ -41,6 +41,9 @@ jobs:
           python --version
           pip list
 
+      - name: Install libffi-dev
+        run: apt-get install -y libffi-dev
+
       - name: Install the scheduler
         run: poetry install --no-interaction --verbose
 
@@ -53,10 +56,13 @@ jobs:
           python -c "import certifi; print(certifi.where())"
           ls -l $(python -c "import certifi; print(certifi.where())")
 
-      - name: Run the scheduler
+      - name: Reinstall cffi
         run: |
           poetry run pip uninstall -y cffi
           poetry run pip install cffi
+
+      - name: Run the scheduler
+        run: |
           REQUESTS_CA_BUNDLE='' poetry run iris-scheduler
         env:
           IRIS_BASE_URL: ${{ secrets.IRIS_BASE_URL }}
