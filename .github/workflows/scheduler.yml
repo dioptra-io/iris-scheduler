@@ -8,6 +8,13 @@ on:
     paths-ignore: ['README.md']
   schedule:
     - cron: '0/15 * * * *'
+  workflow_dispatch: # to enable manual trigger via API
+    inputs:
+      # optional Define inputs to pass custom data to the workflow
+      #example_input:
+        #description: 'some description'
+        #required: false
+        #default: 'default_value'
 
 jobs:
   main:
