@@ -5,7 +5,7 @@
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/690cc90f-2a66-4140-a1be-7ccc0952cbc0">690cc90f</a> | yarrp | O | 10 | 2025-01-18 06:32:10 | 2025-01-18 06:32:18 | None | None
-zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/fc86fd23-6c21-4b25-b2f0-fe7126579c09">fc86fd23</a> | diamond-miner | O | 10 | 2025-01-17 20:25:32 | 2025-01-17 20:25:35 | None | None
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/3d4410c1-dc58-46a2-8684-85793a9ef44e">3d4410c1</a> | diamond-miner | O | 10 | 2025-01-18 09:23:01 | 2025-01-18 09:23:04 | None | None
 
 ## Per name
 
@@ -2110,6 +2110,7 @@ zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/fc8c6a58-1c7c
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/7ffe4e1c-d351-4685-b32b-47fd4b028275">7ffe4e1c</a> | diamond-miner | F | 10 | 2025-01-17 02:38:44 | 2025-01-17 02:38:47 | 2025-01-17 03:52:41 | 1:13:54
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/6cde9c9c-83f9-4bd8-9190-15bd0bfef1d4">6cde9c9c</a> | diamond-miner | F | 10 | 2025-01-17 08:29:35 | 2025-01-17 08:29:38 | 2025-01-17 10:54:32 | 2:24:54
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/0cc68e22-f114-4752-8cae-9050489678ad">0cc68e22</a> | diamond-miner | F | 10 | 2025-01-17 14:22:47 | 2025-01-17 14:22:50 | 2025-01-17 15:34:56 | 1:12:06
-zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/fc86fd23-6c21-4b25-b2f0-fe7126579c09">fc86fd23</a> | diamond-miner | O | 10 | 2025-01-17 20:25:32 | 2025-01-17 20:25:35 | None | None
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/fc86fd23-6c21-4b25-b2f0-fe7126579c09">fc86fd23</a> | diamond-miner | F | 10 | 2025-01-17 20:25:32 | 2025-01-17 20:25:35 | 2025-01-18 09:05:41 | 12:40:06
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/3d4410c1-dc58-46a2-8684-85793a9ef44e">3d4410c1</a> | diamond-miner | O | 10 | 2025-01-18 09:23:01 | 2025-01-18 09:23:04 | None | None
 </details>
 
