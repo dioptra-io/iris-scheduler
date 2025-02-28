@@ -92,7 +92,7 @@ def schedule_regular_measurement(
     measurement.setdefault("tags", [])
     measurement["tags"] += tags
     if not dry_run:
-        iris.post("/measurements/", json=measurement).raise_for_status()
+        iris.post("/measurements/", json=measurement, timeout=60).raise_for_status()
     return None
 
 
