@@ -5,6 +5,7 @@
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/ba40df18-015d-4eeb-84d6-cf4d0091f233">ba40df18</a> | yarrp | O | 10 | 2025-05-05 06:23:24 | 2025-05-05 06:23:31 | None | None
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/db178a7f-9c0c-4642-8774-fe172e9ba3f7">db178a7f</a> | diamond-miner | O | 10 | 2025-05-05 08:21:45 | 2025-05-05 08:21:52 | None | None
 
 ## Per name
 
@@ -2572,5 +2573,6 @@ zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/bd996237-32d6
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/2f6dd947-98ba-4ec3-9088-b9f580c58e70">2f6dd947</a> | diamond-miner | F | 10 | 2025-05-04 14:14:32 | 2025-05-04 14:14:36 | 2025-05-04 15:15:03 | 1:00:27
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/f54a0b98-b03c-4429-a05c-7feb660fd6c6">f54a0b98</a> | diamond-miner | F | 10 | 2025-05-04 20:16:32 | 2025-05-04 20:16:35 | 2025-05-04 21:29:08 | 1:12:33
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/01eb8b8a-f84f-4094-a760-21b5a98ade81">01eb8b8a</a> | diamond-miner | F | 10 | 2025-05-05 02:36:20 | 2025-05-05 02:36:23 | 2025-05-05 03:42:35 | 1:06:12
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/db178a7f-9c0c-4642-8774-fe172e9ba3f7">db178a7f</a> | diamond-miner | O | 10 | 2025-05-05 08:21:45 | 2025-05-05 08:21:52 | None | None
 </details>
 
