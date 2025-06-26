@@ -3,7 +3,7 @@ FROM ubuntu:24.04
 ARG VERSION=2.325.0
 
 RUN apt-get update && \
-    apt-get install -y curl tar sudo git libicu70 zstd vim jq && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -y curl tar sudo git libicu74 zstd vim jq && \
     rm -rf /var/lib/apt/lists/*
 
 WORKDIR /runner
