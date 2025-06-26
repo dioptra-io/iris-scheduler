@@ -32,13 +32,3 @@ jobs:
           tags: ghcr.io/${{ github.repository_owner }}/runner-scheduler:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
-
-      - name: Make GHCR image public
-        run: |
-          gh api \
-            --method PATCH \
-            -H "Accept: application/vnd.github+json" \
-            /orgs/dioptra-io/packages/container/runner-scheduler/visibility \
-            -f visibility=public
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
