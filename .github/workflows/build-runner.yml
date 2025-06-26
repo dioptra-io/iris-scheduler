@@ -38,7 +38,7 @@ jobs:
           gh api \
             --method PATCH \
             -H "Accept: application/vnd.github+json" \
-            /user/packages/container/iris_scheduler/visibility \
+            /orgs/dioptra-io/packages/container/runner-scheduler/visibility \
             -f visibility=public
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
