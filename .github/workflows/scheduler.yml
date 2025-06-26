@@ -6,15 +6,17 @@ concurrency: iris-scheduler
 on:
   push:
     paths-ignore: ['README.md']
+    branches:
+      - main
   schedule:
     - cron: '0/15 * * * *'
   workflow_dispatch: # to enable manual trigger via API
     inputs:
       # optional Define inputs to pass custom data to the workflow
-      #example_input:
-        #description: 'some description'
-        #required: false
-        #default: 'default_value'
+      dry_run:
+        description: 'Run scheduler in dry run mode'
+        required: false
+        default: 'false'
 
 jobs:
   main:
@@ -49,7 +51,14 @@ jobs:
           pip list
 
       - name: Install libffi-dev
-        run: apt-get install -y libffi-dev
+        run: |
+          apt-get update
+          apt-get install -y libffi-dev
+
+      - name: Install build tools (gcc, make, etc.)
+        run: |
+          apt-get update
+          apt-get install -y build-essential
 
       - name: Install the scheduler
         run: poetry install --no-interaction --verbose
@@ -70,7 +79,17 @@ jobs:
 
       - name: Run the scheduler
         run: |
-          REQUESTS_CA_BUNDLE='' poetry run iris-scheduler
+          DRY_RUN="${{ github.event.inputs.dry_run }}"
+          if [ -z "$DRY_RUN" ]; then
+            DRY_RUN="false"
+          fi
+          if [ "$DRY_RUN" = "true" ]; then
+            echo "Running scheduler in dry run mode"
+            REQUESTS_CA_BUNDLE='' poetry run iris-scheduler --dry-run
+          else
+            echo "Running scheduler normally"
+            REQUESTS_CA_BUNDLE='' poetry run iris-scheduler
+          fi
         env:
           IRIS_BASE_URL: ${{ secrets.IRIS_BASE_URL }}
           IRIS_USERNAME: ${{ secrets.IRIS_USERNAME }}
