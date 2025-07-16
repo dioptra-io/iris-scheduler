@@ -11,6 +11,14 @@ if [ -z "${GITHUB_PAT:-}" ] || [ -z "${REPO_URL:-}" ]; then
 	exit 1
 fi
 
+# Define potential stale runner state files
+RUNNER_STATE_FILES=(".runner" ".runner_migrated")
+
+# Remove stale runner state files
+for file in "${RUNNER_STATE_FILES[@]}"; do
+	rm -f "${file}"
+done
+
 REPO_PATH="${REPO_URL/https:\/\/github.com\//}"
 TOKEN_URL="https://api.github.com/repos/${REPO_PATH}/actions/runners/registration-token"
 RUNNER_TOKEN=$(curl -s -X POST "${TOKEN_URL}" \
