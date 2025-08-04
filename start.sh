@@ -32,6 +32,10 @@ fi
 RUNNER_NAME="${RUNNER_NAME:-github-runner-iris-production}"
 LABELS="${LABELS:-iris,production}"
 WORK_DIR="${WORK_DIR:-/runner}"
+echo "REPO_URL=${REPO_URL}"
+echo "RUNNER_NAME=${RUNNER_NAME}"
+echo "LABELS=${LABELS}"
+echo "WORK_DIR=${WORK_DIR}"
 ./config.sh \
 	--url "${REPO_URL}" \
 	--token "${RUNNER_TOKEN}" \
