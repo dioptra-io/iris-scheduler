@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -euxo pipefail
+set -euo pipefail
 
 #
 # $GITHUB_PAT and $REPO_URL are initialized as environment variables
