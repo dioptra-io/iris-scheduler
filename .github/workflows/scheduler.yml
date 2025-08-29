@@ -104,7 +104,7 @@ jobs:
   notify_slack:
     runs-on: ['self-hosted', 'production']  # use your existing runner
     needs: main
-    #if: failure()  # only runs if main fails
+    if: failure()  # only runs if main fails
     steps:
       - name: Send Slack notification
         run: |
