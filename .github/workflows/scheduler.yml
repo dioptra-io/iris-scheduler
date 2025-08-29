@@ -100,3 +100,14 @@ jobs:
           file_pattern: MEASUREMENTS.md
           commit_author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
         continue-on-error: true
+  
+  notify_slack:
+    runs-on: ['self-hosted', 'production']  # use your existing runner
+    needs: main
+    #if: failure()  # only runs if main fails
+    steps:
+      - name: Send Slack notification
+        run: |
+          curl -X POST -H 'Content-type: application/json' \
+          --data "{\"text\":\":x: Scheduler workflow failed in repository ${{ github.repository }} on branch ${{ github.ref }}. <${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}|View Workflow>\"}" \
+          ${{ secrets.SLACK_WEBHOOK_URL }}
