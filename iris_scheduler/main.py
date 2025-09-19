@@ -21,8 +21,10 @@ app = typer.Typer()
 @app.command()
 def main(
     dry_run: bool = typer.Option(
-        False,
-        help="Do not upload targets or create measurements",
+    False,
+    "--dry-run",
+    is_flag=True,
+    help="Do not upload targets or create measurements",
     ),
     iris_base_url: str = typer.Option(
         None,
