@@ -16,7 +16,7 @@ on:
       dry_run:
         description: 'Run scheduler in dry run mode'
         required: false
-        default: 'true'
+        default: "true"
 
 jobs:
   main:
