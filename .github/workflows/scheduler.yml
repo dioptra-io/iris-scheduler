@@ -81,7 +81,7 @@ jobs:
         run: |
           DRY_RUN="${{ github.event.inputs.dry_run }}"
           if [ -z "$DRY_RUN" ]; then
-            DRY_RUN="false"
+            DRY_RUN="true"
           fi
           if [ "$DRY_RUN" = "true" ]; then
             echo "Running scheduler in dry run mode"
