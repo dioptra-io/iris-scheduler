@@ -8,8 +8,8 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.10"
 crontab = "^1.0.1"
-dioptra-iris-client = "^0.5.1"
-dioptra-zeph = "^1.3.2"
+dioptra-iris-client = "^0.5.2"
+dioptra-zeph = "^1.3.3"
 Jinja2 = "^3.1.2"
 typer = "^0.16.1"
 
