@@ -7,9 +7,9 @@ on:
   push:
     paths-ignore: ['README.md']
     branches:
-      - main
+      - test_scheduler
   schedule:
-    - cron: '0/15 * * * *'
+    - cron: '0 */1 * * *'
   workflow_dispatch: # to enable manual trigger via API
     inputs:
       # optional Define inputs to pass custom data to the workflow
@@ -91,9 +91,9 @@ jobs:
             REQUESTS_CA_BUNDLE='' poetry run iris-scheduler
           fi
         env:
-          IRIS_BASE_URL: ${{ secrets.IRIS_BASE_URL }}
-          IRIS_USERNAME: ${{ secrets.IRIS_USERNAME }}
-          IRIS_PASSWORD: ${{ secrets.IRIS_PASSWORD }}
+          IRIS_BASE_URL: ${{ secrets.IRIS_DEV_BASE_URL }}
+          IRIS_USERNAME: ${{ secrets.IRIS_DEV_USERNAME }}
+          IRIS_PASSWORD: ${{ secrets.IRIS_DEV_PASSWORD }}
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:

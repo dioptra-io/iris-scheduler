@@ -12,7 +12,7 @@ INDEX_FILE = Path("MEASUREMENTS.md")
 MEASUREMENTS_DIR = Path("measurements")
 PREFIXES_DIR = Path("prefixes")
 TARGETS_DIR = Path("targets")
-SCHEDULER_TAG = "scheduled"
+SCHEDULER_TAG = "test"
 
 
 app = typer.Typer()

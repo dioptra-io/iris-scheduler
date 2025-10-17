@@ -66,7 +66,7 @@ def schedule_measurement(
                 tags,
                 dry_run,
             )
-        case "zeph":
+        case "zeph-test":
             schedule_zeph_measurement(
                 iris,
                 prefixes_dir,
@@ -137,7 +137,7 @@ def schedule_zeph_measurement(
                 max_ttl=measurement["max_ttl"],
                 exploration_ratio=measurement["exploration_ratio"],
                 previous_uuid=last["uuid"] if last else None,
-                fixed_budget=measurement.get("fixed_budget"),
+                fixed_budget=10,
                 dry_run=dry_run,
             )
         except orjson.JSONDecodeError as e:

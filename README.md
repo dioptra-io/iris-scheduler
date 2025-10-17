@@ -1,21 +1,18 @@
-# iris-scheduler
+# 🧭 iris test-cheduler
 
-[![Scheduler](https://github.com/dioptra-io/iris-scheduler/actions/workflows/scheduler.yml/badge.svg)](https://github.com/dioptra-io/iris-scheduler/actions/workflows/scheduler.yml)
+This branch provides a **testing version of the Iris scheduler** used for safe experimentation and validation of measurement scheduling logic without impacting production systems.
 
-[`MEASUREMENTS.md`](MEASUREMENTS.md)
+## Key Differences from `main`
 
-The [`iris-scheduler`](/iris_scheduler/main.py) script is run every fifteen minutes and on new commits via the [`scheduler.yml`](.github/workflows/scheduler.yml) workflow.
+- **Tag:** Uses `SCHEDULER_TAG = "test"` to clearly identify test-scheduled measurements.
+- **Measurement Type:** Runs the `"zeph-test"` measurement case instead of the production `"zeph"` case.
+- **Fixed Budget:** Sets a small, constant probing budget (`fixed_budget = 10`) to minimize resource usage.
+- **Target List:** Uses a reduced IPv6 target list of **20 prefixes** for lightweight test runs.
+- **Agent Configuration:** Uses the `lip6` agent tag instead of `gcp-mlab`, targeting a controlled testing environment.
+- **GitHub Actions Integration:**
+  - Runs on the `test_scheduler` branch with a dedicated cron schedule.
+  - Connects to the **Iris development API** using credentials from GitHub Secrets (`IRIS_DEV_*`).
 
-Each measurement file must have the following metadata:
-```js
-{
-  // ...,
-  "scheduler": {
-    "cron": "0 0 * * Sat",
-    "not_before": "2022-06-30T00:00:00",
-    // Optional, to stop scheduling the measurement after some time.
-    "not_after": "2030-01-01T00:00:00",
-    "type": "regular" // or "zeph"
-  }
-}
-```
+## Purpose
+
+The test scheduler enables **safe testing of scheduling logic**, validation of measurement flow and debugging in a controlled environment before deploying changes to production.
