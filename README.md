@@ -1,4 +1,4 @@
-# 🧭 iris test-cheduler
+# 🧭 iris test-scheduler
 
 This branch provides a **testing version of the Iris scheduler** used for safe experimentation and validation of measurement scheduling logic without impacting production systems.
 
