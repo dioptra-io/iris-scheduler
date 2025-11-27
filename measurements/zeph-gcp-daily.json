@@ -1,7 +1,7 @@
 {
   "ranker": "DFGCoverRanker",
   "prefixes_file": "0slash0.csv",
-  "agent_tag": "lip6",
+  "agent_tag": "test",
   "tool": "diamond-miner",
   "protocol": "icmp",
   "min_ttl": 2,
