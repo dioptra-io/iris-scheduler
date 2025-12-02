@@ -12,7 +12,7 @@
   ],
   "tool": "yarrp",
   "scheduler": {
-    "cron": "0 4 * * *",
+    "cron": cron: '*/10 * * * *',
     "not_before": "2022-01-01T00:00:00",
     "type": "regular"
   }
