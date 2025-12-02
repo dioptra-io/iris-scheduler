@@ -4,6 +4,7 @@
 
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
+ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/2a1fc00e-b0d9-47a7-a6b1-af4b02b71ff4">2a1fc00e</a> | yarrp | C | 1 | 2025-12-02 16:06:11 | None | None | None
 
 ## Per name
 
@@ -13,6 +14,7 @@ Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/aa3a4591-2cd0-4ba3-9fc5-655649370971">aa3a4591</a> | yarrp | F | 1 | 2025-12-02 15:51:59 | 2025-12-02 15:52:00 | 2025-12-02 15:52:11 | 0:00:11
+ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/2a1fc00e-b0d9-47a7-a6b1-af4b02b71ff4">2a1fc00e</a> | yarrp | C | 1 | 2025-12-02 16:06:11 | None | None | None
 </details>
 
 <details>
