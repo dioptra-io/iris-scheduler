@@ -1,7 +1,7 @@
 {
   "agents": [
     {
-      "tag": "lip6",
+      "tag": "test",
       "target_file": "ipv6-yarrp.csv",
       "tool_parameters": {
         "flow_mapper": "RandomFlowMapper",
