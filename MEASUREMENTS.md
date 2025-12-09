@@ -14,7 +14,9 @@ Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/aa3a4591-2cd0-4ba3-9fc5-655649370971">aa3a4591</a> | yarrp | F | 1 | 2025-12-02 15:51:59 | 2025-12-02 15:52:00 | 2025-12-02 15:52:11 | 0:00:11
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/2a1fc00e-b0d9-47a7-a6b1-af4b02b71ff4">2a1fc00e</a> | yarrp | F | 1 | 2025-12-02 16:06:11 | 2025-12-02 16:06:11 | 2025-12-02 16:06:35 | 0:00:24
-ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/3691784a-5ef2-444e-bda9-f2a78cabb268">3691784a</a> | yarrp | A | 1 | 2025-12-02 16:10:57 | 2025-12-02 16:10:58 | 2025-12-02 16:20:58 | 0:10:00
+ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/3855bdea-8477-4a06-a8f3-d93b6eff1b42">3855bdea</a> | yarrp | F | 1 | 2025-12-03 09:36:18 | 2025-12-03 09:36:19 | 2025-12-03 09:36:31 | 0:00:12
+ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/03ffcc1b-3a56-4074-9544-8b4eb8ec8a53">03ffcc1b</a> | yarrp | F | 1 | 2025-12-03 10:50:41 | 2025-12-03 10:50:42 | 2025-12-03 10:50:54 | 0:00:12
+ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/4b2703e8-df66-464d-bd75-1a32d00c93f3">4b2703e8</a> | yarrp | F | 1 | 2025-12-03 11:19:56 | 2025-12-03 11:19:56 | 2025-12-03 11:20:08 | 0:00:12
 </details>
 
 <details>
@@ -32,5 +34,6 @@ Unknown | <a href="https://api.iris.dioptra.io/measurements/e95a631d-f572-4a9e-9
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/297b05b7-d4de-4c01-97c7-86a040219de5">297b05b7</a> | diamond-miner | C | 2 | 2025-11-27 15:45:28 | 2025-11-27 15:45:29 | 2025-11-27 15:56:10 | 0:10:41
+zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/4697d58f-c698-409d-8991-bcb39b3280ca">4697d58f</a> | diamond-miner | F | 0 | 2025-12-09 10:18:08 | None | None | None
 </details>
 
