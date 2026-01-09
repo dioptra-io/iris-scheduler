@@ -2,13 +2,13 @@
 
 [[package]]
 name = "anyio"
-version = "4.12.0"
+version = "4.12.1"
 description = "High-level concurrency and networking framework on top of asyncio or Trio"
 optional = false
 python-versions = ">=3.9"
 files = [
-    {file = "anyio-4.12.0-py3-none-any.whl", hash = "sha256:dad2376a628f98eeca4881fc56cd06affd18f659b17a747d3ff0307ced94b1bb"},
-    {file = "anyio-4.12.0.tar.gz", hash = "sha256:73c693b567b0c55130c104d0b43a9baf3aa6a31fc6110116509f27bf75e21ec0"},
+    {file = "anyio-4.12.1-py3-none-any.whl", hash = "sha256:d405828884fc140aa80a3c667b8beed277f1dfedec42ba031bd6ac3db606ab6c"},
+    {file = "anyio-4.12.1.tar.gz", hash = "sha256:41cfcc3a4c85d3f05c932da7c26d0201ac36f72abd4435ba90d0464a3ffed703"},
 ]
 
 [package.dependencies]
@@ -21,13 +21,13 @@ trio = ["trio (>=0.31.0)", "trio (>=0.32.0)"]
 
 [[package]]
 name = "authlib"
-version = "1.6.5"
+version = "1.6.6"
 description = "The ultimate Python library in building OAuth and OpenID Connect servers and clients."
 optional = false
 python-versions = ">=3.9"
 files = [
-    {file = "authlib-1.6.5-py2.py3-none-any.whl", hash = "sha256:3e0e0507807f842b02175507bdee8957a1d5707fd4afb17c32fb43fee90b6e3a"},
-    {file = "authlib-1.6.5.tar.gz", hash = "sha256:6aaf9c79b7cc96c900f0b284061691c5d4e61221640a948fe690b556a6d6d10b"},
+    {file = "authlib-1.6.6-py2.py3-none-any.whl", hash = "sha256:7d9e9bc535c13974313a87f53e8430eb6ea3d1cf6ae4f6efcd793f2e949143fd"},
+    {file = "authlib-1.6.6.tar.gz", hash = "sha256:45770e8e056d0f283451d9996fbb59b70d45722b45d854d58f32878d0a40c38e"},
 ]
 
 [package.dependencies]
@@ -35,13 +35,13 @@ cryptography = "*"
 
 [[package]]
 name = "certifi"
-version = "2025.11.12"
+version = "2026.1.4"
 description = "Python package for providing Mozilla's CA Bundle."
 optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "certifi-2025.11.12-py3-none-any.whl", hash = "sha256:97de8790030bbd5c2d96b7ec782fc2f7820ef8dba6db909ccf95449f2d062d4b"},
-    {file = "certifi-2025.11.12.tar.gz", hash = "sha256:d8ab5478f2ecd78af242878415affce761ca6bc54a22a27e026d7c25357c3316"},
+    {file = "certifi-2026.1.4-py3-none-any.whl", hash = "sha256:9943707519e4add1115f44c2bc244f782c0249876bf51b6599fee1ffbedd685c"},
+    {file = "certifi-2026.1.4.tar.gz", hash = "sha256:ac726dd470482006e014ad384921ed6438c457018f4b3d204aea4281258b2120"},
 ]
 
 [[package]]
@@ -376,13 +376,13 @@ test-randomorder = ["pytest-randomly"]
 
 [[package]]
 name = "diamond-miner"
-version = "1.1.3"
+version = "1.1.4"
 description = "High-speed, Internet-scale, load-balanced paths discovery."
 optional = false
 python-versions = "<4.0,>=3.10"
 files = [
-    {file = "diamond_miner-1.1.3-py3-none-any.whl", hash = "sha256:c26b92c4cc2ac1d994bc638714567158b9910c091e5bda4d47d8a29d06346cad"},
-    {file = "diamond_miner-1.1.3.tar.gz", hash = "sha256:91743c7fa69515534d4319b639779c1a1af444296421e2c3ef7193ae9583372f"},
+    {file = "diamond_miner-1.1.4-py3-none-any.whl", hash = "sha256:41060ecba46e67de656916cc5b2891e1c19a50220c37c8658872e9ed2f753521"},
+    {file = "diamond_miner-1.1.4.tar.gz", hash = "sha256:008ff75e4d97df5fe4f68d52a5dd2c4edc3cab33f4de7faf9cd2188cca989cd4"},
 ]
 
 [package.dependencies]
@@ -409,13 +409,13 @@ httpx = ">=0.25.0,<0.26.0"
 
 [[package]]
 name = "dioptra-zeph"
-version = "1.3.4"
+version = "1.3.5"
 description = "An orchestrator for distributed IP tracing"
 optional = false
 python-versions = "<4.0,>=3.10"
 files = [
-    {file = "dioptra_zeph-1.3.4-py3-none-any.whl", hash = "sha256:e0601e96ed1e5211ae750a6269a8859a6c04c5254f14e5f45a3c9a6dffd136c7"},
-    {file = "dioptra_zeph-1.3.4.tar.gz", hash = "sha256:35238ddb430b40c867dbdbaf57c5fdeccbd240c92f3ec1b1814a2e2f3e29ba47"},
+    {file = "dioptra_zeph-1.3.5-py3-none-any.whl", hash = "sha256:537e080db770db722d597cee3750fdcc0b6179870e87e69bc84cd56f33af705e"},
+    {file = "dioptra_zeph-1.3.5.tar.gz", hash = "sha256:33f6ec388d64cce948b4348df18d870ad5d7b3a30f3b4b74339b7866285ea7d1"},
 ]
 
 [package.dependencies]
@@ -445,6 +445,17 @@ typing-extensions = {version = ">=4.6.0", markers = "python_version < \"3.13\""}
 
 [package.extras]
 test = ["pytest (>=6)"]
+
+[[package]]
+name = "filelock"
+version = "3.20.2"
+description = "A platform independent file lock."
+optional = false
+python-versions = ">=3.10"
+files = [
+    {file = "filelock-3.20.2-py3-none-any.whl", hash = "sha256:fbba7237d6ea277175a32c54bb71ef814a8546d8601269e1bfc388de333974e8"},
+    {file = "filelock-3.20.2.tar.gz", hash = "sha256:a2241ff4ddde2a7cebddf78e39832509cb045d18ec1a09d7248d6bfc6bfbbe64"},
+]
 
 [[package]]
 name = "h11"
@@ -818,16 +829,17 @@ test = ["pytest"]
 
 [[package]]
 name = "pych-client"
-version = "0.4.1"
+version = "0.4.2"
 description = "A ClickHouse client for Python, with a command-line interface."
 optional = false
-python-versions = "<4.0,>=3.8"
+python-versions = "<4.0,>=3.10"
 files = [
-    {file = "pych_client-0.4.1-py3-none-any.whl", hash = "sha256:a80905348b19fc52440a4dbdcd73f653a9b4a59d2067a3bacbc7897e5ba325d8"},
-    {file = "pych_client-0.4.1.tar.gz", hash = "sha256:408db47f8aa388da73f52a704f079c510e8890e7d5a3ed961c7a2be5840d7591"},
+    {file = "pych_client-0.4.2-py3-none-any.whl", hash = "sha256:198bff9f613991e5a7cfead2e4b8c8c09593d432e08b39b7b5ba9eb9cf0562c7"},
+    {file = "pych_client-0.4.2.tar.gz", hash = "sha256:07f967f7fe3974d8145e6d685d32edbb06948cf5b886a3c9d6a05dc34d8b81f9"},
 ]
 
 [package.dependencies]
+filelock = ">=3.20.1,<4.0.0"
 httpx = ">=0.25.0,<0.26.0"
 orjson = {version = ">=3.9.10,<4.0.0", optional = true, markers = "extra == \"orjson\""}
 
@@ -1094,13 +1106,13 @@ files = [
 
 [[package]]
 name = "urllib3"
-version = "2.6.1"
+version = "2.6.3"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
 optional = false
 python-versions = ">=3.9"
 files = [
-    {file = "urllib3-2.6.1-py3-none-any.whl", hash = "sha256:e67d06fe947c36a7ca39f4994b08d73922d40e6cca949907be05efa6fd75110b"},
-    {file = "urllib3-2.6.1.tar.gz", hash = "sha256:5379eb6e1aba4088bae84f8242960017ec8d8e3decf30480b3a1abdaa9671a3f"},
+    {file = "urllib3-2.6.3-py3-none-any.whl", hash = "sha256:bf272323e553dfb2e87d9bfd225ca7b0f467b919d7bbd355436d3fd37cb0acd4"},
+    {file = "urllib3-2.6.3.tar.gz", hash = "sha256:1b62b6884944a57dbe321509ab94fd4d3b307075e0c2eae991ac71ee15ad38ed"},
 ]
 
 [package.extras]
