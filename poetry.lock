@@ -409,13 +409,13 @@ httpx = ">=0.25.0,<0.26.0"
 
 [[package]]
 name = "dioptra-zeph"
-version = "1.3.5"
+version = "1.3.6"
 description = "An orchestrator for distributed IP tracing"
 optional = false
 python-versions = "<4.0,>=3.10"
 files = [
-    {file = "dioptra_zeph-1.3.5-py3-none-any.whl", hash = "sha256:537e080db770db722d597cee3750fdcc0b6179870e87e69bc84cd56f33af705e"},
-    {file = "dioptra_zeph-1.3.5.tar.gz", hash = "sha256:33f6ec388d64cce948b4348df18d870ad5d7b3a30f3b4b74339b7866285ea7d1"},
+    {file = "dioptra_zeph-1.3.6-py3-none-any.whl", hash = "sha256:e183fd92cca158fd9233a2c1db78e32dffa24acdf97d3c0fc68adda68573748f"},
+    {file = "dioptra_zeph-1.3.6.tar.gz", hash = "sha256:d9347d846187dabe581c6941ee25e7538174daeca99d2912b9ae03c834fe83ce"},
 ]
 
 [package.dependencies]
@@ -427,7 +427,7 @@ pych-client = {version = ">=0.4.1,<0.5.0", extras = ["orjson"]}
 requests = ">=2.31.0,<3.0.0"
 tqdm = ">=4.66.1,<5.0.0"
 typer = ">=0.16.1,<0.17.0"
-wheel = ">=0.45.1,<0.46.0"
+wheel = ">=0.46.2,<0.47.0"
 
 [[package]]
 name = "exceptiongroup"
@@ -801,6 +801,17 @@ files = [
 ]
 
 [[package]]
+name = "packaging"
+version = "26.0"
+description = "Core utilities for Python packages"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "packaging-26.0-py3-none-any.whl", hash = "sha256:b36f1fef9334a5588b4166f8bcd26a14e521f2b55e6b9de3aaa80d3ff7a37529"},
+    {file = "packaging-26.0.tar.gz", hash = "sha256:00243ae351a257117b6a241061796684b084ed1c516a08c48a3f7e147a9d80b4"},
+]
+
+[[package]]
 name = "py-radix"
 version = "0.10.0"
 description = "Radix tree implementation"
@@ -848,13 +859,13 @@ orjson = ["orjson (>=3.9.10,<4.0.0)"]
 
 [[package]]
 name = "pycparser"
-version = "2.23"
+version = "3.0"
 description = "C parser in Python"
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.10"
 files = [
-    {file = "pycparser-2.23-py3-none-any.whl", hash = "sha256:e5c6e8d3fbad53479cab09ac03729e0a9faf2bee3db8208a550daf5af81a5934"},
-    {file = "pycparser-2.23.tar.gz", hash = "sha256:78816d4f24add8f10a06d6f05b4d424ad9e96cfebf68a4ddc99c65c0720d00c2"},
+    {file = "pycparser-3.0-py3-none-any.whl", hash = "sha256:b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992"},
+    {file = "pycparser-3.0.tar.gz", hash = "sha256:600f49d217304a5902ac3c37e1281c9fe94e4d0489de643a9504c5cdfdfc6b29"},
 ]
 
 [[package]]
@@ -1128,17 +1139,20 @@ zstd = ["backports-zstd (>=1.0.0)"]
 
 [[package]]
 name = "wheel"
-version = "0.45.1"
-description = "A built-package format for Python"
+version = "0.46.3"
+description = "Command line tool for manipulating wheel files"
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.9"
 files = [
-    {file = "wheel-0.45.1-py3-none-any.whl", hash = "sha256:708e7481cc80179af0e556bbf0cc00b8444c7321e2700b8d8580231d13017248"},
-    {file = "wheel-0.45.1.tar.gz", hash = "sha256:661e1abd9198507b1409a20c02106d9670b2576e916d58f520316666abca6729"},
+    {file = "wheel-0.46.3-py3-none-any.whl", hash = "sha256:4b399d56c9d9338230118d705d9737a2a468ccca63d5e813e2a4fc7815d8bc4d"},
+    {file = "wheel-0.46.3.tar.gz", hash = "sha256:e3e79874b07d776c40bd6033f8ddf76a7dad46a7b8aa1b2787a83083519a1803"},
 ]
 
+[package.dependencies]
+packaging = ">=24.0"
+
 [package.extras]
-test = ["pytest (>=6.0.0)", "setuptools (>=65)"]
+test = ["pytest (>=6.0.0)", "setuptools (>=77)"]
 
 [[package]]
 name = "zstandard"
