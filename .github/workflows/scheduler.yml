@@ -101,7 +101,6 @@ jobs:
         with:
           file_pattern: MEASUREMENTS.md
           commit_author: iprsbot <iprsbot@dioptra.io>
-          github_token: ${{ secrets.IPRSBOT_PAT }}
         continue-on-error: true
   
   notify_slack:
