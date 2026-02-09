@@ -32,6 +32,8 @@ jobs:
           echo "ACTIONS_STEP_DEBUG=true" >> $GITHUB_ENV
 
       - uses: actions/checkout@v3
+        with: 
+            token: ${{ secrets.IPRSBOT_PAT }}
 
       - uses: actions/setup-python@v4
         with:
@@ -98,7 +100,8 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           file_pattern: MEASUREMENTS.md
-          commit_author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+          commit_author: iprsbot <iprsbot@dioptra.io>
+          github_token: ${{ secrets.IPRSBOT_PAT }}
         continue-on-error: true
   
   notify_slack:
