@@ -9,7 +9,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0/15 * * * *'
+    - cron: '7/15 * * * *' # runs at :07, :22, :37, :52
   workflow_dispatch: # to enable manual trigger via API
     inputs:
       # optional Define inputs to pass custom data to the workflow
