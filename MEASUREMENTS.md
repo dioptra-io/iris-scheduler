@@ -4,7 +4,7 @@
 
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
-ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/0dd87c60-602a-497c-a7d4-1579c1cc248a">0dd87c60</a> | yarrp | O | 10 | 2026-06-28 06:42:36 | 2026-06-28 06:42:44 | None | None
+ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/6140f46a-66aa-43a6-a7ef-27c4970f1b89">6140f46a</a> | yarrp | O | 10 | 2026-06-29 18:34:08 | 2026-06-29 18:34:18 | None | None
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/16e9e99b-1230-4ef9-add0-b1aaee33bd9c">16e9e99b</a> | diamond-miner | O | 10 | 2026-06-28 06:50:01 | 2026-06-28 06:50:04 | None | None
 
 ## Per name
@@ -1066,7 +1066,8 @@ ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/afa1a3a8-80e0-4
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/ae7a55c0-0287-482e-976c-4241a7e7b333">ae7a55c0</a> | yarrp | F | 10 | 2026-06-25 05:57:05 | 2026-06-25 05:57:12 | 2026-06-25 09:22:34 | 3:25:22
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/f62094f4-e397-4c25-b3e1-9002250bbf7c">f62094f4</a> | yarrp | C | 10 | 2026-06-26 06:26:53 | 2026-06-26 06:27:01 | 2026-06-26 07:30:08 | 1:03:07
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/87fc9eef-75ee-4d34-a27e-6b08fe5ad57b">87fc9eef</a> | yarrp | F | 10 | 2026-06-27 05:49:51 | 2026-06-27 05:49:58 | 2026-06-27 09:10:45 | 3:20:47
-ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/0dd87c60-602a-497c-a7d4-1579c1cc248a">0dd87c60</a> | yarrp | O | 10 | 2026-06-28 06:42:36 | 2026-06-28 06:42:44 | None | None
+ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/0dd87c60-602a-497c-a7d4-1579c1cc248a">0dd87c60</a> | yarrp | F | 10 | 2026-06-28 06:42:36 | 2026-06-28 06:42:44 | 2026-06-29 18:02:00 | 1 day, 11:19:16
+ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/6140f46a-66aa-43a6-a7ef-27c4970f1b89">6140f46a</a> | yarrp | O | 10 | 2026-06-29 18:34:08 | 2026-06-29 18:34:18 | None | None
 </details>
 
 <details>
