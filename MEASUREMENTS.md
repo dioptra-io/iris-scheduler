@@ -4,7 +4,6 @@
 
 Name | UUID | Tool | S  | A  | Created | Start | End | Duration
 --   | --   | --   | -- | -- | --      | --    | --  | --
-ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/fdf1d24f-9b0e-4fbe-a3d1-447487138c33">fdf1d24f</a> | yarrp | O | 10 | 2026-09-10 05:26:26 | 2026-09-10 05:26:35 | None | None
 zeph-gcp-daily | <a href="https://api.iris.dioptra.io/measurements/049b736f-5a3a-44f7-aada-978877e072f7">049b736f</a> | diamond-miner | O | 10 | 2026-09-10 05:33:39 | 2026-09-10 05:33:42 | None | None
 
 ## Per name
@@ -1140,7 +1139,7 @@ ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/3253406b-5331-4
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/6ae8a32f-38da-4bea-b240-6bc740edba6c">6ae8a32f</a> | yarrp | F | 10 | 2026-09-07 05:22:12 | 2026-09-07 05:22:20 | 2026-09-07 08:54:09 | 3:31:49
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/be88de2a-8c29-49d6-82a1-c24779563432">be88de2a</a> | yarrp | F | 10 | 2026-09-08 05:06:56 | 2026-09-08 05:07:04 | 2026-09-08 08:39:00 | 3:31:56
 ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/f2fbad8a-ffe8-4958-958f-b27edb5f5a83">f2fbad8a</a> | yarrp | F | 10 | 2026-09-09 05:26:02 | 2026-09-09 05:26:09 | 2026-09-09 08:58:17 | 3:32:08
-ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/fdf1d24f-9b0e-4fbe-a3d1-447487138c33">fdf1d24f</a> | yarrp | O | 10 | 2026-09-10 05:26:26 | 2026-09-10 05:26:35 | None | None
+ipv6-hitlist | <a href="https://api.iris.dioptra.io/measurements/fdf1d24f-9b0e-4fbe-a3d1-447487138c33">fdf1d24f</a> | yarrp | F | 10 | 2026-09-10 05:26:26 | 2026-09-10 05:26:35 | 2026-09-10 08:55:58 | 3:29:23
 </details>
 
 <details>
