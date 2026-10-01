@@ -1,6 +1,6 @@
 FROM ubuntu:24.04
 
-ARG VERSION=2.325.0
+ARG VERSION=2.329.0
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y curl tar sudo git && \
