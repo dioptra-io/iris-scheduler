@@ -54,7 +54,7 @@ def schedule_measurement(
     if (not_after and now > not_after) or next_run > now:
         logger.info("file=%s action=skip", file.name)
         return None
-    if last and last["state"] not in ("finished", "canceled"):
+    if last and last["state"] not in ("finished", "canceled", "agent_failure"):
         logger.info("file=%s action=skip-unfinished", file.name)
         return None
     match scheduler["type"]:
