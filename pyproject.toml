@@ -6,7 +6,7 @@ authors = ["Maxime Mouchet <max@maxmouchet.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = ">=3.10,<3.14"
+python = ">=3.11,<3.14"
 crontab = "^1.0.1"
 dioptra-iris-client = "^0.5.9"
 dioptra-zeph = "^1.3.11"
